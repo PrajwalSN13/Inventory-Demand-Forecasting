@@ -1,0 +1,60 @@
+{% extends "layout.html" %}
+
+{% block title %}Visuals - Sales Prediction System{% endblock %}
+
+{% block content %}
+<div class="container py-5">
+    <h2 class="mb-4">Sales Visualization</h2>
+    
+    <div class="row">
+        <div class="col-12">
+            <div class="plot-container">
+                <h5>Sales Distribution</h5>
+                <div id="sales-plot"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-12">
+            <div class="plot-container">
+                <h5>Top 5 Items by Predicted Sales</h5>
+                <div id="top-items-plot"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-12">
+            <div class="plot-container">
+                <h5>Feature Importance Analysis</h5>
+                <div id="feature-importance-plot"></div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+    // Update plots when data is received
+    function updatePlots(data) {
+        if (data.sales_plot) {
+            Plotly.newPlot('sales-plot', data.sales_plot.data, data.sales_plot.layout);
+        }
+        if (data.top_items_plot) {
+            Plotly.newPlot('top-items-plot', data.top_items_plot.data, data.top_items_plot.layout);
+        }
+        if (data.feature_importance_plot) {
+            Plotly.newPlot('feature-importance-plot', data.feature_importance_plot.data, data.feature_importance_plot.layout);
+        }
+    }
+
+    // Load initial plots
+    $.get('/get_plots', function(response) {
+        if (response.success) {
+            updatePlots(response);
+        }
+    });
+</script>
+{% endblock %}

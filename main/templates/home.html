@@ -1,0 +1,95 @@
+{% extends "layout.html" %}
+{% block content %}
+<div class="container mt-5">
+    <!-- Hero Section -->
+    <div class="jumbotron text-center bg-primary text-white">
+        <h1 class="display-4">Inventory Demand Forecasting</h1>
+        <p class="lead">AI-Powered Demand Prediction System for Smart Inventory Management</p>
+        <hr class="my-4">
+        <p>Make data-driven decisions with our advanced machine learning model</p>
+        <a class="btn btn-light btn-lg" href="{{ url_for('analytics') }}" role="button">Start Predicting</a>
+    </div>
+
+    <!-- Features Section -->
+    <div class="row mt-5">
+        <div class="col-md-4">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title"><i class="fas fa-chart-line"></i> Real-time Predictions</h5>
+                    <p class="card-text">Get instant demand forecasts using our state-of-the-art machine learning model. Make informed decisions about your inventory management.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title"><i class="fas fa-brain"></i> AI-Based Analytics</h5>
+                    <p class="card-text">Leverage advanced analytics powered by XGBoost to understand sales patterns and optimize your inventory levels.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title"><i class="fas fa-database"></i> Data-Driven Insights</h5>
+                    <p class="card-text">Access historical trends and predictive analytics to make better business decisions.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Model Performance Section -->
+    <div class="row mt-5">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-body">
+                    <h3 class="card-title">Model Performance</h3>
+                    <div class="row">
+                        <div class="col-md-4 text-center">
+                            <h4>{{ "%.2f"|format(r2_score * 100) }}%</h4>
+                            <p>R-squared Score</p>
+                        </div>
+                        <div class="col-md-4 text-center">
+                            <h4>{{ "%.2f"|format(rmse) }}</h4>
+                            <p>Root Mean Square Error</p>
+                        </div>
+                        <div class="col-md-4 text-center">
+                            <h4>{{ total_predictions }}</h4>
+                            <p>Total Predictions Made</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Us Section -->
+    <div class="row mt-5">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-body">
+                    <h3 class="card-title">About Us</h3>
+                    <p>We are a team of data scientists and software engineers dedicated to revolutionizing inventory management through artificial intelligence. Our system helps businesses optimize their stock levels, reduce waste, and improve profitability.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div class="row mt-5 mb-5">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-body">
+                    <h3 class="card-title">Contact Us</h3>
+                    <p>Have questions or need support? Reach out to our team:</p>
+                    <ul class="list-unstyled">
+                        <li><i class="fas fa-envelope"></i> Email: support@inventoryai.com</li>
+                        <li><i class="fas fa-phone"></i> Phone: +1 (555) 123-4567</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Address: 123 Tech Street, Silicon Valley, CA 94025</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

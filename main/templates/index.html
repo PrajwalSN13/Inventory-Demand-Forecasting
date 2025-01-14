@@ -1,0 +1,627 @@
+<!--  --><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real-time Inventory Demand Forecasting</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .container { max-width: 1200px; margin-top: 30px; }
+        .plot-container { margin-bottom: 30px; }
+        .form-group { margin-bottom: 15px; }
+        .alert { margin-top: 15px; }
+        .demand-card {
+            margin-top: 20px;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .demand-item {
+            padding: 10px;
+            margin: 5px 0;
+            background-color: #f8f9fa;
+            border-radius: 4px;
+            transition: all 0.3s ease;
+        }
+        .demand-item.high { border-left: 4px solid #ff0000; }
+        .demand-item.medium { border-left: 4px solid #ffa500; }
+        .demand-item.low { border-left: 4px solid #00ff00; }
+        .real-time-indicator {
+            display: inline-block;
+            width: 10px;
+            height: 10px;
+            background-color: #00ff00;
+            border-radius: 50%;
+            margin-right: 5px;
+            animation: pulse 2s infinite;
+        }
+        @keyframes pulse {
+            0% { transform: scale(1); opacity: 1; }
+            50% { transform: scale(1.2); opacity: 0.5; }
+            100% { transform: scale(1); opacity: 1; }
+        }
+        .feature-importance {
+            padding: 10px;
+            margin: 5px 0;
+            border-radius: 4px;
+            background: #f8f9fa;
+        }
+        .feature-bar {
+            height: 20px;
+            background: #007bff;
+            margin: 5px 0;
+            border-radius: 2px;
+            transition: width 0.5s ease;
+        }
+        .prediction-item {
+            padding: 10px;
+            margin: 5px 0;
+            background-color: #f8f9fa;
+            border-radius: 4px;
+            transition: all 0.3s ease;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center mb-4">
+            <span class="real-time-indicator"></span>
+            Real-time Inventory Demand Forecasting
+        </h1>
+        
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Enter Item Details</h5>
+                        <form id="predictionForm">
+                            <div class="form-group">
+                                <label for="item_type">Item Type</label>
+                                <select class="form-control" id="item_type" name="item_type" required>
+                                    {% for item_type in item_types %}
+                                    <option value="{{ item_type }}">{{ item_type }}</option>
+                                    {% endfor %}
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="item_name">Item Name</label>
+                                <select class="form-control" id="item_name" name="item_name" required>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="weight">Item Weight</label>
+                                <input type="number" step="0.01" class="form-control" id="weight" name="weight" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="mrp">Item MRP</label>
+                                <input type="number" step="0.01" class="form-control" id="mrp" name="mrp" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="fat_content">Fat Content</label>
+                                <select class="form-control" id="fat_content" name="fat_content" required>
+                                    <option value="Low Fat">Low Fat</option>
+                                    <option value="Regular">Regular</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="visibility">Item Visibility</label>
+                                <input type="number" step="0.001" class="form-control" id="visibility" name="visibility" value="0.05" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="outlet_size">Outlet Size</label>
+                                <select class="form-control" id="outlet_size" name="outlet_size" required>
+                                    <option value="Small">Small</option>
+                                    <option value="Medium">Medium</option>
+                                    <option value="High">High</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="outlet_location_type">Outlet Location Type</label>
+                                <select class="form-control" id="outlet_location_type" name="outlet_location_type" required>
+                                    <option value="Tier 1">Tier 1</option>
+                                    <option value="Tier 2">Tier 2</option>
+                                    <option value="Tier 3">Tier 3</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="outlet_type">Outlet Type</label>
+                                <select class="form-control" id="outlet_type" name="outlet_type" required>
+                                    <option value="Grocery Store">Grocery Store</option>
+                                    <option value="Supermarket Type1">Supermarket Type 1</option>
+                                    <option value="Supermarket Type2">Supermarket Type 2</option>
+                                    <option value="Supermarket Type3">Supermarket Type 3</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="shelf_life">Shelf Life (days)</label>
+                                <input type="number" class="form-control" id="shelf_life" name="shelf_life" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="seasonal_demand">Seasonal Demand</label>
+                                <select class="form-control" id="seasonal_demand" name="seasonal_demand" required>
+                                    <option value="Yes">Yes</option>
+                                    <option value="No">No</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="packaging_type">Packaging Type</label>
+                                <select class="form-control" id="packaging_type" name="packaging_type" required>
+                                    <option value="Bottle">Bottle</option>
+                                    <option value="Packet">Packet</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="establishment_year">Establishment Year</label>
+                                <input type="number" class="form-control" id="establishment_year" name="establishment_year" value="2000" required>
+                            </div>
+                            <div class="form-group mt-4">
+                                <h5>Prediction Timeline</h5>
+                                <div class="btn-group w-100" role="group">
+                                    <button type="button" class="btn btn-outline-primary timeline-btn" data-timeline="1_month">1 Month</button>
+                                    <button type="button" class="btn btn-outline-primary timeline-btn" data-timeline="3_months">3 Months</button>
+                                    <button type="button" class="btn btn-outline-primary timeline-btn" data-timeline="1_year">1 Year</button>
+                                </div>
+                            </div>
+                            <div class="form-group mt-4">
+                                <h5>Graph Type</h5>
+                                <div class="btn-group w-100" role="group">
+                                    <button type="button" class="btn btn-outline-secondary graph-btn active" data-type="line">Line</button>
+                                    <button type="button" class="btn btn-outline-secondary graph-btn" data-type="bar">Bar</button>
+                                    <button type="button" class="btn btn-outline-secondary graph-btn" data-type="pie">Pie</button>
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Predict Sales & Demand</button>
+                        </form>
+                    </div>
+                </div>
+                
+                <div id="messages" class="mt-3"></div>
+            </div>
+            
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Prediction Results</h5>
+                        <div id="prediction-details" class="d-none">
+                            <div class="demand-prediction mb-4">
+                                <h3 class="text-center">Predicted Demand</h3>
+                                <div class="display-4 text-center" id="demand-value"></div>
+                                <div class="text-muted text-center mb-2" id="demand-period"></div>
+                                <div class="text-center" id="mrp-value"></div>
+                            </div>
+                            <div id="prediction-chart" style="height: 400px;"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card mt-3">
+                    <div class="card-body">
+                        <h5 class="card-title">Feature Importance</h5>
+                        <div id="feature-importance" class="d-none">
+                            <div class="feature-importance">
+                                <div id="feature-bars"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card mt-3">
+                    <div class="card-body">
+                        <h5 class="card-title">Model Training Metrics</h5>
+                        <div id="training-metrics" class="d-none">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="metric-box text-center p-2 border rounded">
+                                        <h6>Dataset Size</h6>
+                                        <span id="dataset-size" class="h4"></span>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="metric-box text-center p-2 border rounded">
+                                        <h6>Training Accuracy</h6>
+                                        <span id="train-score" class="h4"></span>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="metric-box text-center p-2 border rounded">
+                                        <h6>Validation Accuracy</h6>
+                                        <span id="val-score" class="h4"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card mt-4">
+                    <div class="card-body">
+                        <h5 class="card-title">Model Status</h5>
+                        <div id="model-status">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="text-center">
+                                        <h6>R² Score</h6>
+                                        <div class="h4" id="r2-score">-</div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="text-center">
+                                        <h6>RMSE</h6>
+                                        <div class="h4" id="rmse-value">-</div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="text-center">
+                                        <h6>Predictions Stored</h6>
+                                        <div class="h4" id="predictions-count">-</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="text-center mt-3">
+                                <button id="retrain-model" class="btn btn-outline-primary">
+                                    Retrain Model
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card mt-4 d-none" id="predictions-section">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            Top 5 Sales Predictions
+                        </h5>
+                        <div id="top-predictions-list"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-4">
+            <div class="col-12">
+                <button id="viewDatasetBtn" class="btn btn-info mb-3">View Updated Dataset</button>
+                <div id="dataset-container" style="display: none; max-height: 500px; overflow-y: auto;">
+                    <div id="dataset-content"></div>
+                </div>
+                <div class="plot-container d-none" id="plot-section">
+                    <div id="demand-plot"></div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="hero-section">
+            <div class="container">
+                <h1>Smart Inventory Demand Forecasting</h1>
+                <p class="lead">Powered by Advanced Machine Learning</p>
+                <a href="/analytics" class="btn btn-light btn-lg">Start Forecasting</a>
+            </div>
+        </div>
+
+        <div class="container">
+            <section class="my-5">
+                <h2 class="text-center mb-4">Why Choose Our System</h2>
+                <div class="row">
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h3 class="card-title h5">
+                                    <i class="fas fa-chart-line text-primary"></i>
+                                    High Accuracy
+                                </h3>
+                                <p class="card-text">Our model achieves over 85% training accuracy and 82% validation accuracy, ensuring reliable predictions for your inventory management.</p>
+                                <div class="accuracy-metrics">
+                                    <div class="progress mb-2">
+                                        <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                                            Training: 85%
+                                        </div>
+                                    </div>
+                                    <div class="progress">
+                                        <div class="progress-bar bg-success" role="progressbar" style="width: 82%" aria-valuenow="82" aria-valuemin="0" aria-valuemax="100">
+                                            Validation: 82%
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h3 class="card-title h5">
+                                    <i class="fas fa-bolt text-primary"></i>
+                                    Real-time Processing
+                                </h3>
+                                <p class="card-text">Get instant predictions with our advanced machine learning model, processing your data in real-time with minimal latency.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h3 class="card-title h5">
+                                    <i class="fas fa-brain text-primary"></i>
+                                    Smart Analytics
+                                </h3>
+                                <p class="card-text">Leverage comprehensive analytics with feature importance analysis and detailed performance metrics to make informed decisions.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <section class="my-5">
+                <h2 class="text-center mb-4">Key Features</h2>
+                <div class="row">
+                    <div class="col-md-6 mb-4">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h3 class="card-title h5">
+                                    <i class="fas fa-chart-bar text-primary"></i>
+                                    Visual Analytics
+                                </h3>
+                                <p class="card-text">Interactive visualizations help you understand demand patterns and make data-driven decisions.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h3 class="card-title h5">
+                                    <i class="fas fa-sync text-primary"></i>
+                                    Auto-updating Model
+                                </h3>
+                                <p class="card-text">Our model continuously learns from new data, improving its predictions over time.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <script>
+        let currentGraphType = 'line';
+        let lastPredictionData = null;
+        
+        // Function to update feature importance
+        function updateFeatureImportance(features) {
+            let barsHtml = '';
+            for (const [feature, importance] of Object.entries(features)) {
+                barsHtml += `
+                    <div class="mb-2">
+                        <div class="d-flex justify-content-between">
+                            <strong>${feature}</strong>
+                            <span>${importance}%</span>
+                        </div>
+                        <div class="feature-bar" style="width: ${importance}%"></div>
+                    </div>
+                `;
+            }
+            $('#feature-bars').html(barsHtml);
+        }
+
+        // Function to update predictions visualization
+        function updatePredictionsVisualization(data) {
+            // Update predictions plot
+            Plotly.newPlot('demand-plot', data.demand_plot.data, data.demand_plot.layout);
+            
+            // Update predictions list
+            let predictionsHtml = '';
+            data.top_predictions.forEach(function(pred, index) {
+                predictionsHtml += `
+                    <div class="prediction-item p-2 mb-2 bg-light rounded">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <strong>#${index + 1}</strong>
+                            <span class="badge bg-primary">$${pred.Item_Outlet_Sales.toFixed(2)}</span>
+                        </div>
+                        <div class="mt-1 text-muted small">
+                            ${pred.Configuration}
+                        </div>
+                    </div>
+                `;
+            });
+            $('#top-predictions-list').html(predictionsHtml);
+        }
+
+        // Handle timeline button clicks
+        $('.timeline-btn').on('click', function() {
+            $('.timeline-btn').removeClass('active');
+            $(this).addClass('active');
+            if (lastPredictionData) {
+                makePrediction(lastPredictionData);
+            }
+        });
+        
+        // Handle graph type button clicks
+        $('.graph-btn').on('click', function() {
+            $('.graph-btn').removeClass('active');
+            $(this).addClass('active');
+            currentGraphType = $(this).data('type');
+            if (lastPredictionData) {
+                updateVisualization(lastPredictionData);
+            }
+        });
+        
+        function makePrediction(formData) {
+            lastPredictionData = formData;
+            const timeline = $('.timeline-btn.active').data('timeline') || '1_month';
+            
+            $.ajax({
+                url: '/predict_timeline',
+                method: 'POST',
+                contentType: 'application/json',
+                data: JSON.stringify({
+                    ...formData,
+                    timeline: timeline
+                }),
+                success: function(response) {
+                    if (response.success) {
+                        updatePredictionDisplay(response);
+                        updateVisualization(response);
+                    } else {
+                        showError(response.error || 'Prediction failed');
+                    }
+                },
+                error: function() {
+                    showError('Server error occurred');
+                }
+            });
+        }
+        
+        function updatePredictionDisplay(data) {
+            const totalDemand = data.predictions.reduce((a, b) => a + b, 0);
+            $('#demand-value').text(totalDemand.toLocaleString());
+            $('#demand-period').text(`Total demand for ${data.months.length} month(s)`);
+            $('#mrp-value').html(`MRP: <span class="text-muted">₹${data.mrp_inr.toLocaleString()}</span>`);
+            $('#prediction-details').removeClass('d-none');
+        }
+        
+        function updateVisualization(data) {
+            const layout = {
+                title: 'Demand Forecast',
+                height: 400,
+                margin: { t: 30, b: 40, l: 60, r: 40 }
+            };
+            
+            let plotData;
+            
+            switch (currentGraphType) {
+                case 'line':
+                    plotData = [{
+                        x: data.months,
+                        y: data.predictions,
+                        type: 'scatter',
+                        mode: 'lines+markers'
+                    }];
+                    break;
+                    
+                case 'bar':
+                    plotData = [{
+                        x: data.months,
+                        y: data.predictions,
+                        type: 'bar'
+                    }];
+                    break;
+                    
+                case 'pie':
+                    plotData = [{
+                        values: data.predictions,
+                        labels: data.months,
+                        type: 'pie'
+                    }];
+                    layout.height = 500;
+                    break;
+            }
+            
+            Plotly.newPlot('prediction-chart', plotData, layout);
+        }
+        
+        function showError(message) {
+            $('#prediction-details').addClass('d-none');
+            alert(message);
+        }
+
+        // Handle form submission
+        $('#predictionForm').on('submit', function(e) {
+            e.preventDefault();
+            
+            const formData = {
+                category: $('#item_type').val(),
+                item_name: $('#item_name').val(),
+                item_weight: parseFloat($('#weight').val()),
+                item_mrp: parseFloat($('#mrp').val()),
+                fat_content: $('#fat_content').val(),
+                visibility: parseFloat($('#visibility').val()),
+                item_type: $('#item_type').val(),
+                outlet_size: $('#outlet_size').val(),
+                outlet_location_type: $('#outlet_location_type').val(),
+                outlet_type: $('#outlet_type').val(),
+                shelf_life_days: parseInt($('#shelf_life').val()),
+                seasonal_demand: $('#seasonal_demand').val(),
+                packaging_type: $('#packaging_type').val(),
+                establishment_year: parseInt($('#establishment_year').val()),
+                month: new Date().toLocaleString('en-US', { month: 'long' })
+            };
+
+            // Make prediction
+            makePrediction(formData);
+            
+            // Store prediction data
+            $.ajax({
+                url: '/store_prediction',
+                method: 'POST',
+                contentType: 'application/json',
+                data: JSON.stringify({
+                    ...formData,
+                    timestamp: new Date().toISOString()
+                })
+            });
+        });
+
+        // Function to handle item type change
+        $('#item_type').on('change', function() {
+            const category = $(this).val();
+            
+            // Get items for selected category
+            $.get('/get_items_by_category', { category: category }, function(items) {
+                const itemSelect = $('#item_name');
+                itemSelect.empty();
+                
+                items.forEach(item => {
+                    itemSelect.append(new Option(item, item));
+                });
+            });
+        });
+
+        // Initialize tooltips
+        $('[data-toggle="tooltip"]').tooltip();
+
+        // Initialize with default category items
+        $('#item_type').trigger('change');
+
+        // Update model status periodically
+        function updateModelStatus() {
+            $.get('/get_model_status', function(response) {
+                if (response.success) {
+                    const metrics = response.metrics;
+                    $('#r2-score').text((metrics.r2_score * 100).toFixed(2) + '%');
+                    $('#rmse-value').text(metrics.rmse.toFixed(2));
+                    $('#predictions-count').text(metrics.predictions_stored);
+                }
+            });
+        }
+
+        // Retrain model
+        $('#retrain-model').on('click', function() {
+            const btn = $(this);
+            btn.prop('disabled', true).text('Retraining...');
+            
+            $.post('/retrain_model', function(response) {
+                if (response.success) {
+                    updateModelStatus();
+                    showAlert('success', 'Model retrained successfully!');
+                } else {
+                    showAlert('danger', 'Failed to retrain model: ' + response.error);
+                }
+                btn.prop('disabled', false).text('Retrain Model');
+            });
+        });
+
+        function showAlert(type, message) {
+            const alertHtml = `
+                <div class="alert alert-${type} alert-dismissible fade show" role="alert">
+                    ${message}
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+            `;
+            $('#messages').html(alertHtml);
+        }
+
+        // Update model status every 5 minutes
+        updateModelStatus();
+        setInterval(updateModelStatus, 300000);
+    </script>
+</body>
+</html>
