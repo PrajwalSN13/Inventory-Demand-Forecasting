@@ -1,0 +1,1001 @@
+Item_Name,Category,Item_Weight,Item_MRP,Item_Outlet_Sales,Timestamp,Shelf_Life_Days,Seasonal_Demand,Packaging_Type,Trending_Score,Outlet_Type,Fat_Content,Establishment_Year,Tier,Visibility
+White Rice,Grains and Cereals,1.0,2.5,568.68,2025-01-11 14:06:26,365,Low,Packaged,6.0,Supermarket Type1,Regular,2010,Tier 1,0.85
+Low-Fat Milk,Dairy Products,1.0,3.2,568.68,2025-01-11 14:06:18,14,Medium,Packaged,8.0,Supermarket Type2,Low Fat,2015,Tier 2,0.89
+Banana,Fruits and Vegetables,0.15,1.8,568.68,2025-01-11 14:05:37,7,Medium,Loose,7.0,Supermarket Type2,Regular,2015,Tier 2,0.92
+Apple,Fruits and Vegetables,0.2,2.5,150.0,2025-01-11 10:24:15,14,High,Loose,8.0,Supermarket Type1,Regular,2010,Tier 1,0.85
+Banana,Fruits and Vegetables,0.15,1.8,200.0,2025-01-11 10:24:15,7,Medium,Loose,7.0,Supermarket Type2,Regular,2015,Tier 2,0.92
+Orange,Fruits and Vegetables,0.18,2.0,180.0,2025-01-11 10:24:15,21,High,Loose,6.0,Supermarket Type1,Regular,2012,Tier 1,0.78
+Kiwi,Fruits and Vegetables,0.1,3.0,120.0,2025-01-11 10:24:15,14,Low,Packaged,5.0,Supermarket Type3,Regular,2018,Tier 3,0.65
+Spinach,Fruits and Vegetables,0.3,2.2,90.0,2025-01-11 10:24:15,5,Medium,Loose,7.0,Supermarket Type1,Regular,2010,Tier 1,0.88
+Broccoli,Fruits and Vegetables,0.4,3.5,110.0,2025-01-11 10:24:15,7,Low,Loose,6.0,Supermarket Type2,Regular,2015,Tier 2,0.72
+Whole Milk,Dairy Products,1.0,3.5,300.0,2025-01-11 10:24:15,14,Medium,Packaged,9.0,Supermarket Type1,Full Fat,2010,Tier 1,0.95
+Low-Fat Milk,Dairy Products,1.0,3.2,250.0,2025-01-11 10:24:15,14,Medium,Packaged,8.0,Supermarket Type2,Low Fat,2015,Tier 2,0.89
+Yogurt,Dairy Products,0.5,2.0,180.0,2025-01-11 10:24:15,21,High,Packaged,9.0,Supermarket Type1,Low Fat,2012,Tier 1,0.91
+Butter,Dairy Products,0.25,4.5,150.0,2025-01-11 10:24:15,30,Medium,Packaged,7.0,Supermarket Type3,Full Fat,2018,Tier 3,0.82
+Cheese,Dairy Products,0.3,5.0,200.0,2025-01-11 10:24:15,60,Low,Packaged,8.0,Supermarket Type1,Full Fat,2010,Tier 1,0.87
+White Rice,Grains and Cereals,1.0,2.5,180.0,2025-01-11 10:24:15,365,Low,Packaged,6.0,Supermarket Type2,Regular,2015,Tier 2,0.75
+Brown Rice,Grains and Cereals,1.0,3.0,150.0,2025-01-11 10:24:15,180,Low,Packaged,7.0,Supermarket Type1,Regular,2012,Tier 1,0.79
+Oats,Grains and Cereals,0.5,3.5,160.0,2025-01-11 10:24:15,180,High,Packaged,8.0,Supermarket Type3,Regular,2018,Tier 3,0.86
+Quinoa,Grains and Cereals,0.5,6.0,120.0,2025-01-11 10:24:15,365,Medium,Packaged,9.0,Supermarket Type1,Regular,2010,Tier 1,0.83
+Potato Chips,Packaged Snacks,0.2,2.0,250.0,2025-01-11 10:24:15,90,High,Packaged,8.0,Supermarket Type2,Regular,2015,Tier 2,0.94
+Chocolate Cookies,Packaged Snacks,0.3,3.0,220.0,2025-01-11 10:24:15,120,High,Packaged,9.0,Supermarket Type1,Regular,2012,Tier 1,0.96
+Mixed Nuts,Packaged Snacks,0.25,5.0,180.0,2025-01-11 10:24:15,180,Medium,Packaged,7.0,Supermarket Type3,Regular,2018,Tier 3,0.88
+Energy Bars,Packaged Snacks,0.15,2.5,200.0,2025-01-11 10:24:15,150,High,Packaged,9.0,Supermarket Type1,Regular,2010,Tier 1,0.92
+Oats,Grains and Cereals,0.49,3.08,112.85,2025-01-11 08:54:45.732259,182,High,Packaged,8.165285831546386,Supermarket Type3,Regular,2018,Tier 3,0.9547407245170046
+Broccoli,Fruits and Vegetables,0.47000000000000003,3.17,148.11,2025-01-11 08:54:45.733049,1,Low,Loose,6.280729585287755,Supermarket Type2,Regular,2015,Tier 2,0.6421349717785727
+Apple,Fruits and Vegetables,0.23,2.94,150.54,2025-01-11 08:54:45.733577,15,High,Loose,8.430961752314953,Supermarket Type1,Regular,2010,Tier 1,0.897532099178612
+Butter,Dairy Products,0.23,4.2,106.88,2025-01-11 08:54:45.734065,22,Medium,Packaged,6.708868035499593,Supermarket Type3,Full Fat,2018,Tier 3,0.7260364842175233
+Low-Fat Milk,Dairy Products,0.99,3.6100000000000003,597.75,2025-01-11 08:54:45.734511,4,Medium,Packaged,7.010333785270679,Supermarket Type2,Low Fat,2015,Tier 2,0.9505697852463133
+Banana,Fruits and Vegetables,0.15,1.95,199.7,2025-01-11 08:54:45.734976,1,Medium,Loose,6.260595197522461,Supermarket Type2,Regular,2015,Tier 2,0.9107112291084654
+Chocolate Cookies,Packaged Snacks,0.31,2.61,171.65,2025-01-11 08:54:45.735446,115,High,Packaged,8.07149543694371,Supermarket Type1,Regular,2012,Tier 1,0.91614722671394
+Low-Fat Milk,Dairy Products,0.9299999999999999,3.23,219.07999999999998,2025-01-11 08:54:45.735916,20,Medium,Packaged,8.804788878569168,Supermarket Type2,Low Fat,2015,Tier 2,0.82730239245006
+Whole Milk,Dairy Products,1.08,3.94,321.72,2025-01-11 08:54:45.736382,23,Medium,Packaged,9.263889620063361,Supermarket Type1,Full Fat,2010,Tier 1,0.8925760376438427
+Yogurt,Dairy Products,0.55,2.11,216.82,2025-01-11 08:54:45.736835,17,High,Packaged,9.013307953005928,Supermarket Type1,Low Fat,2012,Tier 1,0.8924043588706125
+Whole Milk,Dairy Products,0.97,3.17,340.49,2025-01-11 08:54:45.737297,7,Medium,Packaged,9.626946460410492,Supermarket Type1,Full Fat,2010,Tier 1,0.9406586584808362
+Oats,Grains and Cereals,0.52,3.01,184.1,2025-01-11 08:54:45.737802,187,High,Packaged,8.47328098717322,Supermarket Type3,Regular,2018,Tier 3,0.9460141245876384
+Chocolate Cookies,Packaged Snacks,0.24,3.12,220.03,2025-01-11 08:54:45.738216,114,High,Packaged,8.918190542673265,Supermarket Type1,Regular,2012,Tier 1,0.9304915900649502
+Cheese,Dairy Products,0.35,5.38,192.17,2025-01-11 08:54:45.738629,50,Low,Packaged,8.354173557529284,Supermarket Type1,Full Fat,2010,Tier 1,0.810066835808045
+Quinoa,Grains and Cereals,0.45,6.33,88.34,2025-01-11 08:54:45.739038,369,Medium,Packaged,9.640965498655271,Supermarket Type1,Regular,2010,Tier 1,0.9258042744266222
+Kiwi,Fruits and Vegetables,0.2,2.68,109.85,2025-01-11 08:54:45.739454,13,Low,Packaged,5.955783352036493,Supermarket Type3,Regular,2018,Tier 3,0.7475783300314329
+Chocolate Cookies,Packaged Snacks,0.32,3.49,247.71,2025-01-11 08:54:45.739845,111,High,Packaged,9.696526886055826,Supermarket Type1,Regular,2012,Tier 1,1.0
+Potato Chips,Packaged Snacks,0.16,1.78,252.2,2025-01-11 08:54:45.740235,91,High,Packaged,7.511695069778442,Supermarket Type2,Regular,2015,Tier 2,0.867565018552843
+Quinoa,Grains and Cereals,0.53,5.88,143.86,2025-01-11 08:54:45.740709,357,Medium,Packaged,8.94196001686466,Supermarket Type1,Regular,2010,Tier 1,0.7631288509210927
+Oats,Grains and Cereals,0.59,3.89,133.98,2025-01-11 08:54:45.741119,175,High,Packaged,7.178961110158907,Supermarket Type3,Regular,2018,Tier 3,0.8102786481790232
+Banana,Fruits and Vegetables,0.16,2.2600000000000002,248.93,2025-01-11 08:54:45.741549,7,Medium,Loose,6.189912668419825,Supermarket Type2,Regular,2015,Tier 2,0.8572709397904744
+White Rice,Grains and Cereals,0.94,2.99,527.29,2025-01-11 08:54:45.741934,362,Low,Packaged,5.139465280140639,Supermarket Type1,Regular,2010,Tier 1,0.7617266926226582
+Spinach,Fruits and Vegetables,0.25,2.29,99.42,2025-01-11 08:54:45.742309,2,Medium,Loose,7.63256960532258,Supermarket Type1,Regular,2010,Tier 1,0.9147313475467923
+Banana,Fruits and Vegetables,0.09,1.71,160.11,2025-01-11 08:54:45.742723,1,Medium,Loose,7.235759876724851,Supermarket Type2,Regular,2015,Tier 2,0.9778890451652509
+Spinach,Fruits and Vegetables,0.33999999999999997,1.9900000000000002,93.67,2025-01-11 08:54:45.743087,1,Medium,Loose,6.375430119470849,Supermarket Type1,Regular,2010,Tier 1,0.9641654553814345
+White Rice,Grains and Cereals,1.04,2.16,547.81,2025-01-11 08:54:45.743471,365,Low,Packaged,5.90136657948899,Supermarket Type1,Regular,2010,Tier 1,0.8014315211467485
+Potato Chips,Packaged Snacks,0.25,2.17,226.52,2025-01-11 08:54:45.743876,88,High,Packaged,8.355019686209559,Supermarket Type2,Regular,2015,Tier 2,1.0
+Kiwi,Fruits and Vegetables,0.03,3.44,165.87,2025-01-11 08:54:45.744272,6,Low,Packaged,4.701892996899163,Supermarket Type3,Regular,2018,Tier 3,0.6465361616016578
+Potato Chips,Packaged Snacks,0.23,2.0,277.29,2025-01-11 08:54:45.744716,85,High,Packaged,8.89631756107828,Supermarket Type2,Regular,2015,Tier 2,0.9155570743061049
+Apple,Fruits and Vegetables,0.27,2.25,198.35,2025-01-11 08:54:45.745144,9,High,Loose,8.10630595675553,Supermarket Type1,Regular,2010,Tier 1,0.902066975500535
+Spinach,Fruits and Vegetables,0.33999999999999997,2.4200000000000004,124.37,2025-01-11 08:54:45.745527,13,Medium,Loose,6.794430873406606,Supermarket Type1,Regular,2010,Tier 1,0.9093113619281393
+Potato Chips,Packaged Snacks,0.12000000000000001,2.04,257.4,2025-01-11 08:54:45.745944,85,High,Packaged,7.2611578311602,Supermarket Type2,Regular,2015,Tier 2,0.8823029049159092
+Quinoa,Grains and Cereals,0.45,6.15,86.83,2025-01-11 08:54:45.746318,373,Medium,Packaged,8.19780819346612,Supermarket Type1,Regular,2010,Tier 1,0.8761482434764966
+Orange,Fruits and Vegetables,0.21,1.56,217.6,2025-01-11 08:54:45.746725,12,High,Loose,6.667544274770547,Supermarket Type1,Regular,2012,Tier 1,0.8637961074602551
+Apple,Fruits and Vegetables,0.17,2.04,177.36,2025-01-11 08:54:45.747129,11,High,Loose,7.880177333043691,Supermarket Type1,Regular,2010,Tier 1,0.7821007180138837
+Broccoli,Fruits and Vegetables,0.32,3.04,148.38,2025-01-11 08:54:45.747529,4,Low,Loose,6.675277108455772,Supermarket Type2,Regular,2015,Tier 2,0.8075324212657178
+Potato Chips,Packaged Snacks,0.11000000000000001,2.45,249.3,2025-01-11 08:54:45.747924,88,High,Packaged,8.460338172176012,Supermarket Type2,Regular,2015,Tier 2,0.9336771754911923
+Kiwi,Fruits and Vegetables,0.04000000000000001,2.93,111.02,2025-01-11 08:54:45.748370,4,Low,Packaged,5.82431892006008,Supermarket Type3,Regular,2018,Tier 3,0.6302372471102773
+Butter,Dairy Products,0.26,4.39,177.67000000000002,2025-01-11 08:54:45.748816,28,Medium,Packaged,6.945567771375001,Supermarket Type3,Full Fat,2018,Tier 3,0.8985686476940087
+White Rice,Grains and Cereals,0.97,2.36,176.23,2025-01-11 08:54:45.749209,371,Low,Packaged,5.5365129369683945,Supermarket Type2,Regular,2015,Tier 2,0.713793429850102
+Brown Rice,Grains and Cereals,1.02,3.19,141.49,2025-01-11 08:54:45.749623,180,Low,Packaged,6.367734687419684,Supermarket Type1,Regular,2012,Tier 1,0.7989169175694939
+Butter,Dairy Products,0.32,4.49,184.82,2025-01-11 08:54:45.750011,23,Medium,Packaged,7.805408357005502,Supermarket Type3,Full Fat,2018,Tier 3,0.7924003752651978
+Cheese,Dairy Products,0.22999999999999998,5.26,168.4,2025-01-11 08:54:45.750431,50,Low,Packaged,7.864855224539179,Supermarket Type1,Full Fat,2010,Tier 1,0.8923881897807487
+Chocolate Cookies,Packaged Snacks,0.29,2.97,222.57,2025-01-11 08:54:45.750853,116,High,Packaged,8.078588995316657,Supermarket Type1,Regular,2012,Tier 1,0.887955601468963
+Banana,Fruits and Vegetables,0.25,1.99,605.27,2025-01-11 08:54:45.751245,1,Medium,Loose,6.852764060568603,Supermarket Type2,Regular,2015,Tier 2,0.8912160375034391
+Energy Bars,Packaged Snacks,0.16999999999999998,2.53,239.97,2025-01-11 08:54:45.751663,153,High,Packaged,9.220907956287002,Supermarket Type1,Regular,2010,Tier 1,0.8782435996105493
+Low-Fat Milk,Dairy Products,0.96,3.33,518.6899999999999,2025-01-11 08:54:45.752102,6,Medium,Packaged,7.891742624863686,Supermarket Type2,Low Fat,2015,Tier 2,0.8411748731997967
+Orange,Fruits and Vegetables,0.09,1.87,196.66,2025-01-11 08:54:45.752530,15,High,Loose,5.382721787562637,Supermarket Type1,Regular,2012,Tier 1,0.7427363231092552
+White Rice,Grains and Cereals,1.02,2.86,592.51,2025-01-11 08:54:45.752937,362,Low,Packaged,5.3276331886902195,Supermarket Type1,Regular,2010,Tier 1,0.8823104982668711
+Mixed Nuts,Packaged Snacks,0.23,5.13,224.48,2025-01-11 08:54:45.753326,189,Medium,Packaged,6.363878142842811,Supermarket Type3,Regular,2018,Tier 3,0.9114023477134094
+Brown Rice,Grains and Cereals,1.1,2.6,103.67,2025-01-11 08:54:45.753698,180,Low,Packaged,7.127062979961988,Supermarket Type1,Regular,2012,Tier 1,0.8855299449719878
+Broccoli,Fruits and Vegetables,0.34,3.93,111.73,2025-01-11 08:54:45.754103,1,Low,Loose,5.673162593389158,Supermarket Type2,Regular,2015,Tier 2,0.8017451248688265
+Kiwi,Fruits and Vegetables,0.18,3.14,125.97,2025-01-11 08:54:45.754465,11,Low,Packaged,4.695333448394104,Supermarket Type3,Regular,2018,Tier 3,0.6030884975555898
+Broccoli,Fruits and Vegetables,0.37,3.53,106.64,2025-01-11 08:54:45.754859,4,Low,Loose,5.584824115787814,Supermarket Type2,Regular,2015,Tier 2,0.6380588456088147
+Oats,Grains and Cereals,0.55,3.39,142.34,2025-01-11 08:54:45.755245,171,High,Packaged,8.345799800748955,Supermarket Type3,Regular,2018,Tier 3,0.9551874455861881
+Butter,Dairy Products,0.27,4.5,181.71,2025-01-11 08:54:45.755585,27,Medium,Packaged,7.332554555127725,Supermarket Type3,Full Fat,2018,Tier 3,0.8143010186546026
+Butter,Dairy Products,0.21,4.43,179.32999999999998,2025-01-11 08:54:45.756001,28,Medium,Packaged,6.260638480892096,Supermarket Type3,Full Fat,2018,Tier 3,0.9046263906293246
+Kiwi,Fruits and Vegetables,0.18,3.07,81.67,2025-01-11 08:54:45.756433,19,Low,Packaged,4.689432796510879,Supermarket Type3,Regular,2018,Tier 3,0.7120760437896069
+White Rice,Grains and Cereals,1.06,2.25,146.86,2025-01-11 08:54:45.756794,359,Low,Packaged,5.555999978373712,Supermarket Type2,Regular,2015,Tier 2,0.7342466025669632
+Kiwi,Fruits and Vegetables,0.010000000000000009,3.32,148.87,2025-01-11 08:54:45.757190,11,Low,Packaged,4.998088009343837,Supermarket Type3,Regular,2018,Tier 3,0.656599713170182
+Banana,Fruits and Vegetables,0.07999999999999999,1.83,217.66,2025-01-11 08:54:45.757570,2,Medium,Loose,6.883155189102293,Supermarket Type2,Regular,2015,Tier 2,0.8570242280285455
+Low-Fat Milk,Dairy Products,1.07,3.0500000000000003,587.6099999999999,2025-01-11 08:54:45.757987,8,Medium,Packaged,7.236072283598581,Supermarket Type2,Low Fat,2015,Tier 2,0.9228582452840004
+Banana,Fruits and Vegetables,0.18,1.98,601.89,2025-01-11 08:54:45.758376,5,Medium,Loose,7.542975842819917,Supermarket Type2,Regular,2015,Tier 2,0.8571888005348116
+Chocolate Cookies,Packaged Snacks,0.31,2.76,216.49,2025-01-11 08:54:45.758753,121,High,Packaged,9.6277849331741,Supermarket Type1,Regular,2012,Tier 1,0.9704597742309751
+White Rice,Grains and Cereals,0.99,2.16,225.84,2025-01-11 08:54:45.759183,369,Low,Packaged,6.739532059163009,Supermarket Type2,Regular,2015,Tier 2,0.6575594744251978
+Yogurt,Dairy Products,0.43,2.12,138.51,2025-01-11 08:54:45.759580,17,High,Packaged,8.60586229959978,Supermarket Type1,Low Fat,2012,Tier 1,0.894922810674658
+Chocolate Cookies,Packaged Snacks,0.33999999999999997,3.43,216.93,2025-01-11 08:54:45.759919,111,High,Packaged,8.738872618801958,Supermarket Type1,Regular,2012,Tier 1,1.0
+Low-Fat Milk,Dairy Products,1.03,3.0300000000000002,276.43,2025-01-11 08:54:45.760387,16,Medium,Packaged,7.887524536560619,Supermarket Type2,Low Fat,2015,Tier 2,0.9198638646341666
+Oats,Grains and Cereals,0.46,3.88,166.39,2025-01-11 08:54:45.760815,189,High,Packaged,7.386352544986797,Supermarket Type3,Regular,2018,Tier 3,0.9099842186527127
+Whole Milk,Dairy Products,1.09,3.02,288.42,2025-01-11 08:54:45.761204,11,Medium,Packaged,8.272182740864675,Supermarket Type1,Full Fat,2010,Tier 1,0.9576782856711676
+Spinach,Fruits and Vegetables,0.3,2.5100000000000002,136.06,2025-01-11 08:54:45.761575,11,Medium,Loose,6.374187984950283,Supermarket Type1,Regular,2010,Tier 1,0.9734538661888567
+Whole Milk,Dairy Products,0.96,3.35,286.6,2025-01-11 08:54:45.761960,13,Medium,Packaged,8.65418443441446,Supermarket Type1,Full Fat,2010,Tier 1,1.0
+Brown Rice,Grains and Cereals,0.94,2.61,115.28999999999999,2025-01-11 08:54:45.762338,178,Low,Packaged,6.213726287197287,Supermarket Type1,Regular,2012,Tier 1,0.857883990290908
+Kiwi,Fruits and Vegetables,0.1,3.29,103.48,2025-01-11 08:54:45.762701,21,Low,Packaged,4.18075976052777,Supermarket Type3,Regular,2018,Tier 3,0.6875302072672089
+Banana,Fruits and Vegetables,0.18,1.51,171.32,2025-01-11 08:54:45.763097,1,Medium,Loose,7.1936539016202925,Supermarket Type2,Regular,2015,Tier 2,0.9814004887761799
+Butter,Dairy Products,0.28,4.32,122.61,2025-01-11 08:54:45.763481,35,Medium,Packaged,6.984433972988166,Supermarket Type3,Full Fat,2018,Tier 3,0.9019793917041002
+Mixed Nuts,Packaged Snacks,0.31,4.56,141.85,2025-01-11 08:54:45.763866,176,Medium,Packaged,7.208532972091886,Supermarket Type3,Regular,2018,Tier 3,0.9666171378975723
+Yogurt,Dairy Products,0.45,2.07,157.82,2025-01-11 08:54:45.764231,12,High,Packaged,8.200978244598613,Supermarket Type1,Low Fat,2012,Tier 1,0.8905401894300633
+Chocolate Cookies,Packaged Snacks,0.31,3.37,229.07,2025-01-11 08:54:45.764675,127,High,Packaged,8.875996168656531,Supermarket Type1,Regular,2012,Tier 1,0.9186924183313855
+Cheese,Dairy Products,0.37,5.41,181.82999999999998,2025-01-11 08:54:45.765058,63,Low,Packaged,7.832492146701416,Supermarket Type1,Full Fat,2010,Tier 1,0.8971010985028072
+Oats,Grains and Cereals,0.44,3.86,177.32999999999998,2025-01-11 08:54:45.765407,185,High,Packaged,7.938149206886022,Supermarket Type3,Regular,2018,Tier 3,0.7923356376039996
+Orange,Fruits and Vegetables,0.15,1.92,185.79,2025-01-11 08:54:45.765782,23,High,Loose,6.462545967920667,Supermarket Type1,Regular,2012,Tier 1,0.8537841520393399
+Energy Bars,Packaged Snacks,0.06,2.94,187.87,2025-01-11 08:54:45.766151,156,High,Packaged,8.046067842079308,Supermarket Type1,Regular,2010,Tier 1,0.8377318468678375
+Oats,Grains and Cereals,0.47,3.21,157.12,2025-01-11 08:54:45.766494,186,High,Packaged,8.662764041918056,Supermarket Type3,Regular,2018,Tier 3,0.8137750168717139
+Banana,Fruits and Vegetables,0.13,1.3900000000000001,546.0899999999999,2025-01-11 08:54:45.766892,11,Medium,Loose,7.872825886570197,Supermarket Type2,Regular,2015,Tier 2,0.8863040854010639
+Orange,Fruits and Vegetables,0.12,1.72,166.61,2025-01-11 08:54:45.767279,13,High,Loose,6.734087983417669,Supermarket Type1,Regular,2012,Tier 1,0.7338244063338034
+Potato Chips,Packaged Snacks,0.30000000000000004,1.96,246.81,2025-01-11 08:54:45.767626,96,High,Packaged,7.008794227888904,Supermarket Type2,Regular,2015,Tier 2,1.0
+Kiwi,Fruits and Vegetables,0.11,3.32,129.05,2025-01-11 08:54:45.768012,5,Low,Packaged,5.463259015241084,Supermarket Type3,Regular,2018,Tier 3,0.6939386532806234
+Chocolate Cookies,Packaged Snacks,0.35,3.19,187.43,2025-01-11 08:54:45.768469,113,High,Packaged,8.903233750823402,Supermarket Type1,Regular,2012,Tier 1,0.8980255905554935
+Broccoli,Fruits and Vegetables,0.34,3.49,70.3,2025-01-11 08:54:45.768832,6,Low,Loose,5.981786769074997,Supermarket Type2,Regular,2015,Tier 2,0.6794005149298511
+Broccoli,Fruits and Vegetables,0.44,3.42,95.38,2025-01-11 08:54:45.769221,13,Low,Loose,5.4398210736969315,Supermarket Type2,Regular,2015,Tier 2,0.8100985149683191
+Apple,Fruits and Vegetables,0.12000000000000001,2.73,118.71000000000001,2025-01-11 08:54:45.769649,15,High,Loose,8.140574130743495,Supermarket Type1,Regular,2010,Tier 1,0.9095592249297628
+Yogurt,Dairy Products,0.41000000000000003,1.74,189.18,2025-01-11 08:54:45.770014,23,High,Packaged,8.159811200872552,Supermarket Type1,Low Fat,2012,Tier 1,0.8214568211634635
+Brown Rice,Grains and Cereals,1.07,3.42,113.08,2025-01-11 08:54:45.770396,188,Low,Packaged,7.672005382483713,Supermarket Type1,Regular,2012,Tier 1,0.7102965476991395
+Low-Fat Milk,Dairy Products,1.05,2.81,227.42000000000002,2025-01-11 08:54:45.770765,19,Medium,Packaged,7.697564688177403,Supermarket Type2,Low Fat,2015,Tier 2,0.8227177972830422
+Low-Fat Milk,Dairy Products,1.04,3.5300000000000002,598.7399999999999,2025-01-11 08:54:45.771088,14,Medium,Packaged,7.793233017752822,Supermarket Type2,Low Fat,2015,Tier 2,0.8711254251636735
+Orange,Fruits and Vegetables,0.12,1.9,136.32999999999998,2025-01-11 08:54:45.771453,14,High,Loose,5.228807547357547,Supermarket Type1,Regular,2012,Tier 1,0.7157888341773249
+Butter,Dairy Products,0.16999999999999998,4.04,167.51,2025-01-11 08:54:45.771822,28,Medium,Packaged,7.166488358785389,Supermarket Type3,Full Fat,2018,Tier 3,0.8403503391851026
+Banana,Fruits and Vegetables,0.22,2.2,180.68,2025-01-11 08:54:45.772133,13,Medium,Loose,7.828514092174549,Supermarket Type2,Regular,2015,Tier 2,0.846449671250441
+Mixed Nuts,Packaged Snacks,0.19,4.69,206.46,2025-01-11 08:54:45.772693,176,Medium,Packaged,6.5016941442829586,Supermarket Type3,Regular,2018,Tier 3,0.8984450415131454
+Banana,Fruits and Vegetables,0.13999999999999999,1.61,185.04,2025-01-11 08:54:45.773041,14,Medium,Loose,6.495004363054653,Supermarket Type2,Regular,2015,Tier 2,0.9383438658612315
+Banana,Fruits and Vegetables,0.15,1.83,618.3499999999999,2025-01-11 08:54:45.773379,14,Medium,Loose,7.479039803741701,Supermarket Type2,Regular,2015,Tier 2,0.9067140091018836
+White Rice,Grains and Cereals,0.92,2.62,145.84,2025-01-11 08:54:45.773769,374,Low,Packaged,6.726096302652859,Supermarket Type2,Regular,2015,Tier 2,0.7935746891930604
+Kiwi,Fruits and Vegetables,0.18,3.29,79.63,2025-01-11 08:54:45.774112,9,Low,Packaged,5.498840235380005,Supermarket Type3,Regular,2018,Tier 3,0.6134031489038797
+Low-Fat Milk,Dairy Products,0.92,3.0300000000000002,248.51,2025-01-11 08:54:45.774445,17,Medium,Packaged,8.397046049130683,Supermarket Type2,Low Fat,2015,Tier 2,0.8987449922008124
+Kiwi,Fruits and Vegetables,0.04000000000000001,3.16,144.99,2025-01-11 08:54:45.774842,18,Low,Packaged,5.137644446576604,Supermarket Type3,Regular,2018,Tier 3,0.7147518378590053
+Chocolate Cookies,Packaged Snacks,0.31,2.67,206.98,2025-01-11 08:54:45.775186,111,High,Packaged,8.120219542567709,Supermarket Type1,Regular,2012,Tier 1,0.9422038193707825
+Banana,Fruits and Vegetables,0.24,2.05,574.87,2025-01-11 08:54:45.775564,3,Medium,Loose,6.647863002242151,Supermarket Type2,Regular,2015,Tier 2,1.0
+Banana,Fruits and Vegetables,0.18,1.42,216.7,2025-01-11 08:54:45.776001,8,Medium,Loose,6.609665179743849,Supermarket Type2,Regular,2015,Tier 2,0.9484559912920705
+Brown Rice,Grains and Cereals,1.02,3.03,168.77,2025-01-11 08:54:45.776362,184,Low,Packaged,7.1647833355936585,Supermarket Type1,Regular,2012,Tier 1,0.6960891400426713
+White Rice,Grains and Cereals,1.08,2.32,526.4399999999999,2025-01-11 08:54:45.776736,368,Low,Packaged,5.290410877089471,Supermarket Type1,Regular,2010,Tier 1,0.9116122879432951
+Banana,Fruits and Vegetables,0.10999999999999999,1.44,232.82,2025-01-11 08:54:45.777123,8,Medium,Loose,6.205482160472988,Supermarket Type2,Regular,2015,Tier 2,0.8375162761332602
+Oats,Grains and Cereals,0.44,3.29,182.41,2025-01-11 08:54:45.777477,184,High,Packaged,7.31373635591474,Supermarket Type3,Regular,2018,Tier 3,0.9104780049424702
+Whole Milk,Dairy Products,0.9,3.94,332.81,2025-01-11 08:54:45.777824,5,Medium,Packaged,9.000020886295172,Supermarket Type1,Full Fat,2010,Tier 1,0.9739977581462667
+Quinoa,Grains and Cereals,0.5700000000000001,6.2,115.16,2025-01-11 08:54:45.778224,366,Medium,Packaged,9.180030476852426,Supermarket Type1,Regular,2010,Tier 1,0.7435069837746909
+Chocolate Cookies,Packaged Snacks,0.38,2.93,211.93,2025-01-11 08:54:45.778606,117,High,Packaged,9.451743880982718,Supermarket Type1,Regular,2012,Tier 1,0.8641160531949351
+Butter,Dairy Products,0.31,4.97,117.32,2025-01-11 08:54:45.778960,26,Medium,Packaged,7.0934275957088095,Supermarket Type3,Full Fat,2018,Tier 3,0.7553668877403589
+Whole Milk,Dairy Products,1.04,3.69,309.89,2025-01-11 08:54:45.779349,17,Medium,Packaged,9.819278251886017,Supermarket Type1,Full Fat,2010,Tier 1,0.8720866694974609
+Brown Rice,Grains and Cereals,0.9,3.06,152.05,2025-01-11 08:54:45.779722,173,Low,Packaged,7.5315392464156234,Supermarket Type1,Regular,2012,Tier 1,0.7074571143707516
+Orange,Fruits and Vegetables,0.12,1.93,182.31,2025-01-11 08:54:45.780094,25,High,Loose,5.705377129769192,Supermarket Type1,Regular,2012,Tier 1,0.7809980452328252
+Orange,Fruits and Vegetables,0.10999999999999999,1.97,219.37,2025-01-11 08:54:45.780528,14,High,Loose,5.769140098413329,Supermarket Type1,Regular,2012,Tier 1,0.7606144632462051
+Potato Chips,Packaged Snacks,0.22,1.98,265.88,2025-01-11 08:54:45.780898,88,High,Packaged,7.988754387672493,Supermarket Type2,Regular,2015,Tier 2,0.980526388406995
+Energy Bars,Packaged Snacks,0.07999999999999999,2.48,243.5,2025-01-11 08:54:45.781261,142,High,Packaged,9.685983559786909,Supermarket Type1,Regular,2010,Tier 1,0.9212160194209645
+Kiwi,Fruits and Vegetables,0.09000000000000001,2.78,73.08,2025-01-11 08:54:45.781627,15,Low,Packaged,4.205815765362228,Supermarket Type3,Regular,2018,Tier 3,0.6211560876536644
+Low-Fat Milk,Dairy Products,0.96,3.0300000000000002,578.0699999999999,2025-01-11 08:54:45.782009,17,Medium,Packaged,7.656013606347744,Supermarket Type2,Low Fat,2015,Tier 2,0.8135050115621222
+Apple,Fruits and Vegetables,0.21000000000000002,2.66,178.72,2025-01-11 08:54:45.782348,23,High,Loose,7.571639782675994,Supermarket Type1,Regular,2010,Tier 1,0.781752559170658
+Yogurt,Dairy Products,0.53,1.65,130.76,2025-01-11 08:54:45.782731,30,High,Packaged,8.607255102147093,Supermarket Type1,Low Fat,2012,Tier 1,0.8432571303960762
+White Rice,Grains and Cereals,0.9299999999999999,2.8,578.9399999999999,2025-01-11 08:54:45.783094,365,Low,Packaged,6.036694882835551,Supermarket Type1,Regular,2010,Tier 1,0.9089867435631072
+Yogurt,Dairy Products,0.51,2.25,186.23,2025-01-11 08:54:45.783433,28,High,Packaged,9.372767042374843,Supermarket Type1,Low Fat,2012,Tier 1,0.8325531073009964
+White Rice,Grains and Cereals,0.98,2.96,222.97,2025-01-11 08:54:45.783798,367,Low,Packaged,5.274221317877231,Supermarket Type2,Regular,2015,Tier 2,0.8198011417041642
+Quinoa,Grains and Cereals,0.48,6.46,71.08,2025-01-11 08:54:45.784139,371,Medium,Packaged,8.22312666777616,Supermarket Type1,Regular,2010,Tier 1,0.8572244295527951
+Yogurt,Dairy Products,0.55,1.63,161.1,2025-01-11 08:54:45.784530,13,High,Packaged,9.031563046342828,Supermarket Type1,Low Fat,2012,Tier 1,0.8306765714586388
+Low-Fat Milk,Dairy Products,1.05,2.8200000000000003,591.8299999999999,2025-01-11 08:54:45.784920,23,Medium,Packaged,7.28830265705628,Supermarket Type2,Low Fat,2015,Tier 2,0.9788204746055541
+Banana,Fruits and Vegetables,0.16999999999999998,1.78,243.52,2025-01-11 08:54:45.785292,1,Medium,Loose,7.501299890528942,Supermarket Type2,Regular,2015,Tier 2,0.8597793839628853
+Chocolate Cookies,Packaged Snacks,0.26,3.48,198.09,2025-01-11 08:54:45.785662,113,High,Packaged,8.972502787056296,Supermarket Type1,Regular,2012,Tier 1,0.8607113669226563
+Potato Chips,Packaged Snacks,0.16,1.99,264.27,2025-01-11 08:54:45.786018,82,High,Packaged,7.691650613695879,Supermarket Type2,Regular,2015,Tier 2,0.9525348522270954
+White Rice,Grains and Cereals,1.04,2.59,160.1,2025-01-11 08:54:45.786395,369,Low,Packaged,5.955018297493398,Supermarket Type2,Regular,2015,Tier 2,0.6790772426677679
+Banana,Fruits and Vegetables,0.04999999999999999,2.0,615.03,2025-01-11 08:54:45.786765,14,Medium,Loose,6.763890392432352,Supermarket Type2,Regular,2015,Tier 2,0.897541958614812
+Energy Bars,Packaged Snacks,0.24,2.14,231.5,2025-01-11 08:54:45.787134,149,High,Packaged,9.317477320203482,Supermarket Type1,Regular,2010,Tier 1,0.9753615634846369
+Banana,Fruits and Vegetables,0.21,1.97,151.73,2025-01-11 08:54:45.787496,13,Medium,Loose,7.387071784275327,Supermarket Type2,Regular,2015,Tier 2,0.8352822956344702
+White Rice,Grains and Cereals,0.9299999999999999,2.27,184.27,2025-01-11 08:54:45.787855,372,Low,Packaged,6.454946644870574,Supermarket Type2,Regular,2015,Tier 2,0.8035323206749182
+Potato Chips,Packaged Snacks,0.2,2.48,236.19,2025-01-11 08:54:45.788231,85,High,Packaged,8.290773295078505,Supermarket Type2,Regular,2015,Tier 2,0.9580661612674947
+White Rice,Grains and Cereals,1.09,2.66,130.14,2025-01-11 08:54:45.788633,368,Low,Packaged,5.809247098580784,Supermarket Type2,Regular,2015,Tier 2,0.7770241790786009
+White Rice,Grains and Cereals,0.98,2.17,616.63,2025-01-11 08:54:45.789004,363,Low,Packaged,6.413199268901417,Supermarket Type1,Regular,2010,Tier 1,0.9328616877138496
+Brown Rice,Grains and Cereals,1.1,2.96,169.97,2025-01-11 08:54:45.789356,171,Low,Packaged,7.393236406944013,Supermarket Type1,Regular,2012,Tier 1,0.733139262411479
+White Rice,Grains and Cereals,0.98,2.24,171.19,2025-01-11 08:54:45.789716,366,Low,Packaged,5.387233564527698,Supermarket Type2,Regular,2015,Tier 2,0.6887453015424886
+Whole Milk,Dairy Products,0.95,3.07,294.06,2025-01-11 08:54:45.790111,9,Medium,Packaged,8.159535148706308,Supermarket Type1,Full Fat,2010,Tier 1,1.0
+Apple,Fruits and Vegetables,0.12000000000000001,2.04,148.81,2025-01-11 08:54:45.790517,21,High,Loose,7.8924898829809935,Supermarket Type1,Regular,2010,Tier 1,0.8806955785513826
+Spinach,Fruits and Vegetables,0.38,2.5100000000000002,126.14,2025-01-11 08:54:45.790889,13,Medium,Loose,7.876107218437356,Supermarket Type1,Regular,2010,Tier 1,0.8456259413207001
+Low-Fat Milk,Dairy Products,1.01,3.27,595.79,2025-01-11 08:54:45.791264,4,Medium,Packaged,7.323375258347706,Supermarket Type2,Low Fat,2015,Tier 2,0.862556481994979
+White Rice,Grains and Cereals,0.98,2.74,607.5,2025-01-11 08:54:45.791594,365,Low,Packaged,6.339128084072738,Supermarket Type1,Regular,2010,Tier 1,0.8850948342369378
+Brown Rice,Grains and Cereals,0.91,2.93,197.59,2025-01-11 08:54:45.791968,171,Low,Packaged,7.294750277715508,Supermarket Type1,Regular,2012,Tier 1,0.8504259665398454
+Mixed Nuts,Packaged Snacks,0.19,5.24,192.79,2025-01-11 08:54:45.792376,172,Medium,Packaged,6.377646794618755,Supermarket Type3,Regular,2018,Tier 3,0.8423629789037808
+Mixed Nuts,Packaged Snacks,0.32,5.5,146.54,2025-01-11 08:54:45.792783,185,Medium,Packaged,7.169674187274111,Supermarket Type3,Regular,2018,Tier 3,0.8944286066463518
+Broccoli,Fruits and Vegetables,0.47000000000000003,3.92,81.5,2025-01-11 08:54:45.793171,3,Low,Loose,5.410546733171673,Supermarket Type2,Regular,2015,Tier 2,0.7694226767979093
+Potato Chips,Packaged Snacks,0.22,2.07,291.36,2025-01-11 08:54:45.793549,91,High,Packaged,8.18253509211261,Supermarket Type2,Regular,2015,Tier 2,0.8688578845245123
+White Rice,Grains and Cereals,0.98,2.32,559.0799999999999,2025-01-11 08:54:45.793895,374,Low,Packaged,5.548387688957828,Supermarket Type1,Regular,2010,Tier 1,0.8491404640050028
+Spinach,Fruits and Vegetables,0.24,1.9800000000000002,69.43,2025-01-11 08:54:45.794299,1,Medium,Loose,6.884561603962597,Supermarket Type1,Regular,2010,Tier 1,0.9192919070063399
+Banana,Fruits and Vegetables,0.15,2.11,540.9899999999999,2025-01-11 08:54:45.794669,1,Medium,Loose,6.323402089177212,Supermarket Type2,Regular,2015,Tier 2,0.9115224901803392
+Energy Bars,Packaged Snacks,0.09,2.9699999999999998,193.55,2025-01-11 08:54:45.795018,140,High,Packaged,8.132073839132156,Supermarket Type1,Regular,2010,Tier 1,0.920187395363164
+Low-Fat Milk,Dairy Products,1.08,3.18,539.4699999999999,2025-01-11 08:54:45.795412,8,Medium,Packaged,8.108110435347518,Supermarket Type2,Low Fat,2015,Tier 2,0.8258051233738629
+Apple,Fruits and Vegetables,0.28,2.52,178.34,2025-01-11 08:54:45.795791,13,High,Loose,8.474122121527765,Supermarket Type1,Regular,2010,Tier 1,0.7619005861219941
+Spinach,Fruits and Vegetables,0.37,2.66,88.88,2025-01-11 08:54:45.796158,6,Medium,Loose,6.398193464482759,Supermarket Type1,Regular,2010,Tier 1,0.8975942423749788
+Apple,Fruits and Vegetables,0.22,2.44,116.47,2025-01-11 08:54:45.796549,10,High,Loose,7.345873847963164,Supermarket Type1,Regular,2010,Tier 1,0.7935026946206865
+Butter,Dairy Products,0.27,4.54,161.09,2025-01-11 08:54:45.796905,39,Medium,Packaged,6.59741850433267,Supermarket Type3,Full Fat,2018,Tier 3,0.789814057440457
+White Rice,Grains and Cereals,1.08,2.7800000000000002,604.49,2025-01-11 08:54:45.797295,364,Low,Packaged,6.541790628082703,Supermarket Type1,Regular,2010,Tier 1,0.787348391262066
+Butter,Dairy Products,0.28,4.29,149.89,2025-01-11 08:54:45.797689,37,Medium,Packaged,7.791250044421668,Supermarket Type3,Full Fat,2018,Tier 3,0.823706460087795
+White Rice,Grains and Cereals,0.96,2.44,536.04,2025-01-11 08:54:45.798061,360,Low,Packaged,6.041610594320153,Supermarket Type1,Regular,2010,Tier 1,0.828463340235235
+Spinach,Fruits and Vegetables,0.25,2.31,46.59,2025-01-11 08:54:45.798449,1,Medium,Loose,7.036134016174275,Supermarket Type1,Regular,2010,Tier 1,0.9312693213064538
+Broccoli,Fruits and Vegetables,0.44,3.27,150.01,2025-01-11 08:54:45.798831,4,Low,Loose,5.622803799176072,Supermarket Type2,Regular,2015,Tier 2,0.6477776819944323
+Orange,Fruits and Vegetables,0.09999999999999999,2.04,217.19,2025-01-11 08:54:45.799185,19,High,Loose,6.19640072875782,Supermarket Type1,Regular,2012,Tier 1,0.8269598875012765
+Butter,Dairy Products,0.32,4.86,163.16,2025-01-11 08:54:45.799546,32,Medium,Packaged,6.751599688499879,Supermarket Type3,Full Fat,2018,Tier 3,0.8169147868130778
+Chocolate Cookies,Packaged Snacks,0.29,3.5,206.19,2025-01-11 08:54:45.799934,121,High,Packaged,9.92302029775555,Supermarket Type1,Regular,2012,Tier 1,0.9168225465098214
+Brown Rice,Grains and Cereals,0.96,2.73,117.3,2025-01-11 08:54:45.800325,184,Low,Packaged,7.50484998319696,Supermarket Type1,Regular,2012,Tier 1,0.7133689543090462
+Orange,Fruits and Vegetables,0.09999999999999999,1.81,145.59,2025-01-11 08:54:45.800719,29,High,Loose,5.237120270753536,Supermarket Type1,Regular,2012,Tier 1,0.8780408158465303
+White Rice,Grains and Cereals,0.9299999999999999,2.9,135.28,2025-01-11 08:54:45.801089,368,Low,Packaged,5.804365055897097,Supermarket Type2,Regular,2015,Tier 2,0.6802577527919743
+Apple,Fruits and Vegetables,0.18000000000000002,2.64,183.03,2025-01-11 08:54:45.801442,13,High,Loose,8.1961837801614,Supermarket Type1,Regular,2010,Tier 1,0.8557777047162833
+Banana,Fruits and Vegetables,0.16999999999999998,1.54,205.74,2025-01-11 08:54:45.801800,14,Medium,Loose,6.529557553068341,Supermarket Type2,Regular,2015,Tier 2,0.9428537428074468
+Mixed Nuts,Packaged Snacks,0.27,5.23,183.39,2025-01-11 08:54:45.802149,180,Medium,Packaged,7.566320805865882,Supermarket Type3,Regular,2018,Tier 3,0.8356913323222112
+White Rice,Grains and Cereals,1.02,2.15,577.4699999999999,2025-01-11 08:54:45.802495,367,Low,Packaged,6.443175872286043,Supermarket Type1,Regular,2010,Tier 1,0.9465368360631389
+Whole Milk,Dairy Products,1.03,3.29,339.46,2025-01-11 08:54:45.802852,6,Medium,Packaged,9.662839054178718,Supermarket Type1,Full Fat,2010,Tier 1,0.9544312793730966
+Kiwi,Fruits and Vegetables,0.11,2.96,71.3,2025-01-11 08:54:45.803200,13,Low,Packaged,5.0840567684182485,Supermarket Type3,Regular,2018,Tier 3,0.5919924617672842
+Energy Bars,Packaged Snacks,0.10999999999999999,2.12,158.37,2025-01-11 08:54:45.803545,141,High,Packaged,8.068582285683275,Supermarket Type1,Regular,2010,Tier 1,0.9931800128417057
+White Rice,Grains and Cereals,1.05,2.7800000000000002,585.9699999999999,2025-01-11 08:54:45.803893,357,Low,Packaged,5.934937064854218,Supermarket Type1,Regular,2010,Tier 1,0.9073034221796927
+Oats,Grains and Cereals,0.54,3.04,184.46,2025-01-11 08:54:45.804262,176,High,Packaged,7.8186282031615635,Supermarket Type3,Regular,2018,Tier 3,0.9103636693420644
+Mixed Nuts,Packaged Snacks,0.16999999999999998,5.18,204.71,2025-01-11 08:54:45.804659,182,Medium,Packaged,6.7098833674530916,Supermarket Type3,Regular,2018,Tier 3,0.9611532924887951
+Oats,Grains and Cereals,0.5700000000000001,3.31,204.85,2025-01-11 08:54:45.805020,188,High,Packaged,8.909325411022767,Supermarket Type3,Regular,2018,Tier 3,0.7811171329827955
+Kiwi,Fruits and Vegetables,0.16,3.07,101.03999999999999,2025-01-11 08:54:45.805460,11,Low,Packaged,5.586494072046531,Supermarket Type3,Regular,2018,Tier 3,0.60768092602296
+Banana,Fruits and Vegetables,0.16,1.79,581.3599999999999,2025-01-11 08:54:45.805975,10,Medium,Loose,6.286588772812452,Supermarket Type2,Regular,2015,Tier 2,0.9892028083114087
+Energy Bars,Packaged Snacks,0.21,2.68,191.61,2025-01-11 08:54:45.806413,147,High,Packaged,8.410512823927967,Supermarket Type1,Regular,2010,Tier 1,0.875192770844959
+Butter,Dairy Products,0.22,4.36,146.46,2025-01-11 08:54:45.806756,35,Medium,Packaged,7.735495082675656,Supermarket Type3,Full Fat,2018,Tier 3,0.8623844177736042
+White Rice,Grains and Cereals,1.1,2.05,566.9399999999999,2025-01-11 08:54:45.807069,366,Low,Packaged,6.439260558417934,Supermarket Type1,Regular,2010,Tier 1,0.9146139954127985
+Oats,Grains and Cereals,0.49,3.0,143.16,2025-01-11 08:54:45.807373,170,High,Packaged,8.945741854026569,Supermarket Type3,Regular,2018,Tier 3,0.9210570418941691
+Butter,Dairy Products,0.16,4.84,158.05,2025-01-11 08:54:45.807747,39,Medium,Packaged,6.762567420763313,Supermarket Type3,Full Fat,2018,Tier 3,0.7213125230406712
+Energy Bars,Packaged Snacks,0.16,2.62,218.92000000000002,2025-01-11 08:54:45.808106,148,High,Packaged,8.307906122147326,Supermarket Type1,Regular,2010,Tier 1,0.8532406383801252
+White Rice,Grains and Cereals,0.97,2.9,542.67,2025-01-11 08:54:45.808536,369,Low,Packaged,5.503162587795087,Supermarket Type1,Regular,2010,Tier 1,0.842698923740991
+Energy Bars,Packaged Snacks,0.22,2.5,157.28,2025-01-11 08:54:45.808901,146,High,Packaged,9.276512545270487,Supermarket Type1,Regular,2010,Tier 1,0.9311171928360638
+Kiwi,Fruits and Vegetables,0.1,3.38,163.96,2025-01-11 08:54:45.809258,12,Low,Packaged,4.5739551253679895,Supermarket Type3,Regular,2018,Tier 3,0.678559038648026
+Apple,Fruits and Vegetables,0.18000000000000002,2.84,164.53,2025-01-11 08:54:45.809625,21,High,Loose,8.21199355038188,Supermarket Type1,Regular,2010,Tier 1,0.803541072768249
+Whole Milk,Dairy Products,0.98,3.66,286.67,2025-01-11 08:54:45.809987,10,Medium,Packaged,9.170657470426496,Supermarket Type1,Full Fat,2010,Tier 1,0.9983124445982374
+Quinoa,Grains and Cereals,0.43,6.35,162.23,2025-01-11 08:54:45.810481,362,Medium,Packaged,9.927259591814664,Supermarket Type1,Regular,2010,Tier 1,0.8317697676855192
+Quinoa,Grains and Cereals,0.45,5.89,166.43,2025-01-11 08:54:45.810859,370,Medium,Packaged,8.745495372977816,Supermarket Type1,Regular,2010,Tier 1,0.7325351190458842
+Kiwi,Fruits and Vegetables,0.09000000000000001,3.11,151.17000000000002,2025-01-11 08:54:45.811197,22,Low,Packaged,5.977000207943221,Supermarket Type3,Regular,2018,Tier 3,0.6877097006014848
+Mixed Nuts,Packaged Snacks,0.22,4.9,168.24,2025-01-11 08:54:45.811542,189,Medium,Packaged,6.707233666372038,Supermarket Type3,Regular,2018,Tier 3,0.7895812884733785
+Butter,Dairy Products,0.16999999999999998,4.21,181.26,2025-01-11 08:54:45.811929,35,Medium,Packaged,6.342353836176482,Supermarket Type3,Full Fat,2018,Tier 3,0.7229663549098401
+White Rice,Grains and Cereals,0.97,2.67,527.67,2025-01-11 08:54:45.812288,357,Low,Packaged,5.489677450579583,Supermarket Type1,Regular,2010,Tier 1,0.8923959424774348
+Spinach,Fruits and Vegetables,0.25,1.81,125.37,2025-01-11 08:54:45.812691,13,Medium,Loose,6.67001573668122,Supermarket Type1,Regular,2010,Tier 1,0.8695176220033204
+Cheese,Dairy Products,0.26,5.2,199.26,2025-01-11 08:54:45.813091,60,Low,Packaged,7.158681571314989,Supermarket Type1,Full Fat,2010,Tier 1,0.870779583758124
+Mixed Nuts,Packaged Snacks,0.3,5.16,220.6,2025-01-11 08:54:45.813426,177,Medium,Packaged,7.455713082283464,Supermarket Type3,Regular,2018,Tier 3,0.9676652444140462
+Brown Rice,Grains and Cereals,1.07,2.58,195.87,2025-01-11 08:54:45.813766,178,Low,Packaged,6.195533350248987,Supermarket Type1,Regular,2012,Tier 1,0.8775158554907434
+Banana,Fruits and Vegetables,0.16999999999999998,1.79,179.25,2025-01-11 08:54:45.814157,12,Medium,Loose,7.336818063041334,Supermarket Type2,Regular,2015,Tier 2,0.9442126199804164
+Orange,Fruits and Vegetables,0.19,1.57,132.47,2025-01-11 08:54:45.814497,29,High,Loose,6.752499326033241,Supermarket Type1,Regular,2012,Tier 1,0.6851079338675804
+Brown Rice,Grains and Cereals,0.9,2.51,198.36,2025-01-11 08:54:45.814876,172,Low,Packaged,7.380338243567212,Supermarket Type1,Regular,2012,Tier 1,0.7389491386891743
+Banana,Fruits and Vegetables,0.06999999999999999,2.13,607.7099999999999,2025-01-11 08:54:45.815309,11,Medium,Loose,7.318660913078028,Supermarket Type2,Regular,2015,Tier 2,0.9548219008692241
+Oats,Grains and Cereals,0.52,3.7,205.66,2025-01-11 08:54:45.815648,181,High,Packaged,8.722867685411922,Supermarket Type3,Regular,2018,Tier 3,0.851750826079259
+Yogurt,Dairy Products,0.5700000000000001,1.66,160.57,2025-01-11 08:54:45.816029,23,High,Packaged,9.579640036559399,Supermarket Type1,Low Fat,2012,Tier 1,0.8536153301454503
+Banana,Fruits and Vegetables,0.18,2.2800000000000002,599.37,2025-01-11 08:54:45.816431,11,Medium,Loose,6.670884668336443,Supermarket Type2,Regular,2015,Tier 2,0.8664007626249668
+Chocolate Cookies,Packaged Snacks,0.21999999999999997,2.81,264.45,2025-01-11 08:54:45.816770,124,High,Packaged,8.559304439840172,Supermarket Type1,Regular,2012,Tier 1,0.936038847906323
+Low-Fat Milk,Dairy Products,1.08,3.56,280.59,2025-01-11 08:54:45.817134,22,Medium,Packaged,8.710298823359835,Supermarket Type2,Low Fat,2015,Tier 2,0.9010810550514495
+Whole Milk,Dairy Products,1.02,3.42,291.33,2025-01-11 08:54:45.817523,16,Medium,Packaged,9.70979381001894,Supermarket Type1,Full Fat,2010,Tier 1,0.9852828557340442
+Low-Fat Milk,Dairy Products,0.92,3.1700000000000004,289.72,2025-01-11 08:54:45.817854,16,Medium,Packaged,7.604015266138587,Supermarket Type2,Low Fat,2015,Tier 2,0.9687228689400942
+Banana,Fruits and Vegetables,0.16,1.59,152.27,2025-01-11 08:54:45.818234,2,Medium,Loose,6.752460856484131,Supermarket Type2,Regular,2015,Tier 2,0.8425965474641741
+Mixed Nuts,Packaged Snacks,0.32,5.02,199.43,2025-01-11 08:54:45.818621,179,Medium,Packaged,6.560340504622801,Supermarket Type3,Regular,2018,Tier 3,0.9718675514902639
+Low-Fat Milk,Dairy Products,1.06,3.14,587.81,2025-01-11 08:54:45.818951,4,Medium,Packaged,7.575667298055745,Supermarket Type2,Low Fat,2015,Tier 2,0.9058562232121873
+Orange,Fruits and Vegetables,0.13,2.21,144.19,2025-01-11 08:54:45.819348,30,High,Loose,6.357446353010863,Supermarket Type1,Regular,2012,Tier 1,0.8649910836055388
+Banana,Fruits and Vegetables,0.09,1.3800000000000001,520.6899999999999,2025-01-11 08:54:45.819710,11,Medium,Loose,6.2147961903488875,Supermarket Type2,Regular,2015,Tier 2,0.8901778928701293
+Energy Bars,Packaged Snacks,0.22,2.01,207.16,2025-01-11 08:54:45.820030,159,High,Packaged,8.840636460875537,Supermarket Type1,Regular,2010,Tier 1,0.9983287879064193
+Spinach,Fruits and Vegetables,0.35,1.8000000000000003,57.5,2025-01-11 08:54:45.820492,12,Medium,Loose,7.033272247828519,Supermarket Type1,Regular,2010,Tier 1,0.7840326137662349
+Low-Fat Milk,Dairy Products,1.03,3.1500000000000004,269.53,2025-01-11 08:54:45.820857,8,Medium,Packaged,7.963268959723856,Supermarket Type2,Low Fat,2015,Tier 2,0.8607922378592282
+Orange,Fruits and Vegetables,0.09,1.87,199.73,2025-01-11 08:54:45.821172,13,High,Loose,5.3184512960404255,Supermarket Type1,Regular,2012,Tier 1,0.7874389472236705
+Brown Rice,Grains and Cereals,1.0,3.03,101.82,2025-01-11 08:54:45.821552,171,Low,Packaged,6.291230456619935,Supermarket Type1,Regular,2012,Tier 1,0.8894147026895489
+Apple,Fruits and Vegetables,0.29000000000000004,2.14,162.41,2025-01-11 08:54:45.821884,4,High,Loose,8.056419969705054,Supermarket Type1,Regular,2010,Tier 1,0.8214022088859866
+Banana,Fruits and Vegetables,0.18,1.35,230.69,2025-01-11 08:54:45.822186,14,Medium,Loose,6.282775243402876,Supermarket Type2,Regular,2015,Tier 2,1.0
+Cheese,Dairy Products,0.38,5.49,245.35,2025-01-11 08:54:45.822527,65,Low,Packaged,8.819954016834917,Supermarket Type1,Full Fat,2010,Tier 1,0.7817818126576387
+Potato Chips,Packaged Snacks,0.22,1.85,285.52,2025-01-11 08:54:45.822881,95,High,Packaged,7.741281847287971,Supermarket Type2,Regular,2015,Tier 2,0.8472576342967718
+Cheese,Dairy Products,0.35,5.1,201.88,2025-01-11 08:54:45.823190,64,Low,Packaged,7.689564557441237,Supermarket Type1,Full Fat,2010,Tier 1,0.8975708392464803
+Apple,Fruits and Vegetables,0.25,2.99,128.4,2025-01-11 08:54:45.823491,14,High,Loose,8.257405516641507,Supermarket Type1,Regular,2010,Tier 1,0.7684555806426033
+Cheese,Dairy Products,0.37,5.07,189.43,2025-01-11 08:54:45.823861,66,Low,Packaged,7.738443268444438,Supermarket Type1,Full Fat,2010,Tier 1,0.9011797392644438
+Kiwi,Fruits and Vegetables,0.13,3.01,73.18,2025-01-11 08:54:45.824238,19,Low,Packaged,4.556781128702904,Supermarket Type3,Regular,2018,Tier 3,0.6645157064644329
+Low-Fat Milk,Dairy Products,1.0,3.33,226.1,2025-01-11 08:54:45.824609,10,Medium,Packaged,7.568946783822761,Supermarket Type2,Low Fat,2015,Tier 2,0.817456664483167
+Quinoa,Grains and Cereals,0.43,5.91,134.02,2025-01-11 08:54:45.824959,355,Medium,Packaged,9.324681889090034,Supermarket Type1,Regular,2010,Tier 1,0.7850839112382495
+Whole Milk,Dairy Products,0.97,3.32,339.55,2025-01-11 08:54:45.825323,7,Medium,Packaged,8.861862541926238,Supermarket Type1,Full Fat,2010,Tier 1,0.968299853056522
+Quinoa,Grains and Cereals,0.56,5.77,74.93,2025-01-11 08:54:45.825652,365,Medium,Packaged,8.908963174626283,Supermarket Type1,Regular,2010,Tier 1,0.7400156411437139
+Butter,Dairy Products,0.27,4.24,190.9,2025-01-11 08:54:45.826010,36,Medium,Packaged,6.038821017355282,Supermarket Type3,Full Fat,2018,Tier 3,0.8554357532306319
+Apple,Fruits and Vegetables,0.21000000000000002,2.07,170.0,2025-01-11 08:54:45.826401,19,High,Loose,7.916996855388523,Supermarket Type1,Regular,2010,Tier 1,0.9198555870839957
+Low-Fat Milk,Dairy Products,1.02,3.1900000000000004,205.92000000000002,2025-01-11 08:54:45.826730,23,Medium,Packaged,7.619001844655648,Supermarket Type2,Low Fat,2015,Tier 2,0.973706731245548
+Spinach,Fruits and Vegetables,0.25,1.7500000000000002,105.24,2025-01-11 08:54:45.827074,3,Medium,Loose,6.074110129255034,Supermarket Type1,Regular,2010,Tier 1,0.8966267701574798
+Apple,Fruits and Vegetables,0.29000000000000004,2.58,146.51,2025-01-11 08:54:45.827413,15,High,Loose,8.745900841445673,Supermarket Type1,Regular,2010,Tier 1,0.7780558871988973
+Quinoa,Grains and Cereals,0.54,5.77,158.63,2025-01-11 08:54:45.827777,360,Medium,Packaged,8.798535215536381,Supermarket Type1,Regular,2010,Tier 1,0.9088695693434407
+Broccoli,Fruits and Vegetables,0.43000000000000005,3.49,129.93,2025-01-11 08:54:45.828133,5,Low,Loose,5.764336352672107,Supermarket Type2,Regular,2015,Tier 2,0.721563796792239
+Low-Fat Milk,Dairy Products,1.09,2.71,235.69,2025-01-11 08:54:45.828524,17,Medium,Packaged,7.939703908643039,Supermarket Type2,Low Fat,2015,Tier 2,0.8704960220158046
+Brown Rice,Grains and Cereals,0.96,2.96,110.18,2025-01-11 08:54:45.828923,175,Low,Packaged,7.276776204060355,Supermarket Type1,Regular,2012,Tier 1,0.7713644647531505
+Cheese,Dairy Products,0.26,4.76,221.41,2025-01-11 08:54:45.829300,57,Low,Packaged,8.40686047470215,Supermarket Type1,Full Fat,2010,Tier 1,0.9647604625236977
+Butter,Dairy Products,0.33999999999999997,4.15,186.32,2025-01-11 08:54:45.829656,26,Medium,Packaged,7.333044923958015,Supermarket Type3,Full Fat,2018,Tier 3,0.8913925078811074
+Orange,Fruits and Vegetables,0.26,1.57,144.26,2025-01-11 08:54:45.830006,14,High,Loose,6.896933432461249,Supermarket Type1,Regular,2012,Tier 1,0.7498061134831296
+Potato Chips,Packaged Snacks,0.26,1.52,298.61,2025-01-11 08:54:45.830384,98,High,Packaged,8.127524880970434,Supermarket Type2,Regular,2015,Tier 2,0.9512112786341588
+Brown Rice,Grains and Cereals,0.94,2.67,142.3,2025-01-11 08:54:45.830763,182,Low,Packaged,6.799252274459133,Supermarket Type1,Regular,2012,Tier 1,0.694601298173601
+Broccoli,Fruits and Vegetables,0.37,3.05,157.4,2025-01-11 08:54:45.831128,1,Low,Loose,5.337167088982749,Supermarket Type2,Regular,2015,Tier 2,0.7626083003759976
+White Rice,Grains and Cereals,0.9299999999999999,2.49,227.49,2025-01-11 08:54:45.831469,367,Low,Packaged,6.247281469402991,Supermarket Type2,Regular,2015,Tier 2,0.7521754937911179
+Low-Fat Milk,Dairy Products,1.07,3.43,272.38,2025-01-11 08:54:45.831777,10,Medium,Packaged,8.198649400651886,Supermarket Type2,Low Fat,2015,Tier 2,0.8805304688036882
+Kiwi,Fruits and Vegetables,0.11,3.08,145.9,2025-01-11 08:54:45.832076,11,Low,Packaged,5.443570308666401,Supermarket Type3,Regular,2018,Tier 3,0.668173530098631
+Banana,Fruits and Vegetables,0.22,1.79,540.3599999999999,2025-01-11 08:54:45.832614,9,Medium,Loose,6.976153352828755,Supermarket Type2,Regular,2015,Tier 2,0.8890955680880094
+White Rice,Grains and Cereals,0.95,2.44,553.26,2025-01-11 08:54:45.832992,367,Low,Packaged,6.073140038469063,Supermarket Type1,Regular,2010,Tier 1,0.757283077638718
+Low-Fat Milk,Dairy Products,1.07,2.79,231.16,2025-01-11 08:54:45.833328,6,Medium,Packaged,7.872820197008789,Supermarket Type2,Low Fat,2015,Tier 2,0.9325225405644095
+White Rice,Grains and Cereals,1.01,2.09,603.8599999999999,2025-01-11 08:54:45.833680,361,Low,Packaged,5.077615245093453,Supermarket Type1,Regular,2010,Tier 1,0.9156203422652003
+Oats,Grains and Cereals,0.59,3.7,120.8,2025-01-11 08:54:45.834023,187,High,Packaged,7.447277072527916,Supermarket Type3,Regular,2018,Tier 3,0.7923733408290432
+White Rice,Grains and Cereals,1.05,2.18,184.4,2025-01-11 08:54:45.834384,357,Low,Packaged,6.439650645840902,Supermarket Type2,Regular,2015,Tier 2,0.8082269163682881
+Brown Rice,Grains and Cereals,1.02,2.85,177.14,2025-01-11 08:54:45.834718,170,Low,Packaged,6.926208194457171,Supermarket Type1,Regular,2012,Tier 1,0.8147936175165471
+Brown Rice,Grains and Cereals,0.91,3.43,179.24,2025-01-11 08:54:45.835069,174,Low,Packaged,6.173059334479051,Supermarket Type1,Regular,2012,Tier 1,0.8094944004217965
+Oats,Grains and Cereals,0.56,3.53,179.22,2025-01-11 08:54:45.835429,188,High,Packaged,8.01590749819795,Supermarket Type3,Regular,2018,Tier 3,0.8796991348189882
+Oats,Grains and Cereals,0.48,3.69,156.22,2025-01-11 08:54:45.835758,181,High,Packaged,7.054835067170224,Supermarket Type3,Regular,2018,Tier 3,0.7934780390651703
+Kiwi,Fruits and Vegetables,0.14,3.44,140.74,2025-01-11 08:54:45.836066,23,Low,Packaged,4.21543602609704,Supermarket Type3,Regular,2018,Tier 3,0.5730415117087923
+Mixed Nuts,Packaged Snacks,0.21,5.3,159.45,2025-01-11 08:54:45.836465,174,Medium,Packaged,7.7093728496296,Supermarket Type3,Regular,2018,Tier 3,0.884313028266837
+Potato Chips,Packaged Snacks,0.18000000000000002,2.26,223.31,2025-01-11 08:54:45.836801,93,High,Packaged,7.156104439598788,Supermarket Type2,Regular,2015,Tier 2,0.8911905998945258
+Low-Fat Milk,Dairy Products,0.96,3.68,586.3,2025-01-11 08:54:45.837108,4,Medium,Packaged,8.290049959811459,Supermarket Type2,Low Fat,2015,Tier 2,0.9428821192172709
+Spinach,Fruits and Vegetables,0.24,1.9400000000000002,97.84,2025-01-11 08:54:45.837459,10,Medium,Loose,7.078710824601618,Supermarket Type1,Regular,2010,Tier 1,0.9478107691330927
+Banana,Fruits and Vegetables,0.10999999999999999,1.8800000000000001,232.48,2025-01-11 08:54:45.837821,10,Medium,Loose,6.797619147387482,Supermarket Type2,Regular,2015,Tier 2,0.8242320165361222
+Apple,Fruits and Vegetables,0.11000000000000001,2.09,199.68,2025-01-11 08:54:45.838138,7,High,Loose,7.977766323649162,Supermarket Type1,Regular,2010,Tier 1,0.9125975619174058
+Chocolate Cookies,Packaged Snacks,0.36,3.23,186.65,2025-01-11 08:54:45.838481,127,High,Packaged,9.33585719628158,Supermarket Type1,Regular,2012,Tier 1,0.9135947938698136
+Yogurt,Dairy Products,0.56,2.46,157.63,2025-01-11 08:54:45.838851,15,High,Packaged,8.594820819569573,Supermarket Type1,Low Fat,2012,Tier 1,0.9492123832383856
+Banana,Fruits and Vegetables,0.2,1.5,168.94,2025-01-11 08:54:45.839212,7,Medium,Loose,7.26256204600039,Supermarket Type2,Regular,2015,Tier 2,1.0
+Oats,Grains and Cereals,0.4,3.23,169.67,2025-01-11 08:54:45.839571,189,High,Packaged,8.428541709433738,Supermarket Type3,Regular,2018,Tier 3,0.9506249850494227
+Whole Milk,Dairy Products,0.91,3.25,329.17,2025-01-11 08:54:45.839951,12,Medium,Packaged,8.360341341815765,Supermarket Type1,Full Fat,2010,Tier 1,0.8826233908909908
+Spinach,Fruits and Vegetables,0.25,2.1300000000000003,98.43,2025-01-11 08:54:45.840364,1,Medium,Loose,7.811966199698011,Supermarket Type1,Regular,2010,Tier 1,0.9019019283151347
+Cheese,Dairy Products,0.31,4.88,239.43,2025-01-11 08:54:45.840818,61,Low,Packaged,7.7540145617005,Supermarket Type1,Full Fat,2010,Tier 1,0.9688459004307001
+Low-Fat Milk,Dairy Products,1.08,3.1700000000000004,298.62,2025-01-11 08:54:45.841224,12,Medium,Packaged,7.865739745317158,Supermarket Type2,Low Fat,2015,Tier 2,0.9597210997547562
+Orange,Fruits and Vegetables,0.15,2.49,194.45,2025-01-11 08:54:45.841564,17,High,Loose,6.249269637036187,Supermarket Type1,Regular,2012,Tier 1,0.7728859359704006
+White Rice,Grains and Cereals,1.04,2.28,579.38,2025-01-11 08:54:45.841907,366,Low,Packaged,5.530026160094005,Supermarket Type1,Regular,2010,Tier 1,0.9493384918499858
+Butter,Dairy Products,0.18,4.65,116.97999999999999,2025-01-11 08:54:45.842277,26,Medium,Packaged,7.348412694009005,Supermarket Type3,Full Fat,2018,Tier 3,0.8720440426276536
+White Rice,Grains and Cereals,1.04,2.34,219.17000000000002,2025-01-11 08:54:45.842626,355,Low,Packaged,5.306032487861946,Supermarket Type2,Regular,2015,Tier 2,0.8033670177916226
+Banana,Fruits and Vegetables,0.13999999999999999,2.09,193.98,2025-01-11 08:54:45.843006,13,Medium,Loose,6.1109334255364045,Supermarket Type2,Regular,2015,Tier 2,0.9060697418233193
+Mixed Nuts,Packaged Snacks,0.2,5.43,186.16,2025-01-11 08:54:45.843379,172,Medium,Packaged,6.657310416725556,Supermarket Type3,Regular,2018,Tier 3,0.8789260146741517
+Chocolate Cookies,Packaged Snacks,0.36,3.49,211.75,2025-01-11 08:54:45.843707,118,High,Packaged,8.764798295557764,Supermarket Type1,Regular,2012,Tier 1,0.8805966735854234
+Spinach,Fruits and Vegetables,0.33999999999999997,2.2600000000000002,127.67,2025-01-11 08:54:45.844037,1,Medium,Loose,6.506583360740259,Supermarket Type1,Regular,2010,Tier 1,0.9301991839668956
+Brown Rice,Grains and Cereals,1.07,3.01,132.6,2025-01-11 08:54:45.844413,186,Low,Packaged,6.478893188286107,Supermarket Type1,Regular,2012,Tier 1,0.8306934834396498
+Spinach,Fruits and Vegetables,0.25,2.1,41.57,2025-01-11 08:54:45.844749,10,Medium,Loose,7.497620478664519,Supermarket Type1,Regular,2010,Tier 1,0.962739991941369
+Cheese,Dairy Products,0.32,4.66,179.69,2025-01-11 08:54:45.845074,63,Low,Packaged,8.712798758248894,Supermarket Type1,Full Fat,2010,Tier 1,0.9553041458058896
+Low-Fat Milk,Dairy Products,0.94,3.0900000000000003,220.69,2025-01-11 08:54:45.845405,18,Medium,Packaged,7.241468527163175,Supermarket Type2,Low Fat,2015,Tier 2,0.8379854585819593
+Mixed Nuts,Packaged Snacks,0.32,4.95,211.97,2025-01-11 08:54:45.845741,175,Medium,Packaged,6.927515029522679,Supermarket Type3,Regular,2018,Tier 3,0.8350674460479326
+Banana,Fruits and Vegetables,0.22,1.6800000000000002,208.36,2025-01-11 08:54:45.846043,2,Medium,Loose,6.075082218732951,Supermarket Type2,Regular,2015,Tier 2,0.886957327793974
+Oats,Grains and Cereals,0.59,3.32,110.22999999999999,2025-01-11 08:54:45.846421,181,High,Packaged,8.732080616431759,Supermarket Type3,Regular,2018,Tier 3,0.8663312384084878
+Whole Milk,Dairy Products,1.08,3.84,298.8,2025-01-11 08:54:45.846775,7,Medium,Packaged,9.761835888152484,Supermarket Type1,Full Fat,2010,Tier 1,0.8698083464169628
+Oats,Grains and Cereals,0.43,3.32,118.47,2025-01-11 08:54:45.847139,179,High,Packaged,7.603495569213861,Supermarket Type3,Regular,2018,Tier 3,0.8344053057283681
+Butter,Dairy Products,0.19,4.52,162.73,2025-01-11 08:54:45.847506,33,Medium,Packaged,6.888096062283088,Supermarket Type3,Full Fat,2018,Tier 3,0.8167419362338685
+Low-Fat Milk,Dairy Products,0.9299999999999999,2.71,601.9,2025-01-11 08:54:45.847856,16,Medium,Packaged,8.447583016318188,Supermarket Type2,Low Fat,2015,Tier 2,0.8674488102483187
+Potato Chips,Packaged Snacks,0.11000000000000001,1.77,280.88,2025-01-11 08:54:45.848214,83,High,Packaged,7.443709467065254,Supermarket Type2,Regular,2015,Tier 2,0.9871069722748815
+Low-Fat Milk,Dairy Products,1.01,3.6500000000000004,561.3499999999999,2025-01-11 08:54:45.848615,19,Medium,Packaged,7.227765196071767,Supermarket Type2,Low Fat,2015,Tier 2,0.873964272263597
+Orange,Fruits and Vegetables,0.13999999999999999,2.39,139.85,2025-01-11 08:54:45.848960,29,High,Loose,6.989059307849639,Supermarket Type1,Regular,2012,Tier 1,0.8035200473041871
+Potato Chips,Packaged Snacks,0.28,2.31,251.62,2025-01-11 08:54:45.849331,80,High,Packaged,8.184847189347321,Supermarket Type2,Regular,2015,Tier 2,0.9096108043865345
+Low-Fat Milk,Dairy Products,1.1,3.2800000000000002,208.17000000000002,2025-01-11 08:54:45.849713,13,Medium,Packaged,8.042939319432913,Supermarket Type2,Low Fat,2015,Tier 2,0.9893052452794127
+Broccoli,Fruits and Vegetables,0.37,3.38,62.31,2025-01-11 08:54:45.850090,12,Low,Loose,6.116061202011091,Supermarket Type2,Regular,2015,Tier 2,0.6452415969104335
+Low-Fat Milk,Dairy Products,0.94,2.96,532.18,2025-01-11 08:54:45.850460,9,Medium,Packaged,8.4207920704394,Supermarket Type2,Low Fat,2015,Tier 2,0.8754889210403192
+Low-Fat Milk,Dairy Products,0.97,3.5100000000000002,577.9399999999999,2025-01-11 08:54:45.850831,4,Medium,Packaged,7.659309140838368,Supermarket Type2,Low Fat,2015,Tier 2,0.8226040294094527
+Cheese,Dairy Products,0.32999999999999996,5.27,242.77,2025-01-11 08:54:45.851210,60,Low,Packaged,7.267491027307554,Supermarket Type1,Full Fat,2010,Tier 1,0.9439186552550626
+Oats,Grains and Cereals,0.55,3.69,187.87,2025-01-11 08:54:45.851557,175,High,Packaged,7.408082416647148,Supermarket Type3,Regular,2018,Tier 3,0.8704383656383031
+White Rice,Grains and Cereals,1.04,2.12,578.75,2025-01-11 08:54:45.851939,367,Low,Packaged,6.744212112657959,Supermarket Type1,Regular,2010,Tier 1,0.8238678531819928
+Chocolate Cookies,Packaged Snacks,0.26,3.17,188.17000000000002,2025-01-11 08:54:45.852271,110,High,Packaged,9.54709743021339,Supermarket Type1,Regular,2012,Tier 1,1.0
+Low-Fat Milk,Dairy Products,0.95,3.46,213.87,2025-01-11 08:54:45.852643,21,Medium,Packaged,7.717895207738994,Supermarket Type2,Low Fat,2015,Tier 2,0.8351607200549703
+Energy Bars,Packaged Snacks,0.21,2.93,227.24,2025-01-11 08:54:45.852986,140,High,Packaged,9.713678164942351,Supermarket Type1,Regular,2010,Tier 1,0.8347471169245335
+Brown Rice,Grains and Cereals,0.97,3.13,133.54,2025-01-11 08:54:45.853338,182,Low,Packaged,7.20092300270665,Supermarket Type1,Regular,2012,Tier 1,0.8688840468037812
+Apple,Fruits and Vegetables,0.27,2.06,176.68,2025-01-11 08:54:45.853681,6,High,Loose,7.475503179358106,Supermarket Type1,Regular,2010,Tier 1,0.7687233019807236
+Orange,Fruits and Vegetables,0.24,2.42,226.84,2025-01-11 08:54:45.854032,14,High,Loose,6.908632979184778,Supermarket Type1,Regular,2012,Tier 1,0.7881449760273352
+Butter,Dairy Products,0.27,4.84,192.92000000000002,2025-01-11 08:54:45.854366,22,Medium,Packaged,7.340935162719052,Supermarket Type3,Full Fat,2018,Tier 3,0.8311990287183442
+Quinoa,Grains and Cereals,0.59,6.07,100.68,2025-01-11 08:54:45.854691,357,Medium,Packaged,8.878517820970071,Supermarket Type1,Regular,2010,Tier 1,0.9009971521319736
+Yogurt,Dairy Products,0.47,2.03,144.89,2025-01-11 08:54:45.855016,23,High,Packaged,8.19347631204078,Supermarket Type1,Low Fat,2012,Tier 1,0.8482319755172052
+Potato Chips,Packaged Snacks,0.23,2.31,297.47,2025-01-11 08:54:45.855360,87,High,Packaged,7.279476960160509,Supermarket Type2,Regular,2015,Tier 2,1.0
+Whole Milk,Dairy Products,0.9299999999999999,3.99,322.35,2025-01-11 08:54:45.855679,14,Medium,Packaged,8.126333148906067,Supermarket Type1,Full Fat,2010,Tier 1,0.8605670461671542
+Orange,Fruits and Vegetables,0.12,2.3,185.64,2025-01-11 08:54:45.856027,11,High,Loose,5.93892272132296,Supermarket Type1,Regular,2012,Tier 1,0.8275369793101635
+Oats,Grains and Cereals,0.47,3.54,180.29,2025-01-11 08:54:45.856438,189,High,Packaged,7.794663170365156,Supermarket Type3,Regular,2018,Tier 3,0.7837299334005019
+White Rice,Grains and Cereals,0.99,2.37,196.18,2025-01-11 08:54:45.856843,356,Low,Packaged,6.418017736338608,Supermarket Type2,Regular,2015,Tier 2,0.8460735647981764
+White Rice,Grains and Cereals,1.08,2.98,170.69,2025-01-11 08:54:45.857263,355,Low,Packaged,5.703368924611908,Supermarket Type2,Regular,2015,Tier 2,0.8353222616882372
+Yogurt,Dairy Products,0.5700000000000001,1.74,172.12,2025-01-11 08:54:45.857605,22,High,Packaged,9.91917463926253,Supermarket Type1,Low Fat,2012,Tier 1,0.9553243872555207
+White Rice,Grains and Cereals,1.02,2.06,570.15,2025-01-11 08:54:45.857956,372,Low,Packaged,5.769772111175342,Supermarket Type1,Regular,2010,Tier 1,0.847062997666528
+Butter,Dairy Products,0.26,4.85,179.03,2025-01-11 08:54:45.858328,20,Medium,Packaged,6.8306893092485845,Supermarket Type3,Full Fat,2018,Tier 3,0.7977077093677125
+Mixed Nuts,Packaged Snacks,0.33,5.47,187.01,2025-01-11 08:54:45.858653,188,Medium,Packaged,6.610224806302011,Supermarket Type3,Regular,2018,Tier 3,0.7827193906837946
+Low-Fat Milk,Dairy Products,1.0,3.54,575.7399999999999,2025-01-11 08:54:45.858979,14,Medium,Packaged,7.753666351995777,Supermarket Type2,Low Fat,2015,Tier 2,0.8249781825366796
+Yogurt,Dairy Products,0.5,1.94,185.94,2025-01-11 08:54:45.859351,16,High,Packaged,9.120484279445966,Supermarket Type1,Low Fat,2012,Tier 1,0.8129217911559998
+Mixed Nuts,Packaged Snacks,0.21,5.38,137.47,2025-01-11 08:54:45.859711,175,Medium,Packaged,7.837202325793685,Supermarket Type3,Regular,2018,Tier 3,0.9038948118226465
+Chocolate Cookies,Packaged Snacks,0.26,3.19,262.90999999999997,2025-01-11 08:54:45.860105,119,High,Packaged,9.792185565473133,Supermarket Type1,Regular,2012,Tier 1,1.0
+Orange,Fruits and Vegetables,0.26,1.94,218.96,2025-01-11 08:54:45.860624,26,High,Loose,6.030111259366679,Supermarket Type1,Regular,2012,Tier 1,0.7992256207770588
+Brown Rice,Grains and Cereals,1.04,2.89,151.39,2025-01-11 08:54:45.861188,176,Low,Packaged,7.708693465133592,Supermarket Type1,Regular,2012,Tier 1,0.7877083961619139
+Quinoa,Grains and Cereals,0.48,6.19,92.56,2025-01-11 08:54:45.861681,362,Medium,Packaged,9.773101859074254,Supermarket Type1,Regular,2010,Tier 1,0.8377089711778458
+Broccoli,Fruits and Vegetables,0.39,3.27,125.91,2025-01-11 08:54:45.862171,9,Low,Loose,6.373247358418448,Supermarket Type2,Regular,2015,Tier 2,0.7967709581134912
+Banana,Fruits and Vegetables,0.2,2.13,213.72,2025-01-11 08:54:45.862647,2,Medium,Loose,7.183119223496347,Supermarket Type2,Regular,2015,Tier 2,0.9005792303518356
+Energy Bars,Packaged Snacks,0.09,2.46,217.27,2025-01-11 08:54:45.863105,156,High,Packaged,8.294069375539157,Supermarket Type1,Regular,2010,Tier 1,0.9810633143678399
+Yogurt,Dairy Products,0.55,1.52,133.35,2025-01-11 08:54:45.863612,17,High,Packaged,8.863130431672703,Supermarket Type1,Low Fat,2012,Tier 1,0.8710544069997261
+Kiwi,Fruits and Vegetables,0.18,3.37,144.69,2025-01-11 08:54:45.864122,7,Low,Packaged,4.806471416285499,Supermarket Type3,Regular,2018,Tier 3,0.6855714479042645
+White Rice,Grains and Cereals,1.09,2.42,195.32,2025-01-11 08:54:45.864674,357,Low,Packaged,5.447047841129585,Supermarket Type2,Regular,2015,Tier 2,0.7567883633381682
+Whole Milk,Dairy Products,1.03,3.98,313.77,2025-01-11 08:54:45.865180,11,Medium,Packaged,8.522142382488521,Supermarket Type1,Full Fat,2010,Tier 1,1.0
+Kiwi,Fruits and Vegetables,0.2,3.19,113.83,2025-01-11 08:54:45.865702,17,Low,Packaged,4.878954228699014,Supermarket Type3,Regular,2018,Tier 3,0.6890480876698646
+Apple,Fruits and Vegetables,0.16,2.99,123.11,2025-01-11 08:54:45.866210,4,High,Loose,7.219452153236054,Supermarket Type1,Regular,2010,Tier 1,0.8424486553432105
+Banana,Fruits and Vegetables,0.04999999999999999,1.67,208.41,2025-01-11 08:54:45.866681,6,Medium,Loose,7.285276743285228,Supermarket Type2,Regular,2015,Tier 2,0.9707132041906571
+Banana,Fruits and Vegetables,0.09999999999999999,1.84,566.03,2025-01-11 08:54:45.867130,13,Medium,Loose,6.800917024163059,Supermarket Type2,Regular,2015,Tier 2,0.9640862813082223
+Butter,Dairy Products,0.28,4.83,108.94,2025-01-11 08:54:45.867518,25,Medium,Packaged,7.115725202681216,Supermarket Type3,Full Fat,2018,Tier 3,0.879614912070413
+Cheese,Dairy Products,0.25,5.18,207.01,2025-01-11 08:54:45.867836,50,Low,Packaged,8.790769292213975,Supermarket Type1,Full Fat,2010,Tier 1,0.9156404629526815
+Quinoa,Grains and Cereals,0.58,6.18,153.23,2025-01-11 08:54:45.868180,361,Medium,Packaged,9.889852586065695,Supermarket Type1,Regular,2010,Tier 1,0.8796607825735996
+Low-Fat Milk,Dairy Products,0.92,2.99,245.19,2025-01-11 08:54:45.868610,5,Medium,Packaged,8.207087851363413,Supermarket Type2,Low Fat,2015,Tier 2,0.7961871506530959
+Chocolate Cookies,Packaged Snacks,0.33999999999999997,3.43,235.52,2025-01-11 08:54:45.868952,119,High,Packaged,9.14763658280243,Supermarket Type1,Regular,2012,Tier 1,0.966979088702643
+Potato Chips,Packaged Snacks,0.25,1.6099999999999999,265.09,2025-01-11 08:54:45.869334,93,High,Packaged,8.389840344677406,Supermarket Type2,Regular,2015,Tier 2,0.9369647037841257
+Whole Milk,Dairy Products,0.97,3.1,320.3,2025-01-11 08:54:45.869750,5,Medium,Packaged,9.926995530261031,Supermarket Type1,Full Fat,2010,Tier 1,1.0
+Banana,Fruits and Vegetables,0.18,1.46,582.0699999999999,2025-01-11 08:54:45.870123,11,Medium,Loose,7.323770213566314,Supermarket Type2,Regular,2015,Tier 2,0.8841830838732633
+White Rice,Grains and Cereals,1.05,2.95,209.9,2025-01-11 08:54:45.870525,361,Low,Packaged,5.71219809084192,Supermarket Type2,Regular,2015,Tier 2,0.7217623947539417
+Banana,Fruits and Vegetables,0.10999999999999999,1.3800000000000001,191.93,2025-01-11 08:54:45.870931,11,Medium,Loose,7.740123234860023,Supermarket Type2,Regular,2015,Tier 2,0.8628920157778209
+Banana,Fruits and Vegetables,0.06,1.97,185.0,2025-01-11 08:54:45.871338,3,Medium,Loose,7.363425782434764,Supermarket Type2,Regular,2015,Tier 2,0.998811754244269
+White Rice,Grains and Cereals,0.96,2.31,531.5999999999999,2025-01-11 08:54:45.871711,362,Low,Packaged,6.460453286699953,Supermarket Type1,Regular,2010,Tier 1,0.8861834984739357
+Orange,Fruits and Vegetables,0.25,1.75,209.15,2025-01-11 08:54:45.872090,29,High,Loose,5.982074055533071,Supermarket Type1,Regular,2012,Tier 1,0.7413147726204223
+Energy Bars,Packaged Snacks,0.13999999999999999,2.08,244.57999999999998,2025-01-11 08:54:45.872535,141,High,Packaged,8.100312612220128,Supermarket Type1,Regular,2010,Tier 1,0.8394644413488079
+Potato Chips,Packaged Snacks,0.11000000000000001,1.69,205.2,2025-01-11 08:54:45.872921,87,High,Packaged,8.560648627159127,Supermarket Type2,Regular,2015,Tier 2,0.8602936145404194
+Banana,Fruits and Vegetables,0.25,1.3,603.28,2025-01-11 08:54:45.873297,5,Medium,Loose,6.639977422694152,Supermarket Type2,Regular,2015,Tier 2,0.860742861145373
+Yogurt,Dairy Products,0.47,2.39,179.73,2025-01-11 08:54:45.873710,15,High,Packaged,8.196740241554412,Supermarket Type1,Low Fat,2012,Tier 1,0.8199104527775795
+Energy Bars,Packaged Snacks,0.09,2.27,222.37,2025-01-11 08:54:45.874113,149,High,Packaged,8.771073712028006,Supermarket Type1,Regular,2010,Tier 1,0.829736281402552
+Banana,Fruits and Vegetables,0.12,1.4500000000000002,172.27,2025-01-11 08:54:45.874555,1,Medium,Loose,7.488209705212649,Supermarket Type2,Regular,2015,Tier 2,0.8510241410361465
+Brown Rice,Grains and Cereals,0.95,2.58,142.87,2025-01-11 08:54:45.874958,181,Low,Packaged,7.029553477024829,Supermarket Type1,Regular,2012,Tier 1,0.737479840979308
+Banana,Fruits and Vegetables,0.13999999999999999,2.0700000000000003,525.5799999999999,2025-01-11 08:54:45.875320,16,Medium,Loose,7.532594155156827,Supermarket Type2,Regular,2015,Tier 2,0.9022325765250676
+Mixed Nuts,Packaged Snacks,0.24,4.67,226.86,2025-01-11 08:54:45.875746,188,Medium,Packaged,7.423674822227884,Supermarket Type3,Regular,2018,Tier 3,0.8096385025701691
+Low-Fat Milk,Dairy Products,1.09,2.8600000000000003,595.18,2025-01-11 08:54:45.876175,23,Medium,Packaged,7.536556532560786,Supermarket Type2,Low Fat,2015,Tier 2,0.8869923103284657
+White Rice,Grains and Cereals,1.07,2.77,564.81,2025-01-11 08:54:45.876620,357,Low,Packaged,5.4964355634439475,Supermarket Type1,Regular,2010,Tier 1,0.8667801379848291
+Butter,Dairy Products,0.28,4.07,158.3,2025-01-11 08:54:45.877005,21,Medium,Packaged,7.521660915107988,Supermarket Type3,Full Fat,2018,Tier 3,0.7278735679980627
+White Rice,Grains and Cereals,0.91,2.49,143.98,2025-01-11 08:54:45.877375,370,Low,Packaged,6.99165786844751,Supermarket Type2,Regular,2015,Tier 2,0.7543957125521789
+Broccoli,Fruits and Vegetables,0.4,3.67,99.45,2025-01-11 08:54:45.877746,13,Low,Loose,5.388976153966174,Supermarket Type2,Regular,2015,Tier 2,0.6753441774065707
+Brown Rice,Grains and Cereals,1.02,3.5,194.1,2025-01-11 08:54:45.878133,171,Low,Packaged,7.539305347266815,Supermarket Type1,Regular,2012,Tier 1,0.8840614606624733
+Orange,Fruits and Vegetables,0.09999999999999999,2.32,140.51,2025-01-11 08:54:45.878502,12,High,Loose,6.2186829574915965,Supermarket Type1,Regular,2012,Tier 1,0.7144452664289049
+Kiwi,Fruits and Vegetables,0.19,2.98,117.5,2025-01-11 08:54:45.878891,8,Low,Packaged,5.145568244521812,Supermarket Type3,Regular,2018,Tier 3,0.6311372773126356
+Oats,Grains and Cereals,0.51,3.66,151.86,2025-01-11 08:54:45.879271,181,High,Packaged,7.759093233090478,Supermarket Type3,Regular,2018,Tier 3,0.8744452585074255
+Energy Bars,Packaged Snacks,0.2,2.89,196.91,2025-01-11 08:54:45.879644,148,High,Packaged,8.195659117701505,Supermarket Type1,Regular,2010,Tier 1,0.9894686217994421
+Butter,Dairy Products,0.19,4.94,170.41,2025-01-11 08:54:45.880055,32,Medium,Packaged,7.400163148276732,Supermarket Type3,Full Fat,2018,Tier 3,0.7956111445079964
+Quinoa,Grains and Cereals,0.47,5.54,111.44,2025-01-11 08:54:45.880495,372,Medium,Packaged,9.965023810653072,Supermarket Type1,Regular,2010,Tier 1,0.8989300426926204
+Oats,Grains and Cereals,0.42,3.75,146.74,2025-01-11 08:54:45.880893,174,High,Packaged,7.5305716521488595,Supermarket Type3,Regular,2018,Tier 3,0.8439512097372197
+Brown Rice,Grains and Cereals,0.97,3.22,160.98,2025-01-11 08:54:45.881302,184,Low,Packaged,6.813307568245666,Supermarket Type1,Regular,2012,Tier 1,0.8845293582569558
+Spinach,Fruits and Vegetables,0.35,2.24,111.38,2025-01-11 08:54:45.881699,1,Medium,Loose,6.068723315105486,Supermarket Type1,Regular,2010,Tier 1,0.8005895414487983
+Low-Fat Milk,Dairy Products,0.95,3.16,264.91,2025-01-11 08:54:45.882072,5,Medium,Packaged,7.663510759782308,Supermarket Type2,Low Fat,2015,Tier 2,0.8852139679757599
+Quinoa,Grains and Cereals,0.44,6.32,151.48,2025-01-11 08:54:45.882451,365,Medium,Packaged,9.613399204507601,Supermarket Type1,Regular,2010,Tier 1,0.8706241916124152
+Potato Chips,Packaged Snacks,0.2,2.45,283.14,2025-01-11 08:54:45.882844,82,High,Packaged,7.258468285723279,Supermarket Type2,Regular,2015,Tier 2,0.8422440376019682
+Whole Milk,Dairy Products,0.97,3.57,325.84,2025-01-11 08:54:45.883234,21,Medium,Packaged,9.789339205328481,Supermarket Type1,Full Fat,2010,Tier 1,0.8679260662302556
+Kiwi,Fruits and Vegetables,0.19,3.0,133.16,2025-01-11 08:54:45.883640,18,Low,Packaged,5.102814175766039,Supermarket Type3,Regular,2018,Tier 3,0.6915462334686905
+Oats,Grains and Cereals,0.58,3.15,144.46,2025-01-11 08:54:45.884052,182,High,Packaged,7.432549460679872,Supermarket Type3,Regular,2018,Tier 3,0.8074153924288743
+Yogurt,Dairy Products,0.42,1.9,206.54,2025-01-11 08:54:45.884520,26,High,Packaged,8.81880487572208,Supermarket Type1,Low Fat,2012,Tier 1,0.8143255333551439
+Broccoli,Fruits and Vegetables,0.39,3.3,105.48,2025-01-11 08:54:45.884916,16,Low,Loose,6.51354373293315,Supermarket Type2,Regular,2015,Tier 2,0.8197217822325242
+Broccoli,Fruits and Vegetables,0.4,3.24,94.55,2025-01-11 08:54:45.885273,1,Low,Loose,6.156646832300021,Supermarket Type2,Regular,2015,Tier 2,0.8053220618518351
+Oats,Grains and Cereals,0.46,3.26,161.7,2025-01-11 08:54:45.885627,184,High,Packaged,7.9017356677979205,Supermarket Type3,Regular,2018,Tier 3,0.8376320301782251
+White Rice,Grains and Cereals,0.99,2.51,152.73,2025-01-11 08:54:45.886014,371,Low,Packaged,6.839248001100302,Supermarket Type2,Regular,2015,Tier 2,0.8496197034239098
+Orange,Fruits and Vegetables,0.09999999999999999,2.48,152.86,2025-01-11 08:54:45.886397,29,High,Loose,5.683864617204496,Supermarket Type1,Regular,2012,Tier 1,0.8245462846003047
+Orange,Fruits and Vegetables,0.22999999999999998,2.02,151.96,2025-01-11 08:54:45.886913,11,High,Loose,5.426944199258294,Supermarket Type1,Regular,2012,Tier 1,0.6902213769525829
+Cheese,Dairy Products,0.32,5.39,249.97,2025-01-11 08:54:45.887429,55,Low,Packaged,7.9254663568838915,Supermarket Type1,Full Fat,2010,Tier 1,0.8241692914126731
+Brown Rice,Grains and Cereals,0.91,3.2800000000000002,140.53,2025-01-11 08:54:45.887921,181,Low,Packaged,6.680388874815577,Supermarket Type1,Regular,2012,Tier 1,0.7397751930408109
+Chocolate Cookies,Packaged Snacks,0.38,2.81,258.98,2025-01-11 08:54:45.888422,117,High,Packaged,9.100573492055839,Supermarket Type1,Regular,2012,Tier 1,0.916282291323915
+Oats,Grains and Cereals,0.54,3.19,201.62,2025-01-11 08:54:45.888927,172,High,Packaged,7.3952488646449615,Supermarket Type3,Regular,2018,Tier 3,0.9227113501414012
+Yogurt,Dairy Products,0.4,1.71,199.18,2025-01-11 08:54:45.889396,18,High,Packaged,8.211907827470336,Supermarket Type1,Low Fat,2012,Tier 1,0.9556086132529356
+White Rice,Grains and Cereals,0.92,2.9699999999999998,167.8,2025-01-11 08:54:45.889854,356,Low,Packaged,5.626286290168711,Supermarket Type2,Regular,2015,Tier 2,0.8498693581834624
+Cheese,Dairy Products,0.27999999999999997,4.72,189.76,2025-01-11 08:54:45.890330,60,Low,Packaged,8.708096183756483,Supermarket Type1,Full Fat,2010,Tier 1,0.846324595787798
+White Rice,Grains and Cereals,1.02,2.58,529.6999999999999,2025-01-11 08:54:45.890798,373,Low,Packaged,6.466109660554305,Supermarket Type1,Regular,2010,Tier 1,0.7936171003481599
+Butter,Dairy Products,0.27,4.89,187.51,2025-01-11 08:54:45.891282,36,Medium,Packaged,6.370667748923892,Supermarket Type3,Full Fat,2018,Tier 3,0.9061890661916184
+Mixed Nuts,Packaged Snacks,0.33,4.61,159.76,2025-01-11 08:54:45.891727,180,Medium,Packaged,6.782010408314789,Supermarket Type3,Regular,2018,Tier 3,0.9454250424401343
+Brown Rice,Grains and Cereals,0.94,3.48,143.25,2025-01-11 08:54:45.892115,173,Low,Packaged,6.380952232560337,Supermarket Type1,Regular,2012,Tier 1,0.7715498934143504
+Banana,Fruits and Vegetables,0.16,2.14,163.98,2025-01-11 08:54:45.892623,7,Medium,Loose,6.169909594866092,Supermarket Type2,Regular,2015,Tier 2,0.9772273062974767
+Yogurt,Dairy Products,0.41000000000000003,1.75,131.31,2025-01-11 08:54:45.892968,27,High,Packaged,9.412237339131037,Supermarket Type1,Low Fat,2012,Tier 1,1.0
+Kiwi,Fruits and Vegetables,0.03,2.68,70.25999999999999,2025-01-11 08:54:45.893329,7,Low,Packaged,5.466944822726703,Supermarket Type3,Regular,2018,Tier 3,0.6921978814111114
+Chocolate Cookies,Packaged Snacks,0.25,3.23,229.84,2025-01-11 08:54:45.893716,128,High,Packaged,9.737265085104791,Supermarket Type1,Regular,2012,Tier 1,0.9536059028004205
+Butter,Dairy Products,0.29,4.77,143.02,2025-01-11 08:54:45.894051,36,Medium,Packaged,7.183067878674279,Supermarket Type3,Full Fat,2018,Tier 3,0.7782328300138653
+Orange,Fruits and Vegetables,0.24,2.41,159.18,2025-01-11 08:54:45.894419,17,High,Loose,5.154154754791568,Supermarket Type1,Regular,2012,Tier 1,0.8059026941942444
+Oats,Grains and Cereals,0.52,3.71,166.5,2025-01-11 08:54:45.894797,180,High,Packaged,7.5581426700680465,Supermarket Type3,Regular,2018,Tier 3,0.9165888355116273
+White Rice,Grains and Cereals,0.9299999999999999,2.67,522.2099999999999,2025-01-11 08:54:45.895131,363,Low,Packaged,6.755549310508575,Supermarket Type1,Regular,2010,Tier 1,0.758931789632916
+Mixed Nuts,Packaged Snacks,0.16,4.94,182.54,2025-01-11 08:54:45.895455,183,Medium,Packaged,7.810503962005717,Supermarket Type3,Regular,2018,Tier 3,0.8291996529869191
+Chocolate Cookies,Packaged Snacks,0.22999999999999998,2.64,242.19,2025-01-11 08:54:45.895797,118,High,Packaged,9.957935642420223,Supermarket Type1,Regular,2012,Tier 1,0.9872317779817052
+Banana,Fruits and Vegetables,0.22,1.44,245.04,2025-01-11 08:54:45.896129,2,Medium,Loose,7.329757297975765,Supermarket Type2,Regular,2015,Tier 2,0.8798489789642269
+Low-Fat Milk,Dairy Products,0.95,2.7800000000000002,259.73,2025-01-11 08:54:45.896538,8,Medium,Packaged,7.802708715755679,Supermarket Type2,Low Fat,2015,Tier 2,0.9009644152607638
+Yogurt,Dairy Products,0.53,1.75,139.19,2025-01-11 08:54:45.897009,30,High,Packaged,9.701877994583084,Supermarket Type1,Low Fat,2012,Tier 1,0.872486401076459
+Kiwi,Fruits and Vegetables,0.14,3.38,94.59,2025-01-11 08:54:45.897346,21,Low,Packaged,5.351296336144063,Supermarket Type3,Regular,2018,Tier 3,0.6755147594228761
+Chocolate Cookies,Packaged Snacks,0.32,2.59,207.58,2025-01-11 08:54:45.897652,123,High,Packaged,9.755135565565574,Supermarket Type1,Regular,2012,Tier 1,0.9767668057215537
+White Rice,Grains and Cereals,1.01,2.01,160.78,2025-01-11 08:54:45.897983,364,Low,Packaged,5.298177331476068,Supermarket Type2,Regular,2015,Tier 2,0.6703793400827869
+Butter,Dairy Products,0.24,4.86,158.95,2025-01-11 08:54:45.898305,36,Medium,Packaged,6.119449334863516,Supermarket Type3,Full Fat,2018,Tier 3,0.8002557089182863
+Kiwi,Fruits and Vegetables,0.15000000000000002,2.51,135.8,2025-01-11 08:54:45.898627,16,Low,Packaged,5.368386708419928,Supermarket Type3,Regular,2018,Tier 3,0.6945954813617808
+Spinach,Fruits and Vegetables,0.21999999999999997,2.04,58.379999999999995,2025-01-11 08:54:45.898939,1,Medium,Loose,6.983912450667325,Supermarket Type1,Regular,2010,Tier 1,0.9491879648502664
+Butter,Dairy Products,0.16,4.77,107.19,2025-01-11 08:54:45.899276,33,Medium,Packaged,7.105687534285081,Supermarket Type3,Full Fat,2018,Tier 3,0.8390633263513372
+Yogurt,Dairy Products,0.49,2.37,157.86,2025-01-11 08:54:45.899584,15,High,Packaged,9.830636306468827,Supermarket Type1,Low Fat,2012,Tier 1,0.8446618777457987
+Low-Fat Milk,Dairy Products,1.07,3.0,245.05,2025-01-11 08:54:45.899883,8,Medium,Packaged,7.354888101266199,Supermarket Type2,Low Fat,2015,Tier 2,0.8244226623249628
+Butter,Dairy Products,0.2,4.16,184.35,2025-01-11 08:54:45.900244,20,Medium,Packaged,6.140717449420958,Supermarket Type3,Full Fat,2018,Tier 3,0.7941711821727968
+Yogurt,Dairy Products,0.59,1.96,180.78,2025-01-11 08:54:45.900717,11,High,Packaged,9.015916952365345,Supermarket Type1,Low Fat,2012,Tier 1,0.8653953164545651
+Banana,Fruits and Vegetables,0.22999999999999998,1.75,184.36,2025-01-11 08:54:45.901057,11,Medium,Loose,7.058220323611758,Supermarket Type2,Regular,2015,Tier 2,1.0
+Yogurt,Dairy Products,0.48,2.06,177.58,2025-01-11 08:54:45.901434,20,High,Packaged,9.685256268866613,Supermarket Type1,Low Fat,2012,Tier 1,0.8734261626010008
+Banana,Fruits and Vegetables,0.07999999999999999,1.84,535.0999999999999,2025-01-11 08:54:45.901820,1,Medium,Loose,7.642909658725316,Supermarket Type2,Regular,2015,Tier 2,0.8364575212121466
+Orange,Fruits and Vegetables,0.09999999999999999,2.43,210.66,2025-01-11 08:54:45.902191,11,High,Loose,5.298091916986502,Supermarket Type1,Regular,2012,Tier 1,0.7650113859443353
+Low-Fat Milk,Dairy Products,1.09,2.99,253.21,2025-01-11 08:54:45.902542,4,Medium,Packaged,7.309739135821755,Supermarket Type2,Low Fat,2015,Tier 2,0.9646841081238182
+Energy Bars,Packaged Snacks,0.13,2.7,247.37,2025-01-11 08:54:45.902917,149,High,Packaged,8.822443210177926,Supermarket Type1,Regular,2010,Tier 1,0.8528410930456995
+Energy Bars,Packaged Snacks,0.16999999999999998,2.15,150.7,2025-01-11 08:54:45.903242,152,High,Packaged,9.181002844047544,Supermarket Type1,Regular,2010,Tier 1,1.0
+Kiwi,Fruits and Vegetables,0.16,2.74,146.21,2025-01-11 08:54:45.903580,16,Low,Packaged,4.436730262470663,Supermarket Type3,Regular,2018,Tier 3,0.7268287479469483
+Quinoa,Grains and Cereals,0.52,6.34,164.63,2025-01-11 08:54:45.903909,372,Medium,Packaged,9.557652148228724,Supermarket Type1,Regular,2010,Tier 1,0.7431764786100665
+Banana,Fruits and Vegetables,0.2,2.21,190.76,2025-01-11 08:54:45.904236,9,Medium,Loose,7.367680105987616,Supermarket Type2,Regular,2015,Tier 2,0.9521680333675957
+Cheese,Dairy Products,0.29,4.6,236.79,2025-01-11 08:54:45.904683,56,Low,Packaged,8.690625237093835,Supermarket Type1,Full Fat,2010,Tier 1,0.8622676251847333
+White Rice,Grains and Cereals,0.97,2.75,615.0899999999999,2025-01-11 08:54:45.905055,364,Low,Packaged,6.83792297957472,Supermarket Type1,Regular,2010,Tier 1,0.8965813545441754
+White Rice,Grains and Cereals,0.92,2.76,613.88,2025-01-11 08:54:45.905382,364,Low,Packaged,6.188760516386903,Supermarket Type1,Regular,2010,Tier 1,0.7835425739021264
+Cheese,Dairy Products,0.21999999999999997,5.0,201.98,2025-01-11 08:54:45.905720,51,Low,Packaged,7.305637477246768,Supermarket Type1,Full Fat,2010,Tier 1,0.9028947082057952
+Potato Chips,Packaged Snacks,0.16,1.58,233.93,2025-01-11 08:54:45.906061,95,High,Packaged,7.974087816163472,Supermarket Type2,Regular,2015,Tier 2,0.9643126981568251
+Potato Chips,Packaged Snacks,0.22,1.98,250.97,2025-01-11 08:54:45.906376,84,High,Packaged,7.17643133185753,Supermarket Type2,Regular,2015,Tier 2,0.9897422811591686
+Brown Rice,Grains and Cereals,0.98,2.62,192.71,2025-01-11 08:54:45.906694,170,Low,Packaged,6.356170032227771,Supermarket Type1,Regular,2012,Tier 1,0.7395419204542051
+Low-Fat Milk,Dairy Products,1.06,2.8200000000000003,536.1999999999999,2025-01-11 08:54:45.907033,5,Medium,Packaged,8.952115608009843,Supermarket Type2,Low Fat,2015,Tier 2,0.8891309550680103
+Low-Fat Milk,Dairy Products,1.03,2.72,276.99,2025-01-11 08:54:45.907360,4,Medium,Packaged,7.164181348343821,Supermarket Type2,Low Fat,2015,Tier 2,0.9733694632857062
+Brown Rice,Grains and Cereals,1.06,2.78,163.28,2025-01-11 08:54:45.907671,187,Low,Packaged,7.24686750957104,Supermarket Type1,Regular,2012,Tier 1,0.8209497777512287
+Mixed Nuts,Packaged Snacks,0.33999999999999997,4.74,164.81,2025-01-11 08:54:45.908032,178,Medium,Packaged,7.7043010108278684,Supermarket Type3,Regular,2018,Tier 3,0.9071683574717664
+Quinoa,Grains and Cereals,0.52,6.0,164.59,2025-01-11 08:54:45.908431,366,Medium,Packaged,8.657102055617054,Supermarket Type1,Regular,2010,Tier 1,0.7967585487431953
+Orange,Fruits and Vegetables,0.13999999999999999,1.9,191.96,2025-01-11 08:54:45.908775,12,High,Loose,5.819221211871046,Supermarket Type1,Regular,2012,Tier 1,0.7896598104409789
+Butter,Dairy Products,0.31,4.45,174.05,2025-01-11 08:54:45.909128,21,Medium,Packaged,6.296624124815898,Supermarket Type3,Full Fat,2018,Tier 3,0.740815605048601
+Apple,Fruits and Vegetables,0.24000000000000002,2.68,165.08,2025-01-11 08:54:45.909459,10,High,Loose,8.612544088908821,Supermarket Type1,Regular,2010,Tier 1,0.8636476457512614
+Low-Fat Milk,Dairy Products,0.99,2.79,543.7399999999999,2025-01-11 08:54:45.909762,4,Medium,Packaged,8.954536092917143,Supermarket Type2,Low Fat,2015,Tier 2,0.8415085417280813
+Banana,Fruits and Vegetables,0.06,1.3800000000000001,204.47,2025-01-11 08:54:45.910098,11,Medium,Loose,7.922127224846603,Supermarket Type2,Regular,2015,Tier 2,0.9661872524587904
+Oats,Grains and Cereals,0.49,3.52,148.86,2025-01-11 08:54:45.910450,180,High,Packaged,8.9287078263864,Supermarket Type3,Regular,2018,Tier 3,0.9386762554069179
+Mixed Nuts,Packaged Snacks,0.28,4.53,227.75,2025-01-11 08:54:45.910792,182,Medium,Packaged,7.166310941748353,Supermarket Type3,Regular,2018,Tier 3,0.9122926114771024
+Apple,Fruits and Vegetables,0.16,2.09,121.03999999999999,2025-01-11 08:54:45.911133,10,High,Loose,8.87616451624059,Supermarket Type1,Regular,2010,Tier 1,0.8472262818321576
+Butter,Dairy Products,0.33,4.55,171.4,2025-01-11 08:54:45.911506,34,Medium,Packaged,6.254142870796606,Supermarket Type3,Full Fat,2018,Tier 3,0.9147208291712718
+Kiwi,Fruits and Vegetables,0.16,3.16,168.3,2025-01-11 08:54:45.911848,8,Low,Packaged,5.923681874700428,Supermarket Type3,Regular,2018,Tier 3,0.60684389896603
+Mixed Nuts,Packaged Snacks,0.19,4.71,153.41,2025-01-11 08:54:45.912238,176,Medium,Packaged,7.724484381792974,Supermarket Type3,Regular,2018,Tier 3,0.8829774288213853
+Whole Milk,Dairy Products,1.1,3.21,282.29,2025-01-11 08:54:45.912654,13,Medium,Packaged,9.96602287108534,Supermarket Type1,Full Fat,2010,Tier 1,0.966153315958034
+Apple,Fruits and Vegetables,0.26,2.91,127.57,2025-01-11 08:54:45.912970,15,High,Loose,8.799246342746791,Supermarket Type1,Regular,2010,Tier 1,0.7513568203250693
+Spinach,Fruits and Vegetables,0.27999999999999997,2.21,129.61,2025-01-11 08:54:45.913305,1,Medium,Loose,6.9008181772015735,Supermarket Type1,Regular,2010,Tier 1,0.8519254831868257
+Yogurt,Dairy Products,0.44,1.82,134.25,2025-01-11 08:54:45.913645,12,High,Packaged,9.531287590824231,Supermarket Type1,Low Fat,2012,Tier 1,0.8908372787802077
+Banana,Fruits and Vegetables,0.2,2.2600000000000002,611.31,2025-01-11 08:54:45.913980,10,Medium,Loose,7.3955411909406426,Supermarket Type2,Regular,2015,Tier 2,0.9145861106840819
+Cheese,Dairy Products,0.33999999999999997,4.74,158.52,2025-01-11 08:54:45.914320,66,Low,Packaged,7.96100882180568,Supermarket Type1,Full Fat,2010,Tier 1,0.9477663943920687
+Spinach,Fruits and Vegetables,0.38,2.1500000000000004,137.0,2025-01-11 08:54:45.914726,5,Medium,Loose,6.677119097054969,Supermarket Type1,Regular,2010,Tier 1,0.9726605572137219
+Low-Fat Milk,Dairy Products,1.0,3.4800000000000004,217.84,2025-01-11 08:54:45.915067,10,Medium,Packaged,8.358224298160275,Supermarket Type2,Low Fat,2015,Tier 2,0.9484762520710156
+Low-Fat Milk,Dairy Products,1.02,2.79,617.5,2025-01-11 08:54:45.915401,19,Medium,Packaged,7.054317320969969,Supermarket Type2,Low Fat,2015,Tier 2,0.977968472409915
+Butter,Dairy Products,0.33,4.07,109.06,2025-01-11 08:54:45.915747,24,Medium,Packaged,7.579304600090811,Supermarket Type3,Full Fat,2018,Tier 3,0.8065165470072505
+Spinach,Fruits and Vegetables,0.19999999999999998,2.1,47.07,2025-01-11 08:54:45.916054,1,Medium,Loose,6.936516200407416,Supermarket Type1,Regular,2010,Tier 1,0.9014810739377238
+Butter,Dairy Products,0.29,4.21,139.18,2025-01-11 08:54:45.916393,22,Medium,Packaged,6.757350122168392,Supermarket Type3,Full Fat,2018,Tier 3,0.9188410162732409
+Potato Chips,Packaged Snacks,0.19,2.06,273.82,2025-01-11 08:54:45.916756,91,High,Packaged,8.23110322116882,Supermarket Type2,Regular,2015,Tier 2,0.9098248363108684
+Potato Chips,Packaged Snacks,0.19,2.38,271.4,2025-01-11 08:54:45.917074,94,High,Packaged,8.73697429837439,Supermarket Type2,Regular,2015,Tier 2,0.9139778548511228
+Energy Bars,Packaged Snacks,0.25,2.14,224.28,2025-01-11 08:54:45.917382,143,High,Packaged,8.163974281185947,Supermarket Type1,Regular,2010,Tier 1,0.9971627344504513
+Orange,Fruits and Vegetables,0.25,2.36,141.52,2025-01-11 08:54:45.917756,20,High,Loose,6.393232560614605,Supermarket Type1,Regular,2012,Tier 1,0.6877908461779376
+White Rice,Grains and Cereals,1.02,2.09,535.8699999999999,2025-01-11 08:54:45.918088,359,Low,Packaged,6.19879795974127,Supermarket Type1,Regular,2010,Tier 1,0.7846726722926889
+Potato Chips,Packaged Snacks,0.29000000000000004,1.5,272.46,2025-01-11 08:54:45.918392,85,High,Packaged,8.350199327592556,Supermarket Type2,Regular,2015,Tier 2,0.9456976998758981
+Banana,Fruits and Vegetables,0.09,1.8800000000000001,150.3,2025-01-11 08:54:45.918730,7,Medium,Loose,6.030167435186162,Supermarket Type2,Regular,2015,Tier 2,0.8725947471725096
+Butter,Dairy Products,0.33,4.79,113.64,2025-01-11 08:54:45.919080,33,Medium,Packaged,6.8042696732178545,Supermarket Type3,Full Fat,2018,Tier 3,0.7283297661567804
+Spinach,Fruits and Vegetables,0.29,2.14,114.5,2025-01-11 08:54:45.919386,4,Medium,Loose,6.06850572458964,Supermarket Type1,Regular,2010,Tier 1,0.9277956045549106
+Oats,Grains and Cereals,0.5,3.23,188.82999999999998,2025-01-11 08:54:45.919720,170,High,Packaged,8.21270093419823,Supermarket Type3,Regular,2018,Tier 3,0.8899245692071066
+Low-Fat Milk,Dairy Products,1.05,3.24,216.29,2025-01-11 08:54:45.920081,20,Medium,Packaged,7.201944809778195,Supermarket Type2,Low Fat,2015,Tier 2,0.875749415142664
+Mixed Nuts,Packaged Snacks,0.22,5.22,134.07,2025-01-11 08:54:45.920487,180,Medium,Packaged,6.588622657046871,Supermarket Type3,Regular,2018,Tier 3,0.9288191749999901
+Mixed Nuts,Packaged Snacks,0.3,5.07,170.1,2025-01-11 08:54:45.920875,188,Medium,Packaged,6.010613778246322,Supermarket Type3,Regular,2018,Tier 3,0.818183052467106
+Orange,Fruits and Vegetables,0.09999999999999999,1.51,192.02,2025-01-11 08:54:45.921240,28,High,Loose,5.160615688459154,Supermarket Type1,Regular,2012,Tier 1,0.7304645610437301
+Orange,Fruits and Vegetables,0.16999999999999998,1.62,162.99,2025-01-11 08:54:45.921558,13,High,Loose,6.524609868220022,Supermarket Type1,Regular,2012,Tier 1,0.804687515859804
+Chocolate Cookies,Packaged Snacks,0.24,2.86,251.01,2025-01-11 08:54:45.921907,119,High,Packaged,9.40817813608362,Supermarket Type1,Regular,2012,Tier 1,0.9598509875987246
+Low-Fat Milk,Dairy Products,0.99,2.75,254.06,2025-01-11 08:54:45.922285,10,Medium,Packaged,8.206044086937181,Supermarket Type2,Low Fat,2015,Tier 2,0.7942846460208458
+Brown Rice,Grains and Cereals,0.99,2.79,116.84,2025-01-11 08:54:45.922667,184,Low,Packaged,6.572760106535192,Supermarket Type1,Regular,2012,Tier 1,0.731752233402402
+Orange,Fruits and Vegetables,0.25,2.09,142.17000000000002,2025-01-11 08:54:45.923017,30,High,Loose,5.7592764912180785,Supermarket Type1,Regular,2012,Tier 1,0.8461569038679319
+Chocolate Cookies,Packaged Snacks,0.25,3.01,185.84,2025-01-11 08:54:45.923326,114,High,Packaged,9.079829929755654,Supermarket Type1,Regular,2012,Tier 1,0.8814089010170312
+Apple,Fruits and Vegetables,0.18000000000000002,2.35,148.15,2025-01-11 08:54:45.923625,23,High,Loose,8.348500994920999,Supermarket Type1,Regular,2010,Tier 1,0.8621584454434277
+Quinoa,Grains and Cereals,0.5,6.42,115.65,2025-01-11 08:54:45.923960,360,Medium,Packaged,9.579789277105448,Supermarket Type1,Regular,2010,Tier 1,0.8716002631135815
+Spinach,Fruits and Vegetables,0.32,2.6,59.86,2025-01-11 08:54:45.924289,1,Medium,Loose,6.100724517743691,Supermarket Type1,Regular,2010,Tier 1,0.9018468161677575
+Whole Milk,Dairy Products,0.92,3.11,261.84000000000003,2025-01-11 08:54:45.924700,18,Medium,Packaged,8.296333407831886,Supermarket Type1,Full Fat,2010,Tier 1,0.9537087507004358
+Apple,Fruits and Vegetables,0.28,2.31,163.72,2025-01-11 08:54:45.925108,7,High,Loose,8.346476672402856,Supermarket Type1,Regular,2010,Tier 1,0.7697430680410986
+Apple,Fruits and Vegetables,0.1,2.89,147.64,2025-01-11 08:54:45.925448,19,High,Loose,7.765887962045408,Supermarket Type1,Regular,2010,Tier 1,0.8642882390748096
+Banana,Fruits and Vegetables,0.06,1.87,615.02,2025-01-11 08:54:45.925769,1,Medium,Loose,7.661145991077937,Supermarket Type2,Regular,2015,Tier 2,0.9338110698710907
+Oats,Grains and Cereals,0.58,3.84,148.16,2025-01-11 08:54:45.926097,173,High,Packaged,8.630922093003202,Supermarket Type3,Regular,2018,Tier 3,0.819587413542866
+Whole Milk,Dairy Products,1.08,3.5,283.51,2025-01-11 08:54:45.926421,5,Medium,Packaged,8.192645118878541,Supermarket Type1,Full Fat,2010,Tier 1,0.9226897760874553
+Yogurt,Dairy Products,0.43,2.21,183.63,2025-01-11 08:54:45.926723,30,High,Packaged,8.493894199868215,Supermarket Type1,Low Fat,2012,Tier 1,0.9707584676411215
+Banana,Fruits and Vegetables,0.09999999999999999,2.11,237.74,2025-01-11 08:54:45.927049,12,Medium,Loose,6.804540459406165,Supermarket Type2,Regular,2015,Tier 2,1.0
+Low-Fat Milk,Dairy Products,1.04,3.16,617.17,2025-01-11 08:54:45.927396,19,Medium,Packaged,7.856861313310505,Supermarket Type2,Low Fat,2015,Tier 2,0.8607721510556424
+Oats,Grains and Cereals,0.43,3.1,114.47999999999999,2025-01-11 08:54:45.927707,172,High,Packaged,8.524204019664115,Supermarket Type3,Regular,2018,Tier 3,0.9364896982003351
+Yogurt,Dairy Products,0.56,2.2800000000000002,225.15,2025-01-11 08:54:45.928007,29,High,Packaged,8.079431236434164,Supermarket Type1,Low Fat,2012,Tier 1,0.8653332137427541
+Kiwi,Fruits and Vegetables,0.09000000000000001,2.84,100.53,2025-01-11 08:54:45.928458,6,Low,Packaged,4.061473745337665,Supermarket Type3,Regular,2018,Tier 3,0.5993006556230773
+Broccoli,Fruits and Vegetables,0.33,3.7,82.74,2025-01-11 08:54:45.928892,11,Low,Loose,6.142623259874722,Supermarket Type2,Regular,2015,Tier 2,0.6290844715861085
+Low-Fat Milk,Dairy Products,0.96,3.46,604.99,2025-01-11 08:54:45.929210,16,Medium,Packaged,8.232763621781018,Supermarket Type2,Low Fat,2015,Tier 2,0.8952832022621817
+Chocolate Cookies,Packaged Snacks,0.25,3.03,202.71,2025-01-11 08:54:45.929613,126,High,Packaged,8.259250787036207,Supermarket Type1,Regular,2012,Tier 1,0.8649773422248884
+Butter,Dairy Products,0.16999999999999998,4.05,122.58,2025-01-11 08:54:45.929997,30,Medium,Packaged,7.314396206795682,Supermarket Type3,Full Fat,2018,Tier 3,0.7852192683382873
+White Rice,Grains and Cereals,1.09,2.12,610.78,2025-01-11 08:54:45.930381,368,Low,Packaged,6.3549095803188385,Supermarket Type1,Regular,2010,Tier 1,0.9254927252230654
+Butter,Dairy Products,0.27,4.22,123.51,2025-01-11 08:54:45.930752,39,Medium,Packaged,6.952590695303271,Supermarket Type3,Full Fat,2018,Tier 3,0.7964202898854498
+Low-Fat Milk,Dairy Products,0.95,2.99,223.99,2025-01-11 08:54:45.931139,18,Medium,Packaged,7.443176155641644,Supermarket Type2,Low Fat,2015,Tier 2,0.8524700699738128
+Kiwi,Fruits and Vegetables,0.15000000000000002,3.13,169.28,2025-01-11 08:54:45.931487,17,Low,Packaged,4.272290183499198,Supermarket Type3,Regular,2018,Tier 3,0.6787002940952641
+Energy Bars,Packaged Snacks,0.09999999999999999,2.18,233.67000000000002,2025-01-11 08:54:45.931821,147,High,Packaged,9.804395324389947,Supermarket Type1,Regular,2010,Tier 1,0.8477538291924613
+Quinoa,Grains and Cereals,0.59,5.51,163.67000000000002,2025-01-11 08:54:45.932165,363,Medium,Packaged,9.32292923825217,Supermarket Type1,Regular,2010,Tier 1,0.8800423315485842
+Low-Fat Milk,Dairy Products,0.96,3.3800000000000003,222.24,2025-01-11 08:54:45.932610,19,Medium,Packaged,8.437721294205069,Supermarket Type2,Low Fat,2015,Tier 2,0.8031862446449884
+Yogurt,Dairy Products,0.47,2.42,132.14,2025-01-11 08:54:45.932971,27,High,Packaged,9.858267225018976,Supermarket Type1,Low Fat,2012,Tier 1,0.8507655407393687
+White Rice,Grains and Cereals,1.0,2.14,216.97,2025-01-11 08:54:45.933302,371,Low,Packaged,5.063140519094783,Supermarket Type2,Regular,2015,Tier 2,0.736458208081558
+White Rice,Grains and Cereals,0.99,2.2199999999999998,171.21,2025-01-11 08:54:45.933612,363,Low,Packaged,6.076443832399088,Supermarket Type2,Regular,2015,Tier 2,0.7863575923195282
+Spinach,Fruits and Vegetables,0.37,1.9500000000000002,125.96000000000001,2025-01-11 08:54:45.933932,13,Medium,Loose,6.46733136902831,Supermarket Type1,Regular,2010,Tier 1,0.8573162695864176
+Low-Fat Milk,Dairy Products,0.96,3.2600000000000002,536.2199999999999,2025-01-11 08:54:45.934243,7,Medium,Packaged,7.216794359305688,Supermarket Type2,Low Fat,2015,Tier 2,0.8001430500156567
+Oats,Grains and Cereals,0.41000000000000003,3.67,130.81,2025-01-11 08:54:45.934545,188,High,Packaged,8.188955036297369,Supermarket Type3,Regular,2018,Tier 3,0.9467638936979432
+Potato Chips,Packaged Snacks,0.25,1.68,209.12,2025-01-11 08:54:45.934915,87,High,Packaged,7.391143662920438,Supermarket Type2,Regular,2015,Tier 2,1.0
+Butter,Dairy Products,0.22,4.91,110.47999999999999,2025-01-11 08:54:45.935310,20,Medium,Packaged,7.548719550332252,Supermarket Type3,Full Fat,2018,Tier 3,0.873015750670302
+Orange,Fruits and Vegetables,0.26,1.57,187.19,2025-01-11 08:54:45.935634,30,High,Loose,6.0280752680661935,Supermarket Type1,Regular,2012,Tier 1,0.7543962890352992
+Yogurt,Dairy Products,0.41000000000000003,1.73,211.97,2025-01-11 08:54:45.935943,29,High,Packaged,8.915011303508019,Supermarket Type1,Low Fat,2012,Tier 1,0.9044251265272955
+White Rice,Grains and Cereals,1.09,2.47,135.96,2025-01-11 08:54:45.936303,355,Low,Packaged,5.308080240524527,Supermarket Type2,Regular,2015,Tier 2,0.7966733882442227
+Kiwi,Fruits and Vegetables,0.010000000000000009,2.6,108.83,2025-01-11 08:54:45.936698,22,Low,Packaged,5.812623042501405,Supermarket Type3,Regular,2018,Tier 3,0.6914426799155563
+Banana,Fruits and Vegetables,0.06999999999999999,1.9000000000000001,225.4,2025-01-11 08:54:45.937027,15,Medium,Loose,6.174434758668213,Supermarket Type2,Regular,2015,Tier 2,0.9603102529037342
+Potato Chips,Packaged Snacks,0.14,2.14,262.66,2025-01-11 08:54:45.937424,88,High,Packaged,7.936785081674043,Supermarket Type2,Regular,2015,Tier 2,0.8746077331097364
+Chocolate Cookies,Packaged Snacks,0.39,2.71,180.49,2025-01-11 08:54:45.937755,113,High,Packaged,8.316993311260692,Supermarket Type1,Regular,2012,Tier 1,0.9676516182482668
+Kiwi,Fruits and Vegetables,0.17,3.27,167.11,2025-01-11 08:54:45.938058,9,Low,Packaged,4.389587678582302,Supermarket Type3,Regular,2018,Tier 3,0.7156142712981263
+Oats,Grains and Cereals,0.5700000000000001,3.23,116.5,2025-01-11 08:54:45.938418,188,High,Packaged,7.80316698964955,Supermarket Type3,Regular,2018,Tier 3,0.8434121598265182
+Mixed Nuts,Packaged Snacks,0.24,5.38,132.8,2025-01-11 08:54:45.938743,180,Medium,Packaged,6.414128687187203,Supermarket Type3,Regular,2018,Tier 3,0.9176049758581207
+Whole Milk,Dairy Products,1.02,3.92,340.09000000000003,2025-01-11 08:54:45.939043,14,Medium,Packaged,9.47296813672009,Supermarket Type1,Full Fat,2010,Tier 1,0.8723701496221198
+White Rice,Grains and Cereals,0.96,2.23,570.4699999999999,2025-01-11 08:54:45.939341,359,Low,Packaged,6.669609867063532,Supermarket Type1,Regular,2010,Tier 1,0.7833485600935514
+Orange,Fruits and Vegetables,0.12,1.95,165.2,2025-01-11 08:54:45.939724,30,High,Loose,5.725904195571579,Supermarket Type1,Regular,2012,Tier 1,0.6857708009468235
+Chocolate Cookies,Packaged Snacks,0.26,2.91,264.89,2025-01-11 08:54:45.940057,117,High,Packaged,8.350554107137713,Supermarket Type1,Regular,2012,Tier 1,1.0
+Oats,Grains and Cereals,0.49,3.88,165.62,2025-01-11 08:54:45.940436,179,High,Packaged,8.785119692624914,Supermarket Type3,Regular,2018,Tier 3,0.9051162381983251
+Butter,Dairy Products,0.29,4.97,120.63,2025-01-11 08:54:45.940804,30,Medium,Packaged,7.237976097132282,Supermarket Type3,Full Fat,2018,Tier 3,0.8521366002726039
+Whole Milk,Dairy Products,0.96,3.81,269.7,2025-01-11 08:54:45.941136,9,Medium,Packaged,9.878324699734705,Supermarket Type1,Full Fat,2010,Tier 1,0.9620066790684099
+Low-Fat Milk,Dairy Products,1.0,2.85,248.23,2025-01-11 08:54:45.941496,6,Medium,Packaged,8.186651273658121,Supermarket Type2,Low Fat,2015,Tier 2,0.8025004509008541
+Quinoa,Grains and Cereals,0.41000000000000003,5.6,116.66,2025-01-11 08:54:45.941854,359,Medium,Packaged,9.165856722627964,Supermarket Type1,Regular,2010,Tier 1,0.9082780685073945
+Potato Chips,Packaged Snacks,0.13,2.31,244.57,2025-01-11 08:54:45.942166,84,High,Packaged,8.875236356171545,Supermarket Type2,Regular,2015,Tier 2,0.9029771061018111
+Brown Rice,Grains and Cereals,1.09,2.82,117.59,2025-01-11 08:54:45.942573,188,Low,Packaged,6.892649678992928,Supermarket Type1,Regular,2012,Tier 1,0.7160301715406212
+Banana,Fruits and Vegetables,0.18,2.2,153.0,2025-01-11 08:54:45.942937,10,Medium,Loose,6.135477052551125,Supermarket Type2,Regular,2015,Tier 2,0.8792732904363638
+White Rice,Grains and Cereals,1.02,2.47,587.2199999999999,2025-01-11 08:54:45.943315,367,Low,Packaged,6.679917500659951,Supermarket Type1,Regular,2010,Tier 1,0.8445291755505179
+Orange,Fruits and Vegetables,0.07999999999999999,1.69,196.66,2025-01-11 08:54:45.943649,23,High,Loose,6.3660861141761504,Supermarket Type1,Regular,2012,Tier 1,0.8614451462890844
+Oats,Grains and Cereals,0.43,3.18,136.68,2025-01-11 08:54:45.943998,178,High,Packaged,8.143802961733828,Supermarket Type3,Regular,2018,Tier 3,0.8962534515055725
+Apple,Fruits and Vegetables,0.25,2.1,145.06,2025-01-11 08:54:45.944308,19,High,Loose,7.398871332667284,Supermarket Type1,Regular,2010,Tier 1,0.8927651236407473
+Potato Chips,Packaged Snacks,0.19,1.8,259.21,2025-01-11 08:54:45.944732,82,High,Packaged,7.015992999073998,Supermarket Type2,Regular,2015,Tier 2,0.987270479772122
+Low-Fat Milk,Dairy Products,1.01,3.31,238.23,2025-01-11 08:54:45.945103,4,Medium,Packaged,7.280450203323678,Supermarket Type2,Low Fat,2015,Tier 2,0.834911414271441
+Brown Rice,Grains and Cereals,1.09,2.68,152.2,2025-01-11 08:54:45.945491,171,Low,Packaged,7.426047442910406,Supermarket Type1,Regular,2012,Tier 1,0.8064460493734719
+Yogurt,Dairy Products,0.43,1.8599999999999999,201.81,2025-01-11 08:54:45.945845,16,High,Packaged,9.361696142135596,Supermarket Type1,Low Fat,2012,Tier 1,0.8203206330443118
+Low-Fat Milk,Dairy Products,1.05,3.6300000000000003,280.31,2025-01-11 08:54:45.946198,13,Medium,Packaged,7.755958728505459,Supermarket Type2,Low Fat,2015,Tier 2,0.8710359042213854
+Orange,Fruits and Vegetables,0.13999999999999999,2.06,191.52,2025-01-11 08:54:45.946547,16,High,Loose,5.402570148119619,Supermarket Type1,Regular,2012,Tier 1,0.7022623415668208
+Brown Rice,Grains and Cereals,1.02,2.76,151.71,2025-01-11 08:54:45.946886,189,Low,Packaged,6.236107888608107,Supermarket Type1,Regular,2012,Tier 1,0.7213868614061534
+Banana,Fruits and Vegetables,0.09999999999999999,1.9300000000000002,584.0999999999999,2025-01-11 08:54:45.947233,6,Medium,Loose,6.6496516140264115,Supermarket Type2,Regular,2015,Tier 2,1.0
+Quinoa,Grains and Cereals,0.43,5.72,77.85,2025-01-11 08:54:45.947599,372,Medium,Packaged,8.675167580922668,Supermarket Type1,Regular,2010,Tier 1,0.7413737993947004
+Kiwi,Fruits and Vegetables,0.060000000000000005,2.88,169.61,2025-01-11 08:54:45.947939,15,Low,Packaged,4.95057313394207,Supermarket Type3,Regular,2018,Tier 3,0.5508314897868536
+Butter,Dairy Products,0.19,4.96,188.39,2025-01-11 08:54:45.948279,32,Medium,Packaged,6.972455759890168,Supermarket Type3,Full Fat,2018,Tier 3,0.778005509246369
+Quinoa,Grains and Cereals,0.55,6.11,95.81,2025-01-11 08:54:45.948681,357,Medium,Packaged,8.44505941069145,Supermarket Type1,Regular,2010,Tier 1,0.8166181469339898
+Oats,Grains and Cereals,0.55,3.18,199.93,2025-01-11 08:54:45.949018,172,High,Packaged,7.2225129582260585,Supermarket Type3,Regular,2018,Tier 3,0.7691600991067105
+Brown Rice,Grains and Cereals,1.07,2.8,109.43,2025-01-11 08:54:45.949357,174,Low,Packaged,7.752070756666425,Supermarket Type1,Regular,2012,Tier 1,0.796128502204899
+Spinach,Fruits and Vegetables,0.33999999999999997,2.31,65.59,2025-01-11 08:54:45.949701,1,Medium,Loose,6.160560986768026,Supermarket Type1,Regular,2010,Tier 1,0.9330465524326542
+Energy Bars,Packaged Snacks,0.13,2.45,165.79,2025-01-11 08:54:45.950044,140,High,Packaged,8.079113334642816,Supermarket Type1,Regular,2010,Tier 1,0.9527886928250642
+Brown Rice,Grains and Cereals,1.09,3.25,118.48,2025-01-11 08:54:45.950385,176,Low,Packaged,7.510950437503432,Supermarket Type1,Regular,2012,Tier 1,0.8555710889150945
+Mixed Nuts,Packaged Snacks,0.16999999999999998,4.62,137.17000000000002,2025-01-11 08:54:45.950718,173,Medium,Packaged,6.816075528809168,Supermarket Type3,Regular,2018,Tier 3,0.9104999741883595
+Mixed Nuts,Packaged Snacks,0.3,5.24,180.19,2025-01-11 08:54:45.951055,187,Medium,Packaged,6.656544769995374,Supermarket Type3,Regular,2018,Tier 3,0.9403401418997182
+Mixed Nuts,Packaged Snacks,0.24,4.67,164.09,2025-01-11 08:54:45.951408,185,Medium,Packaged,7.200225122878227,Supermarket Type3,Regular,2018,Tier 3,0.9461636171387404
+White Rice,Grains and Cereals,1.05,2.91,222.02,2025-01-11 08:54:45.951749,359,Low,Packaged,6.513917483937384,Supermarket Type2,Regular,2015,Tier 2,0.816092301447737
+Potato Chips,Packaged Snacks,0.25,2.04,262.86,2025-01-11 08:54:45.952107,98,High,Packaged,8.753170929671152,Supermarket Type2,Regular,2015,Tier 2,0.9802771497097077
+Potato Chips,Packaged Snacks,0.27,2.35,229.0,2025-01-11 08:54:45.952575,89,High,Packaged,8.459553674338336,Supermarket Type2,Regular,2015,Tier 2,0.898487579046025
+Orange,Fruits and Vegetables,0.16999999999999998,2.34,152.53,2025-01-11 08:54:45.952984,13,High,Loose,6.699073980602604,Supermarket Type1,Regular,2012,Tier 1,0.7476947741266659
+Low-Fat Milk,Dairy Products,0.97,3.1900000000000004,210.95,2025-01-11 08:54:45.953366,21,Medium,Packaged,8.54428801891282,Supermarket Type2,Low Fat,2015,Tier 2,0.8295303360144163
+Potato Chips,Packaged Snacks,0.28,2.1,277.89,2025-01-11 08:54:45.953705,88,High,Packaged,7.581019025117163,Supermarket Type2,Regular,2015,Tier 2,0.9513197242601731
+White Rice,Grains and Cereals,0.98,2.95,226.79,2025-01-11 08:54:45.954009,358,Low,Packaged,6.361978780927694,Supermarket Type2,Regular,2015,Tier 2,0.8150835164147814
+Low-Fat Milk,Dairy Products,0.98,3.5,592.14,2025-01-11 08:54:45.954349,22,Medium,Packaged,7.3600251890735935,Supermarket Type2,Low Fat,2015,Tier 2,0.9325182177764447
+Kiwi,Fruits and Vegetables,0.2,3.12,152.16,2025-01-11 08:54:45.954657,14,Low,Packaged,4.1582088887586455,Supermarket Type3,Regular,2018,Tier 3,0.6020555590044824
+Yogurt,Dairy Products,0.54,2.01,194.71,2025-01-11 08:54:45.954955,22,High,Packaged,8.808488573012854,Supermarket Type1,Low Fat,2012,Tier 1,0.8917500439008584
+Spinach,Fruits and Vegetables,0.27999999999999997,1.7200000000000002,52.34,2025-01-11 08:54:45.955323,12,Medium,Loose,7.3473925392019765,Supermarket Type1,Regular,2010,Tier 1,0.7893000971473711
+Energy Bars,Packaged Snacks,0.13999999999999999,2.4,200.46,2025-01-11 08:54:45.955707,144,High,Packaged,9.737013803164695,Supermarket Type1,Regular,2010,Tier 1,0.9693191796378787
+Low-Fat Milk,Dairy Products,1.08,2.98,586.3499999999999,2025-01-11 08:54:45.956038,5,Medium,Packaged,8.576215006019456,Supermarket Type2,Low Fat,2015,Tier 2,0.9194472832628502
+Brown Rice,Grains and Cereals,0.91,3.21,100.03999999999999,2025-01-11 08:54:45.956437,188,Low,Packaged,6.670936016007943,Supermarket Type1,Regular,2012,Tier 1,0.8296058281529617
+Whole Milk,Dairy Products,0.91,3.91,292.87,2025-01-11 08:54:45.956782,11,Medium,Packaged,9.955752766190658,Supermarket Type1,Full Fat,2010,Tier 1,0.9784724266299267
+Mixed Nuts,Packaged Snacks,0.16,5.07,169.67,2025-01-11 08:54:45.957089,175,Medium,Packaged,7.4001086900242425,Supermarket Type3,Regular,2018,Tier 3,0.7883847509666144
+Brown Rice,Grains and Cereals,0.92,3.01,180.32999999999998,2025-01-11 08:54:45.957387,182,Low,Packaged,7.921285219633933,Supermarket Type1,Regular,2012,Tier 1,0.7895483308035408
+Kiwi,Fruits and Vegetables,0.05,3.29,124.79,2025-01-11 08:54:45.957685,14,Low,Packaged,5.675379224824628,Supermarket Type3,Regular,2018,Tier 3,0.6495976719904899
+Kiwi,Fruits and Vegetables,0.11,2.82,155.45,2025-01-11 08:54:45.957981,8,Low,Packaged,5.154197187712365,Supermarket Type3,Regular,2018,Tier 3,0.6214048938622007
+Low-Fat Milk,Dairy Products,0.91,3.16,542.25,2025-01-11 08:54:45.958278,20,Medium,Packaged,8.598674377237785,Supermarket Type2,Low Fat,2015,Tier 2,0.807031571495425
+Broccoli,Fruits and Vegetables,0.34,3.26,100.84,2025-01-11 08:54:45.958596,1,Low,Loose,5.748948099506379,Supermarket Type2,Regular,2015,Tier 2,0.7042623729698958
+Banana,Fruits and Vegetables,0.18,2.2600000000000002,520.91,2025-01-11 08:54:45.958910,12,Medium,Loose,6.183235899483658,Supermarket Type2,Regular,2015,Tier 2,0.8812776986097823
+Apple,Fruits and Vegetables,0.28,2.7,153.48,2025-01-11 08:54:45.959231,12,High,Loose,8.797647356010756,Supermarket Type1,Regular,2010,Tier 1,0.8160313931039163
+Cheese,Dairy Products,0.19999999999999998,5.41,174.31,2025-01-11 08:54:45.959542,59,Low,Packaged,8.870842494253443,Supermarket Type1,Full Fat,2010,Tier 1,0.9355541963792724
+White Rice,Grains and Cereals,1.0,2.04,612.64,2025-01-11 08:54:45.959842,372,Low,Packaged,6.989384074748163,Supermarket Type1,Regular,2010,Tier 1,0.7741337699100895
+Low-Fat Milk,Dairy Products,0.96,3.27,608.7099999999999,2025-01-11 08:54:45.960139,18,Medium,Packaged,7.642177794652413,Supermarket Type2,Low Fat,2015,Tier 2,0.841607216870953
+White Rice,Grains and Cereals,1.05,2.69,157.77,2025-01-11 08:54:45.960521,361,Low,Packaged,5.016199754103116,Supermarket Type2,Regular,2015,Tier 2,0.8265139615254211
+Whole Milk,Dairy Products,1.07,3.33,265.28,2025-01-11 08:54:45.960848,6,Medium,Packaged,8.473254663098839,Supermarket Type1,Full Fat,2010,Tier 1,0.8721274419323776
+Quinoa,Grains and Cereals,0.41000000000000003,6.08,168.95,2025-01-11 08:54:45.961150,372,Medium,Packaged,8.337026948650685,Supermarket Type1,Regular,2010,Tier 1,0.8958750275822512
+Energy Bars,Packaged Snacks,0.18,2.7800000000000002,209.07,2025-01-11 08:54:45.961448,156,High,Packaged,9.293143361820427,Supermarket Type1,Regular,2010,Tier 1,0.9382928111823948
+Mixed Nuts,Packaged Snacks,0.28,4.94,203.95,2025-01-11 08:54:45.961824,173,Medium,Packaged,7.361107626009746,Supermarket Type3,Regular,2018,Tier 3,0.8755109590306549
+Chocolate Cookies,Packaged Snacks,0.25,2.65,216.11,2025-01-11 08:54:45.962152,125,High,Packaged,9.561237123316156,Supermarket Type1,Regular,2012,Tier 1,0.9484510543159225
+Mixed Nuts,Packaged Snacks,0.3,4.77,165.09,2025-01-11 08:54:45.962463,171,Medium,Packaged,6.340437722765955,Supermarket Type3,Regular,2018,Tier 3,0.8088716467457537
+White Rice,Grains and Cereals,0.97,2.8,543.8299999999999,2025-01-11 08:54:45.962763,372,Low,Packaged,6.806579924624987,Supermarket Type1,Regular,2010,Tier 1,0.8904904489182577
+Energy Bars,Packaged Snacks,0.10999999999999999,2.04,221.36,2025-01-11 08:54:45.963166,157,High,Packaged,9.648273879718275,Supermarket Type1,Regular,2010,Tier 1,0.8786405871804391
+Quinoa,Grains and Cereals,0.55,5.65,113.71,2025-01-11 08:54:45.963555,369,Medium,Packaged,9.10443520423587,Supermarket Type1,Regular,2010,Tier 1,0.850219523583242
+Banana,Fruits and Vegetables,0.06999999999999999,2.24,572.79,2025-01-11 08:54:45.963885,1,Medium,Loose,7.217990924303006,Supermarket Type2,Regular,2015,Tier 2,1.0
+Spinach,Fruits and Vegetables,0.19999999999999998,2.1900000000000004,126.25999999999999,2025-01-11 08:54:45.964189,8,Medium,Loose,6.464927088131998,Supermarket Type1,Regular,2010,Tier 1,0.7809983131649023
+Low-Fat Milk,Dairy Products,1.09,2.8200000000000003,546.4,2025-01-11 08:54:45.964580,4,Medium,Packaged,8.644857747541398,Supermarket Type2,Low Fat,2015,Tier 2,0.9224125285285582
+Banana,Fruits and Vegetables,0.21,2.13,224.12,2025-01-11 08:54:45.964928,11,Medium,Loose,6.338354626141558,Supermarket Type2,Regular,2015,Tier 2,0.9377069587052563
+Cheese,Dairy Products,0.29,4.8,151.6,2025-01-11 08:54:45.965247,57,Low,Packaged,8.952598715279054,Supermarket Type1,Full Fat,2010,Tier 1,0.840234105558249
+Mixed Nuts,Packaged Snacks,0.18,4.76,178.75,2025-01-11 08:54:45.965621,178,Medium,Packaged,6.034107122495034,Supermarket Type3,Regular,2018,Tier 3,0.9113461569436361
+Quinoa,Grains and Cereals,0.49,5.77,92.17,2025-01-11 08:54:45.966012,366,Medium,Packaged,8.257920729819435,Supermarket Type1,Regular,2010,Tier 1,0.7814073637570559
+Whole Milk,Dairy Products,1.05,3.23,259.97,2025-01-11 08:54:45.966367,10,Medium,Packaged,8.18187188410201,Supermarket Type1,Full Fat,2010,Tier 1,1.0
+Quinoa,Grains and Cereals,0.46,5.52,106.96000000000001,2025-01-11 08:54:45.966680,355,Medium,Packaged,9.225047503431034,Supermarket Type1,Regular,2010,Tier 1,0.7748207906030179
+Banana,Fruits and Vegetables,0.19,1.8,536.3399999999999,2025-01-11 08:54:45.966983,6,Medium,Loose,6.392346225973922,Supermarket Type2,Regular,2015,Tier 2,0.863061033116873
+Kiwi,Fruits and Vegetables,0.16,2.92,153.84,2025-01-11 08:54:45.967280,7,Low,Packaged,4.13126109914799,Supermarket Type3,Regular,2018,Tier 3,0.6443435131305945
+Chocolate Cookies,Packaged Snacks,0.25,2.96,198.64,2025-01-11 08:54:45.967577,112,High,Packaged,8.403540677096283,Supermarket Type1,Regular,2012,Tier 1,0.9959901710925958
+Low-Fat Milk,Dairy Products,0.91,3.39,597.04,2025-01-11 08:54:45.967872,17,Medium,Packaged,7.042736557993584,Supermarket Type2,Low Fat,2015,Tier 2,0.872380697947467
+Mixed Nuts,Packaged Snacks,0.21,5.17,191.25,2025-01-11 08:54:45.968185,187,Medium,Packaged,6.997580499869075,Supermarket Type3,Regular,2018,Tier 3,0.7913271678931149
+Banana,Fruits and Vegetables,0.22,2.06,572.64,2025-01-11 08:54:45.968574,1,Medium,Loose,7.517637601509369,Supermarket Type2,Regular,2015,Tier 2,0.977883716225012
+White Rice,Grains and Cereals,1.08,2.12,184.25,2025-01-11 08:54:45.968899,358,Low,Packaged,5.878057458259263,Supermarket Type2,Regular,2015,Tier 2,0.8062801521287273
+Orange,Fruits and Vegetables,0.28,2.4,190.55,2025-01-11 08:54:45.969230,25,High,Loose,6.583828942726271,Supermarket Type1,Regular,2012,Tier 1,0.7362463016724833
+Banana,Fruits and Vegetables,0.09999999999999999,1.69,546.64,2025-01-11 08:54:45.969538,11,Medium,Loose,6.908754945645405,Supermarket Type2,Regular,2015,Tier 2,0.9545058897163572
+Banana,Fruits and Vegetables,0.22,1.36,190.7,2025-01-11 08:54:45.969835,15,Medium,Loose,7.134997025754396,Supermarket Type2,Regular,2015,Tier 2,1.0
+Broccoli,Fruits and Vegetables,0.43000000000000005,3.01,152.05,2025-01-11 08:54:45.970130,5,Low,Loose,6.990741700418382,Supermarket Type2,Regular,2015,Tier 2,0.6242127811178753
+Low-Fat Milk,Dairy Products,1.06,3.02,211.5,2025-01-11 08:54:45.970438,6,Medium,Packaged,8.587536051484546,Supermarket Type2,Low Fat,2015,Tier 2,0.8683856532490539
+Banana,Fruits and Vegetables,0.2,1.54,159.32999999999998,2025-01-11 08:54:45.970742,1,Medium,Loose,7.7544050592384215,Supermarket Type2,Regular,2015,Tier 2,0.8955995289355088
+White Rice,Grains and Cereals,1.04,2.9,575.6899999999999,2025-01-11 08:54:45.971061,364,Low,Packaged,5.982237980944347,Supermarket Type1,Regular,2010,Tier 1,0.7910114936781879
+Banana,Fruits and Vegetables,0.19,2.29,219.6,2025-01-11 08:54:45.971366,6,Medium,Loose,7.351938403395658,Supermarket Type2,Regular,2015,Tier 2,0.944845258932521
+White Rice,Grains and Cereals,1.02,2.41,175.99,2025-01-11 08:54:45.971700,372,Low,Packaged,5.287078367655408,Supermarket Type2,Regular,2015,Tier 2,0.8377136485366101
+Banana,Fruits and Vegetables,0.19,1.37,523.7099999999999,2025-01-11 08:54:45.972079,6,Medium,Loose,7.291387850135334,Supermarket Type2,Regular,2015,Tier 2,0.8477708082670662
+Chocolate Cookies,Packaged Snacks,0.31,3.08,242.78,2025-01-11 08:54:45.972465,118,High,Packaged,9.371536218138418,Supermarket Type1,Regular,2012,Tier 1,1.0
+Butter,Dairy Products,0.18,4.46,141.81,2025-01-11 08:54:45.972801,38,Medium,Packaged,7.079481329460197,Supermarket Type3,Full Fat,2018,Tier 3,0.7590874231365915
+Quinoa,Grains and Cereals,0.45,6.14,105.39,2025-01-11 08:54:45.973225,358,Medium,Packaged,8.128738322794243,Supermarket Type1,Regular,2010,Tier 1,0.7700130809795874
+Low-Fat Milk,Dairy Products,0.95,3.08,270.12,2025-01-11 08:54:45.973634,16,Medium,Packaged,7.37175871992699,Supermarket Type2,Low Fat,2015,Tier 2,0.7997035743956731
+Yogurt,Dairy Products,0.49,1.7,162.31,2025-01-11 08:54:45.974003,15,High,Packaged,8.689661733260248,Supermarket Type1,Low Fat,2012,Tier 1,0.8623080935031034
+Oats,Grains and Cereals,0.51,3.09,148.39,2025-01-11 08:54:45.974361,184,High,Packaged,8.280636005475523,Supermarket Type3,Regular,2018,Tier 3,0.8518742486114347
+White Rice,Grains and Cereals,1.08,2.79,213.93,2025-01-11 08:54:45.974678,356,Low,Packaged,5.711344389266482,Supermarket Type2,Regular,2015,Tier 2,0.6652269855606885
+Broccoli,Fruits and Vegetables,0.34,3.61,139.39,2025-01-11 08:54:45.975123,9,Low,Loose,6.04341754898724,Supermarket Type2,Regular,2015,Tier 2,0.6548585100087319
+Whole Milk,Dairy Products,0.9299999999999999,3.68,325.97,2025-01-11 08:54:45.975445,15,Medium,Packaged,9.236669383649332,Supermarket Type1,Full Fat,2010,Tier 1,1.0
+White Rice,Grains and Cereals,0.99,2.8,599.9399999999999,2025-01-11 08:54:45.975815,370,Low,Packaged,6.567852547906843,Supermarket Type1,Regular,2010,Tier 1,0.8008552742332447
+Mixed Nuts,Packaged Snacks,0.16,4.63,160.75,2025-01-11 08:54:45.976212,182,Medium,Packaged,7.097109840986686,Supermarket Type3,Regular,2018,Tier 3,0.9532221561467675
+Apple,Fruits and Vegetables,0.1,2.17,197.82999999999998,2025-01-11 08:54:45.976622,7,High,Loose,7.653276779119243,Supermarket Type1,Regular,2010,Tier 1,0.8202827186678284
+Yogurt,Dairy Products,0.52,1.54,157.61,2025-01-11 08:54:45.976948,14,High,Packaged,8.215050748710008,Supermarket Type1,Low Fat,2012,Tier 1,0.9909973984134445
+White Rice,Grains and Cereals,1.09,2.9699999999999998,226.76,2025-01-11 08:54:45.977317,369,Low,Packaged,5.1933851390708154,Supermarket Type2,Regular,2015,Tier 2,0.8095233339069359
+Apple,Fruits and Vegetables,0.22,2.26,171.65,2025-01-11 08:54:45.977714,21,High,Loose,8.399793472972995,Supermarket Type1,Regular,2010,Tier 1,0.7695780875537646
+Banana,Fruits and Vegetables,0.12,1.8,570.2199999999999,2025-01-11 08:54:45.978067,8,Medium,Loose,7.081325757664567,Supermarket Type2,Regular,2015,Tier 2,0.8821534445661874
+Banana,Fruits and Vegetables,0.22999999999999998,2.21,555.9399999999999,2025-01-11 08:54:45.978478,1,Medium,Loose,6.660936512437467,Supermarket Type2,Regular,2015,Tier 2,0.8607363494555454
+Spinach,Fruits and Vegetables,0.31,2.4800000000000004,106.66,2025-01-11 08:54:45.978840,14,Medium,Loose,7.723232809637803,Supermarket Type1,Regular,2010,Tier 1,0.9659983314150575
+Oats,Grains and Cereals,0.55,3.71,205.56,2025-01-11 08:54:45.979162,181,High,Packaged,7.27683465043236,Supermarket Type3,Regular,2018,Tier 3,0.8693744109481145
+White Rice,Grains and Cereals,1.1,2.82,519.93,2025-01-11 08:54:45.979533,362,Low,Packaged,5.131941092974332,Supermarket Type1,Regular,2010,Tier 1,0.8443225983239516
+Kiwi,Fruits and Vegetables,0.010000000000000009,2.9,94.28999999999999,2025-01-11 08:54:45.979897,13,Low,Packaged,5.904202766412172,Supermarket Type3,Regular,2018,Tier 3,0.6253698769650783
+Low-Fat Milk,Dairy Products,1.06,3.4400000000000004,552.6099999999999,2025-01-11 08:54:45.980222,17,Medium,Packaged,8.379309285816706,Supermarket Type2,Low Fat,2015,Tier 2,0.9861486187624748
+Orange,Fruits and Vegetables,0.09999999999999999,1.66,181.66,2025-01-11 08:54:45.980646,29,High,Loose,5.6876007574440095,Supermarket Type1,Regular,2012,Tier 1,0.8757544953365164
+Mixed Nuts,Packaged Snacks,0.29,5.4,137.99,2025-01-11 08:54:45.981029,175,Medium,Packaged,7.743933288299038,Supermarket Type3,Regular,2018,Tier 3,0.7820311816977471
+Banana,Fruits and Vegetables,0.15,2.06,525.91,2025-01-11 08:54:45.981386,1,Medium,Loose,7.21156262527653,Supermarket Type2,Regular,2015,Tier 2,0.8921915042972894
+Orange,Fruits and Vegetables,0.07999999999999999,2.01,140.27,2025-01-11 08:54:45.981752,25,High,Loose,5.656059533343821,Supermarket Type1,Regular,2012,Tier 1,0.725233362631669
+Brown Rice,Grains and Cereals,1.07,2.77,172.86,2025-01-11 08:54:45.982136,171,Low,Packaged,7.398789194603332,Supermarket Type1,Regular,2012,Tier 1,0.711852369092909
+Banana,Fruits and Vegetables,0.16999999999999998,1.77,580.04,2025-01-11 08:54:45.982479,14,Medium,Loose,7.901451298568767,Supermarket Type2,Regular,2015,Tier 2,0.8308004463770323
+Butter,Dairy Products,0.25,4.89,193.47,2025-01-11 08:54:45.982854,30,Medium,Packaged,7.310346672985698,Supermarket Type3,Full Fat,2018,Tier 3,0.7761354473175427
+Cheese,Dairy Products,0.36,4.8,169.89,2025-01-11 08:54:45.983209,50,Low,Packaged,7.9198603837489685,Supermarket Type1,Full Fat,2010,Tier 1,0.811161186461109
+Oats,Grains and Cereals,0.48,3.13,150.33,2025-01-11 08:54:45.983590,181,High,Packaged,8.538713075542258,Supermarket Type3,Regular,2018,Tier 3,0.7626443789504315
+Whole Milk,Dairy Products,1.06,3.29,318.91,2025-01-11 08:54:45.983951,13,Medium,Packaged,9.072634206758957,Supermarket Type1,Full Fat,2010,Tier 1,0.864361233675063
+Orange,Fruits and Vegetables,0.24,2.22,134.92000000000002,2025-01-11 08:54:45.984300,22,High,Loose,5.152706462879579,Supermarket Type1,Regular,2012,Tier 1,0.8359280350675999
+Apple,Fruits and Vegetables,0.22,2.63,131.17000000000002,2025-01-11 08:54:45.984739,20,High,Loose,8.143619364712027,Supermarket Type1,Regular,2010,Tier 1,0.9379703182303423
+Brown Rice,Grains and Cereals,0.97,3.5,152.03,2025-01-11 08:54:45.985105,188,Low,Packaged,7.869146593558953,Supermarket Type1,Regular,2012,Tier 1,0.8693174218588132
+Kiwi,Fruits and Vegetables,0.07,2.55,139.99,2025-01-11 08:54:45.985416,12,Low,Packaged,4.751159865386502,Supermarket Type3,Regular,2018,Tier 3,0.5994900533900651
+Oats,Grains and Cereals,0.58,3.49,178.75,2025-01-11 08:54:45.985726,172,High,Packaged,7.6298082732171,Supermarket Type3,Regular,2018,Tier 3,0.8628743112935161
+Orange,Fruits and Vegetables,0.16,2.32,225.22,2025-01-11 08:54:45.986071,30,High,Loose,5.9671173491884995,Supermarket Type1,Regular,2012,Tier 1,0.8656853577941659
+Apple,Fruits and Vegetables,0.18000000000000002,2.65,199.46,2025-01-11 08:54:45.986467,21,High,Loose,8.269695950507916,Supermarket Type1,Regular,2010,Tier 1,0.9353438445166762
+Yogurt,Dairy Products,0.47,2.22,148.89,2025-01-11 08:54:45.986792,14,High,Packaged,9.702557605146664,Supermarket Type1,Low Fat,2012,Tier 1,0.9559722530441699
+Orange,Fruits and Vegetables,0.19999999999999998,1.87,154.43,2025-01-11 08:54:45.987101,24,High,Loose,5.257296610773772,Supermarket Type1,Regular,2012,Tier 1,0.7368517391220649
+Energy Bars,Packaged Snacks,0.18,2.08,212.26,2025-01-11 08:54:45.987445,150,High,Packaged,8.289864673671605,Supermarket Type1,Regular,2010,Tier 1,0.8545056438848769
+Spinach,Fruits and Vegetables,0.26,1.86,80.53999999999999,2025-01-11 08:54:45.987783,1,Medium,Loose,6.426010154891078,Supermarket Type1,Regular,2010,Tier 1,0.8615036817790076
+Yogurt,Dairy Products,0.59,1.67,169.14,2025-01-11 08:54:45.988096,18,High,Packaged,9.23525913620567,Supermarket Type1,Low Fat,2012,Tier 1,0.8991361616477491
+Low-Fat Milk,Dairy Products,1.05,3.0100000000000002,232.01,2025-01-11 08:54:45.988459,18,Medium,Packaged,7.280636301563029,Supermarket Type2,Low Fat,2015,Tier 2,0.8412808649193391
+Brown Rice,Grains and Cereals,1.1,2.5300000000000002,180.4,2025-01-11 08:54:45.988788,171,Low,Packaged,7.3374531044985485,Supermarket Type1,Regular,2012,Tier 1,0.7260354427726927
+Kiwi,Fruits and Vegetables,0.13,2.95,83.46000000000001,2025-01-11 08:54:45.989091,6,Low,Packaged,4.730322825734849,Supermarket Type3,Regular,2018,Tier 3,0.5706811761311121
+Orange,Fruits and Vegetables,0.13,2.49,194.06,2025-01-11 08:54:45.989390,30,High,Loose,6.152586684426495,Supermarket Type1,Regular,2012,Tier 1,0.7263622318390994
+White Rice,Grains and Cereals,0.99,2.95,533.15,2025-01-11 08:54:45.989686,372,Low,Packaged,5.36789582140862,Supermarket Type1,Regular,2010,Tier 1,0.7658238903096257
+Quinoa,Grains and Cereals,0.5700000000000001,5.53,97.02,2025-01-11 08:54:45.989984,371,Medium,Packaged,8.083864409801263,Supermarket Type1,Regular,2010,Tier 1,0.8226054489156688
+Orange,Fruits and Vegetables,0.10999999999999999,1.68,176.49,2025-01-11 08:54:45.990285,19,High,Loose,6.257712667585413,Supermarket Type1,Regular,2012,Tier 1,0.8174004103695838
+Banana,Fruits and Vegetables,0.13,2.27,247.23,2025-01-11 08:54:45.990603,8,Medium,Loose,7.3071995832260095,Supermarket Type2,Regular,2015,Tier 2,0.8529940369568839
+Brown Rice,Grains and Cereals,0.98,2.64,183.84,2025-01-11 08:54:45.990908,177,Low,Packaged,7.106109061364146,Supermarket Type1,Regular,2012,Tier 1,0.7432257019131142
+Banana,Fruits and Vegetables,0.22,1.53,556.87,2025-01-11 08:54:45.991210,6,Medium,Loose,6.4893735536516175,Supermarket Type2,Regular,2015,Tier 2,0.9303468275891411
+Kiwi,Fruits and Vegetables,0.1,3.1,108.35,2025-01-11 08:54:45.991546,13,Low,Packaged,4.103230269411699,Supermarket Type3,Regular,2018,Tier 3,0.6966238981513939
+Low-Fat Milk,Dairy Products,0.9299999999999999,3.2,571.6999999999999,2025-01-11 08:54:45.991852,7,Medium,Packaged,8.014546152833145,Supermarket Type2,Low Fat,2015,Tier 2,0.9886520477101396
+Kiwi,Fruits and Vegetables,0.18,2.56,107.78999999999999,2025-01-11 08:54:45.992257,11,Low,Packaged,4.445572242697425,Supermarket Type3,Regular,2018,Tier 3,0.7405771651725976
+Mixed Nuts,Packaged Snacks,0.27,4.62,199.9,2025-01-11 08:54:45.992763,180,Medium,Packaged,6.602463003849118,Supermarket Type3,Regular,2018,Tier 3,0.7872995025774113
+Kiwi,Fruits and Vegetables,0.05,3.08,114.66,2025-01-11 08:54:45.993092,17,Low,Packaged,5.845093671581942,Supermarket Type3,Regular,2018,Tier 3,0.7126539354622561
+Low-Fat Milk,Dairy Products,0.95,3.5500000000000003,288.4,2025-01-11 08:54:45.993443,8,Medium,Packaged,8.26860939011669,Supermarket Type2,Low Fat,2015,Tier 2,0.9265063781236309
+Low-Fat Milk,Dairy Products,1.07,3.6,258.99,2025-01-11 08:54:45.993848,8,Medium,Packaged,7.109608945609036,Supermarket Type2,Low Fat,2015,Tier 2,0.8220911787035734
+Brown Rice,Grains and Cereals,0.9299999999999999,2.52,178.14,2025-01-11 08:54:45.994233,183,Low,Packaged,7.824582695257888,Supermarket Type1,Regular,2012,Tier 1,0.8063816261904334
+White Rice,Grains and Cereals,0.96,2.87,518.75,2025-01-11 08:54:45.994590,364,Low,Packaged,5.183918346244065,Supermarket Type1,Regular,2010,Tier 1,0.8257089758707888
+Orange,Fruits and Vegetables,0.18,2.0,185.97,2025-01-11 08:54:45.994909,21,High,Loose,5.578049717418129,Supermarket Type1,Regular,2012,Tier 1,0.7786597838372363
+Banana,Fruits and Vegetables,0.07999999999999999,1.82,232.36,2025-01-11 08:54:45.995207,1,Medium,Loose,6.34432068749591,Supermarket Type2,Regular,2015,Tier 2,0.8672220634947225
+Spinach,Fruits and Vegetables,0.33999999999999997,2.1100000000000003,43.49,2025-01-11 08:54:45.995588,1,Medium,Loose,6.053423437901561,Supermarket Type1,Regular,2010,Tier 1,0.8168403614528053
+Kiwi,Fruits and Vegetables,0.07,2.52,116.26,2025-01-11 08:54:45.995938,13,Low,Packaged,4.652227796431507,Supermarket Type3,Regular,2018,Tier 3,0.5960361857008002
+Banana,Fruits and Vegetables,0.15,1.74,171.2,2025-01-11 08:54:45.996348,1,Medium,Loose,6.971587516903982,Supermarket Type2,Regular,2015,Tier 2,0.8399167679470521
+Low-Fat Milk,Dairy Products,0.94,3.0100000000000002,264.0,2025-01-11 08:54:45.996714,6,Medium,Packaged,7.034984142083026,Supermarket Type2,Low Fat,2015,Tier 2,0.974081963918566
+Whole Milk,Dairy Products,1.02,3.45,312.61,2025-01-11 08:54:45.997071,20,Medium,Packaged,9.702851242673177,Supermarket Type1,Full Fat,2010,Tier 1,1.0
+Banana,Fruits and Vegetables,0.16999999999999998,1.59,601.7299999999999,2025-01-11 08:54:45.997414,14,Medium,Loose,6.171244669676521,Supermarket Type2,Regular,2015,Tier 2,0.959107037581215
+Energy Bars,Packaged Snacks,0.18,2.87,193.6,2025-01-11 08:54:45.997722,148,High,Packaged,8.640857148464304,Supermarket Type1,Regular,2010,Tier 1,0.9859175307505339
+Cheese,Dairy Products,0.3,5.48,162.31,2025-01-11 08:54:45.998020,54,Low,Packaged,7.765830770995314,Supermarket Type1,Full Fat,2010,Tier 1,0.8941662941540433
+Banana,Fruits and Vegetables,0.12,2.24,558.12,2025-01-11 08:54:45.998398,1,Medium,Loose,7.300798060558426,Supermarket Type2,Regular,2015,Tier 2,0.9742469996679871
+Orange,Fruits and Vegetables,0.16999999999999998,2.24,153.17000000000002,2025-01-11 08:54:45.998720,11,High,Loose,6.8698119424204425,Supermarket Type1,Regular,2012,Tier 1,0.8600315413205415
+Energy Bars,Packaged Snacks,0.22,2.26,243.81,2025-01-11 08:54:45.999020,153,High,Packaged,9.370146062641759,Supermarket Type1,Regular,2010,Tier 1,0.8356452461770844
+Potato Chips,Packaged Snacks,0.21000000000000002,2.06,230.57,2025-01-11 08:54:45.999358,81,High,Packaged,7.73105502512967,Supermarket Type2,Regular,2015,Tier 2,0.97520056989563
+Chocolate Cookies,Packaged Snacks,0.36,2.66,225.92,2025-01-11 08:54:45.999683,116,High,Packaged,8.527385439471203,Supermarket Type1,Regular,2012,Tier 1,1.0
+Low-Fat Milk,Dairy Products,1.01,3.6,570.16,2025-01-11 08:54:45.999986,4,Medium,Packaged,7.953030126628306,Supermarket Type2,Low Fat,2015,Tier 2,0.9796551675015818
+Oats,Grains and Cereals,0.56,3.86,179.38,2025-01-11 08:54:46.000398,187,High,Packaged,8.989637528608753,Supermarket Type3,Regular,2018,Tier 3,0.7798230078187056
+Butter,Dairy Products,0.22,4.04,177.18,2025-01-11 08:54:46.000761,39,Medium,Packaged,7.631006333862402,Supermarket Type3,Full Fat,2018,Tier 3,0.7308050932840496
+Apple,Fruits and Vegetables,0.29000000000000004,2.39,142.52,2025-01-11 08:54:46.001069,11,High,Loose,7.064856573573541,Supermarket Type1,Regular,2010,Tier 1,0.7946137484335111
+White Rice,Grains and Cereals,0.95,2.83,582.66,2025-01-11 08:54:46.001375,372,Low,Packaged,6.010857971064747,Supermarket Type1,Regular,2010,Tier 1,0.8024210672630522
+White Rice,Grains and Cereals,0.98,2.41,536.4,2025-01-11 08:54:46.001722,370,Low,Packaged,6.621924186125601,Supermarket Type1,Regular,2010,Tier 1,0.9381103670756892
+Low-Fat Milk,Dairy Products,0.9,3.24,269.48,2025-01-11 08:54:46.002028,11,Medium,Packaged,7.114327147704948,Supermarket Type2,Low Fat,2015,Tier 2,0.9341230516752188
+Potato Chips,Packaged Snacks,0.13,1.85,230.87,2025-01-11 08:54:46.002325,92,High,Packaged,8.223458414482959,Supermarket Type2,Regular,2015,Tier 2,0.986283448901007
+Butter,Dairy Products,0.21,4.75,128.48,2025-01-11 08:54:46.002694,26,Medium,Packaged,7.02446158118052,Supermarket Type3,Full Fat,2018,Tier 3,0.7665868391676871
+Butter,Dairy Products,0.29,4.61,123.75,2025-01-11 08:54:46.003020,24,Medium,Packaged,7.040728132037473,Supermarket Type3,Full Fat,2018,Tier 3,0.8452571697009564
+Yogurt,Dairy Products,0.51,2.11,175.53,2025-01-11 08:54:46.003339,20,High,Packaged,8.216597084255191,Supermarket Type1,Low Fat,2012,Tier 1,1.0
+Butter,Dairy Products,0.15,4.78,159.31,2025-01-11 08:54:46.003679,32,Medium,Packaged,7.837758893527508,Supermarket Type3,Full Fat,2018,Tier 3,0.8768185105851984
+White Rice,Grains and Cereals,0.96,2.3,187.1,2025-01-11 08:54:46.004052,356,Low,Packaged,5.736139390415933,Supermarket Type2,Regular,2015,Tier 2,0.8342349494946434
+White Rice,Grains and Cereals,1.0,2.7800000000000002,591.9799999999999,2025-01-11 08:54:46.004395,373,Low,Packaged,5.761963933125255,Supermarket Type1,Regular,2010,Tier 1,0.7585882888092543
+Apple,Fruits and Vegetables,0.19,2.98,187.32999999999998,2025-01-11 08:54:46.004784,5,High,Loose,7.343797600709896,Supermarket Type1,Regular,2010,Tier 1,0.8279916327761009
+Mixed Nuts,Packaged Snacks,0.16999999999999998,4.69,164.63,2025-01-11 08:54:46.005135,179,Medium,Packaged,6.278060896190364,Supermarket Type3,Regular,2018,Tier 3,0.9668615507764269
+Brown Rice,Grains and Cereals,0.9299999999999999,3.38,178.52,2025-01-11 08:54:46.005446,177,Low,Packaged,6.116852579466958,Supermarket Type1,Regular,2012,Tier 1,0.8795998041191968
+Butter,Dairy Products,0.16,4.78,159.84,2025-01-11 08:54:46.005749,30,Medium,Packaged,6.11153370769337,Supermarket Type3,Full Fat,2018,Tier 3,0.8445215687184008
+Banana,Fruits and Vegetables,0.07999999999999999,1.51,613.92,2025-01-11 08:54:46.006129,12,Medium,Loose,6.2473403847381865,Supermarket Type2,Regular,2015,Tier 2,0.9539097872523031
+White Rice,Grains and Cereals,0.96,2.81,220.72,2025-01-11 08:54:46.006482,366,Low,Packaged,5.560113831777121,Supermarket Type2,Regular,2015,Tier 2,0.6907133826966123
+Potato Chips,Packaged Snacks,0.22,1.7,257.35,2025-01-11 08:54:46.006863,83,High,Packaged,8.273872563949107,Supermarket Type2,Regular,2015,Tier 2,1.0
+White Rice,Grains and Cereals,1.1,2.19,155.09,2025-01-11 08:54:46.007207,358,Low,Packaged,6.4390108237311,Supermarket Type2,Regular,2015,Tier 2,0.8198699862334045
+Broccoli,Fruits and Vegetables,0.48000000000000004,3.7,93.36,2025-01-11 08:54:46.007514,3,Low,Loose,5.018962412581907,Supermarket Type2,Regular,2015,Tier 2,0.6674533860370242
+Oats,Grains and Cereals,0.53,3.87,127.05,2025-01-11 08:54:46.007813,184,High,Packaged,8.518592299946532,Supermarket Type3,Regular,2018,Tier 3,0.8847353366047885
+Banana,Fruits and Vegetables,0.21,1.3900000000000001,211.88,2025-01-11 08:54:46.008138,1,Medium,Loose,7.693220574623497,Supermarket Type2,Regular,2015,Tier 2,0.8865889524013142
+Kiwi,Fruits and Vegetables,0.04000000000000001,2.6,82.44,2025-01-11 08:54:46.008524,19,Low,Packaged,5.61189967007253,Supermarket Type3,Regular,2018,Tier 3,0.7049074630819371
+Energy Bars,Packaged Snacks,0.10999999999999999,2.21,202.71,2025-01-11 08:54:46.008853,144,High,Packaged,9.147327578974048,Supermarket Type1,Regular,2010,Tier 1,0.8678205415805846
+Banana,Fruits and Vegetables,0.15,2.06,595.9799999999999,2025-01-11 08:54:46.009185,1,Medium,Loose,6.452334155357889,Supermarket Type2,Regular,2015,Tier 2,0.9550000305099158
+Chocolate Cookies,Packaged Snacks,0.37,2.6,249.92000000000002,2025-01-11 08:54:46.009501,116,High,Packaged,8.663871656763469,Supermarket Type1,Regular,2012,Tier 1,1.0
+Chocolate Cookies,Packaged Snacks,0.21999999999999997,3.11,268.39,2025-01-11 08:54:46.009824,124,High,Packaged,9.873186288010261,Supermarket Type1,Regular,2012,Tier 1,0.9233184117106843
+Energy Bars,Packaged Snacks,0.21,2.16,150.13,2025-01-11 08:54:46.010130,144,High,Packaged,9.015581273607081,Supermarket Type1,Regular,2010,Tier 1,0.9651217882714515
+Cheese,Dairy Products,0.31,5.05,180.21,2025-01-11 08:54:46.010440,64,Low,Packaged,8.080341227468518,Supermarket Type1,Full Fat,2010,Tier 1,0.8112512656445535
+Mixed Nuts,Packaged Snacks,0.25,5.23,214.01,2025-01-11 08:54:46.010741,180,Medium,Packaged,6.169290446550807,Supermarket Type3,Regular,2018,Tier 3,0.8367421569543315
+Potato Chips,Packaged Snacks,0.24000000000000002,2.12,283.21,2025-01-11 08:54:46.011039,94,High,Packaged,7.932654475787224,Supermarket Type2,Regular,2015,Tier 2,0.9327322884185085
+Banana,Fruits and Vegetables,0.09,1.35,565.68,2025-01-11 08:54:46.011338,5,Medium,Loose,7.556435531614533,Supermarket Type2,Regular,2015,Tier 2,0.984237648337784
+Orange,Fruits and Vegetables,0.09,2.4699999999999998,138.86,2025-01-11 08:54:46.011635,13,High,Loose,5.557751305854374,Supermarket Type1,Regular,2012,Tier 1,0.8074314782389342
+Orange,Fruits and Vegetables,0.12,1.59,209.17000000000002,2025-01-11 08:54:46.011928,27,High,Loose,6.9096290410204855,Supermarket Type1,Regular,2012,Tier 1,0.7875063824495387
+Whole Milk,Dairy Products,1.05,3.59,295.49,2025-01-11 08:54:46.012246,6,Medium,Packaged,9.604564361246766,Supermarket Type1,Full Fat,2010,Tier 1,0.935277979789029
+Orange,Fruits and Vegetables,0.19,2.33,174.97,2025-01-11 08:54:46.012766,20,High,Loose,6.144838497682057,Supermarket Type1,Regular,2012,Tier 1,0.8454780393699808
+Cheese,Dairy Products,0.4,4.82,164.32999999999998,2025-01-11 08:54:46.013103,63,Low,Packaged,7.586961852776262,Supermarket Type1,Full Fat,2010,Tier 1,0.8561810768338839
+Yogurt,Dairy Products,0.42,2.11,189.69,2025-01-11 08:54:46.013430,27,High,Packaged,9.986412752455335,Supermarket Type1,Low Fat,2012,Tier 1,0.81768644984585
+Broccoli,Fruits and Vegetables,0.45,3.95,146.04,2025-01-11 08:54:46.013746,15,Low,Loose,5.340917323526556,Supermarket Type2,Regular,2015,Tier 2,0.6359799874416091
+Spinach,Fruits and Vegetables,0.33999999999999997,2.5100000000000002,48.13,2025-01-11 08:54:46.014147,1,Medium,Loose,7.901721362249601,Supermarket Type1,Regular,2010,Tier 1,0.9016537638689476
+White Rice,Grains and Cereals,0.97,2.87,586.13,2025-01-11 08:54:46.014528,368,Low,Packaged,6.606616924221617,Supermarket Type1,Regular,2010,Tier 1,0.8134154307351336
+Broccoli,Fruits and Vegetables,0.34,3.19,147.3,2025-01-11 08:54:46.014901,6,Low,Loose,6.978641493785955,Supermarket Type2,Regular,2015,Tier 2,0.7693303084670625
+Mixed Nuts,Packaged Snacks,0.25,5.3,137.25,2025-01-11 08:54:46.015283,188,Medium,Packaged,6.821089066222207,Supermarket Type3,Regular,2018,Tier 3,0.9327359321745435
+White Rice,Grains and Cereals,1.04,2.42,224.95,2025-01-11 08:54:46.015624,356,Low,Packaged,5.048557463609665,Supermarket Type2,Regular,2015,Tier 2,0.6502517174879762
+Potato Chips,Packaged Snacks,0.16,2.11,229.21,2025-01-11 08:54:46.015981,91,High,Packaged,7.191534278452426,Supermarket Type2,Regular,2015,Tier 2,0.9511062772429978
+Kiwi,Fruits and Vegetables,0.0,2.81,141.01,2025-01-11 08:54:46.016418,22,Low,Packaged,4.785794553815006,Supermarket Type3,Regular,2018,Tier 3,0.6117995082430753
+Kiwi,Fruits and Vegetables,0.12000000000000001,2.7199999999999998,146.37,2025-01-11 08:54:46.016798,14,Low,Packaged,5.203572423345815,Supermarket Type3,Regular,2018,Tier 3,0.5840690205506076
+White Rice,Grains and Cereals,1.08,2.7800000000000002,214.24,2025-01-11 08:54:46.017209,371,Low,Packaged,5.4625470243355485,Supermarket Type2,Regular,2015,Tier 2,0.6565288290696123
+Broccoli,Fruits and Vegetables,0.47000000000000003,3.86,126.05,2025-01-11 08:54:46.017542,4,Low,Loose,5.689736120705583,Supermarket Type2,Regular,2015,Tier 2,0.6312205868226047
+Quinoa,Grains and Cereals,0.45,6.13,99.58,2025-01-11 08:54:46.017848,363,Medium,Packaged,9.147545442786928,Supermarket Type1,Regular,2010,Tier 1,0.9157382820192512
+Apple,Fruits and Vegetables,0.21000000000000002,2.16,149.47,2025-01-11 08:54:46.018234,15,High,Loose,8.664891395503503,Supermarket Type1,Regular,2010,Tier 1,0.8144254971323063
+Mixed Nuts,Packaged Snacks,0.21,5.46,143.48,2025-01-11 08:54:46.018571,182,Medium,Packaged,6.944732338972752,Supermarket Type3,Regular,2018,Tier 3,0.9620943459317974
+Yogurt,Dairy Products,0.41000000000000003,2.38,135.45,2025-01-11 08:54:46.018894,29,High,Packaged,9.005841668797883,Supermarket Type1,Low Fat,2012,Tier 1,0.9342000036603345
+Energy Bars,Packaged Snacks,0.06999999999999999,2.52,222.56,2025-01-11 08:54:46.019239,150,High,Packaged,9.685486579643516,Supermarket Type1,Regular,2010,Tier 1,0.9686012111359801
+Low-Fat Milk,Dairy Products,0.9,3.54,617.64,2025-01-11 08:54:46.019667,12,Medium,Packaged,8.242250974345689,Supermarket Type2,Low Fat,2015,Tier 2,0.842694704257003
+Energy Bars,Packaged Snacks,0.18,2.28,151.02,2025-01-11 08:54:46.020002,147,High,Packaged,9.962585008233681,Supermarket Type1,Regular,2010,Tier 1,1.0
+Kiwi,Fruits and Vegetables,0.04000000000000001,2.63,107.32,2025-01-11 08:54:46.020361,4,Low,Packaged,5.5376076189419345,Supermarket Type3,Regular,2018,Tier 3,0.6087629490088609
+Apple,Fruits and Vegetables,0.13,2.46,151.43,2025-01-11 08:54:46.020709,7,High,Loose,8.824101593629774,Supermarket Type1,Regular,2010,Tier 1,0.7521944313783062
+White Rice,Grains and Cereals,1.06,2.47,164.75,2025-01-11 08:54:46.021016,374,Low,Packaged,5.515189750852916,Supermarket Type2,Regular,2015,Tier 2,0.6781926363703115
+Spinach,Fruits and Vegetables,0.21999999999999997,1.9800000000000002,40.96,2025-01-11 08:54:46.021322,1,Medium,Loose,7.650894642588788,Supermarket Type1,Regular,2010,Tier 1,0.8203643722338073
+White Rice,Grains and Cereals,1.0,2.09,592.2399999999999,2025-01-11 08:54:46.021680,360,Low,Packaged,6.051380166068043,Supermarket Type1,Regular,2010,Tier 1,0.8512700469576477
+Brown Rice,Grains and Cereals,0.92,3.35,107.84,2025-01-11 08:54:46.021988,176,Low,Packaged,6.176081960435285,Supermarket Type1,Regular,2012,Tier 1,0.7974503433987261
+Kiwi,Fruits and Vegetables,0.010000000000000009,3.36,136.63,2025-01-11 08:54:46.022307,21,Low,Packaged,4.688791556514058,Supermarket Type3,Regular,2018,Tier 3,0.5582297055588142
+Butter,Dairy Products,0.18,4.22,105.8,2025-01-11 08:54:46.022666,25,Medium,Packaged,6.447757321007358,Supermarket Type3,Full Fat,2018,Tier 3,0.8625075295120523
+Chocolate Cookies,Packaged Snacks,0.24,3.22,265.52,2025-01-11 08:54:46.023015,123,High,Packaged,9.094178021587723,Supermarket Type1,Regular,2012,Tier 1,0.9685748082007656
+Broccoli,Fruits and Vegetables,0.45,3.25,86.92,2025-01-11 08:54:46.023328,16,Low,Loose,6.343248683098889,Supermarket Type2,Regular,2015,Tier 2,0.6573526609063911
+Potato Chips,Packaged Snacks,0.12000000000000001,2.18,253.69,2025-01-11 08:54:46.023670,90,High,Packaged,8.895914449699875,Supermarket Type2,Regular,2015,Tier 2,0.8606523327587243
+Low-Fat Milk,Dairy Products,0.94,3.4400000000000004,254.89,2025-01-11 08:54:46.023994,22,Medium,Packaged,7.426974777256776,Supermarket Type2,Low Fat,2015,Tier 2,0.935683724900431
+White Rice,Grains and Cereals,1.07,2.82,221.07999999999998,2025-01-11 08:54:46.024405,359,Low,Packaged,5.470538353178053,Supermarket Type2,Regular,2015,Tier 2,0.8426407985321027
+Apple,Fruits and Vegetables,0.21000000000000002,2.76,102.37,2025-01-11 08:54:46.024797,8,High,Loose,7.852047522909248,Supermarket Type1,Regular,2010,Tier 1,0.9075394544070516
+Low-Fat Milk,Dairy Products,1.07,3.5,565.4599999999999,2025-01-11 08:54:46.025151,20,Medium,Packaged,7.767812131733866,Supermarket Type2,Low Fat,2015,Tier 2,0.8447714832993142
+Apple,Fruits and Vegetables,0.23,2.52,160.94,2025-01-11 08:54:46.025482,7,High,Loose,7.583888282910157,Supermarket Type1,Regular,2010,Tier 1,0.9417794844615875
+Energy Bars,Packaged Snacks,0.09,2.99,248.75,2025-01-11 08:54:46.025837,147,High,Packaged,9.028541791617354,Supermarket Type1,Regular,2010,Tier 1,0.9922149369042057
+Energy Bars,Packaged Snacks,0.24,2.65,174.63,2025-01-11 08:54:46.026159,144,High,Packaged,9.952978247964344,Supermarket Type1,Regular,2010,Tier 1,0.8554000050987122
+Kiwi,Fruits and Vegetables,0.18,2.68,87.24000000000001,2025-01-11 08:54:46.026461,18,Low,Packaged,4.661187915063945,Supermarket Type3,Regular,2018,Tier 3,0.7360324080175775
+Spinach,Fruits and Vegetables,0.25,2.0900000000000003,134.34,2025-01-11 08:54:46.026806,1,Medium,Loose,6.451014363891569,Supermarket Type1,Regular,2010,Tier 1,0.8095303605512849
+Low-Fat Milk,Dairy Products,1.04,3.08,538.9799999999999,2025-01-11 08:54:46.027183,8,Medium,Packaged,8.877745290721602,Supermarket Type2,Low Fat,2015,Tier 2,0.832772572741003
+Yogurt,Dairy Products,0.45,2.46,158.29,2025-01-11 08:54:46.027533,24,High,Packaged,9.246415795280145,Supermarket Type1,Low Fat,2012,Tier 1,0.8666777871037151
+Broccoli,Fruits and Vegetables,0.33,3.76,105.1,2025-01-11 08:54:46.027871,1,Low,Loose,5.461403777405671,Supermarket Type2,Regular,2015,Tier 2,0.7163496288301592
+Broccoli,Fruits and Vegetables,0.42000000000000004,3.84,129.07,2025-01-11 08:54:46.028198,5,Low,Loose,5.736717436698685,Supermarket Type2,Regular,2015,Tier 2,0.740503369711085
+Brown Rice,Grains and Cereals,1.04,2.82,163.82,2025-01-11 08:54:46.028551,176,Low,Packaged,7.627646108203718,Supermarket Type1,Regular,2012,Tier 1,0.7897280053659889
+White Rice,Grains and Cereals,0.95,2.9699999999999998,571.37,2025-01-11 08:54:46.028876,369,Low,Packaged,6.880691972183962,Supermarket Type1,Regular,2010,Tier 1,0.8565222553666912
+Oats,Grains and Cereals,0.48,3.0300000000000002,172.82,2025-01-11 08:54:46.029208,181,High,Packaged,8.180339846597976,Supermarket Type3,Regular,2018,Tier 3,0.8536413771199223
+Chocolate Cookies,Packaged Snacks,0.31,3.26,187.62,2025-01-11 08:54:46.029511,117,High,Packaged,9.419095727095362,Supermarket Type1,Regular,2012,Tier 1,0.9667495934141792
+Low-Fat Milk,Dairy Products,1.0,3.56,527.7199999999999,2025-01-11 08:54:46.029809,16,Medium,Packaged,8.93559070869041,Supermarket Type2,Low Fat,2015,Tier 2,0.9002098359528474
+Apple,Fruits and Vegetables,0.21000000000000002,2.45,149.62,2025-01-11 08:54:46.030173,13,High,Loose,8.869756846735125,Supermarket Type1,Regular,2010,Tier 1,0.754679314064154
+Chocolate Cookies,Packaged Snacks,0.22999999999999998,2.78,175.4,2025-01-11 08:54:46.030504,120,High,Packaged,9.385808381439903,Supermarket Type1,Regular,2012,Tier 1,1.0
+Orange,Fruits and Vegetables,0.27,1.51,195.68,2025-01-11 08:54:46.030806,30,High,Loose,5.897065139789777,Supermarket Type1,Regular,2012,Tier 1,0.7628159686724294
+Butter,Dairy Products,0.32,4.21,118.87,2025-01-11 08:54:46.031156,39,Medium,Packaged,7.255655788363185,Supermarket Type3,Full Fat,2018,Tier 3,0.8683248874978368
+Butter,Dairy Products,0.3,4.84,162.74,2025-01-11 08:54:46.031514,38,Medium,Packaged,7.816571946916672,Supermarket Type3,Full Fat,2018,Tier 3,0.8048693743761425
+Quinoa,Grains and Cereals,0.43,5.63,143.75,2025-01-11 08:54:46.031828,372,Medium,Packaged,9.263539102764376,Supermarket Type1,Regular,2010,Tier 1,0.8374982563689062
+White Rice,Grains and Cereals,0.91,2.42,539.28,2025-01-11 08:54:46.032165,362,Low,Packaged,5.955352167273399,Supermarket Type1,Regular,2010,Tier 1,0.8742356638200707
+Cheese,Dairy Products,0.21999999999999997,4.69,185.1,2025-01-11 08:54:46.032572,56,Low,Packaged,7.6857893513548525,Supermarket Type1,Full Fat,2010,Tier 1,0.9246837529355363
+Chocolate Cookies,Packaged Snacks,0.21,2.97,229.6,2025-01-11 08:54:46.032942,126,High,Packaged,8.347373513807039,Supermarket Type1,Regular,2012,Tier 1,0.9648488238225511
+White Rice,Grains and Cereals,0.96,2.62,202.19,2025-01-11 08:54:46.033327,374,Low,Packaged,5.576242238937645,Supermarket Type2,Regular,2015,Tier 2,0.7975006834367987
+Quinoa,Grains and Cereals,0.47,5.81,103.66,2025-01-11 08:54:46.033663,357,Medium,Packaged,9.553430426548644,Supermarket Type1,Regular,2010,Tier 1,0.8312970666024481
+Energy Bars,Packaged Snacks,0.18,2.32,155.82,2025-01-11 08:54:46.033967,150,High,Packaged,8.910322422985159,Supermarket Type1,Regular,2010,Tier 1,0.9878850649247811
+Banana,Fruits and Vegetables,0.09999999999999999,2.02,220.41,2025-01-11 08:54:46.034304,1,Medium,Loose,7.181493256533225,Supermarket Type2,Regular,2015,Tier 2,0.9165543346058403
+White Rice,Grains and Cereals,0.95,2.64,522.9399999999999,2025-01-11 08:54:46.034671,366,Low,Packaged,6.605821388976658,Supermarket Type1,Regular,2010,Tier 1,0.8223482306129952
+Cheese,Dairy Products,0.32,4.6,212.31,2025-01-11 08:54:46.035063,68,Low,Packaged,8.370401707044701,Supermarket Type1,Full Fat,2010,Tier 1,0.8230976452975307
+Banana,Fruits and Vegetables,0.2,1.85,245.62,2025-01-11 08:54:46.035420,8,Medium,Loose,6.984103544615908,Supermarket Type2,Regular,2015,Tier 2,0.8293828636513668
+Butter,Dairy Products,0.22,4.3,165.73,2025-01-11 08:54:46.035789,29,Medium,Packaged,6.851740996320196,Supermarket Type3,Full Fat,2018,Tier 3,0.7315785375875089
+Quinoa,Grains and Cereals,0.56,6.32,118.49,2025-01-11 08:54:46.036103,355,Medium,Packaged,9.306884473389665,Supermarket Type1,Regular,2010,Tier 1,0.7923926057197253
+Kiwi,Fruits and Vegetables,0.060000000000000005,2.78,150.07999999999998,2025-01-11 08:54:46.036447,13,Low,Packaged,5.634780676880499,Supermarket Type3,Regular,2018,Tier 3,0.7207203825227468
+Low-Fat Milk,Dairy Products,0.92,3.0700000000000003,543.39,2025-01-11 08:54:46.036777,5,Medium,Packaged,7.497657891098665,Supermarket Type2,Low Fat,2015,Tier 2,0.9607941461707041
+Yogurt,Dairy Products,0.44,1.65,135.2,2025-01-11 08:54:46.037085,11,High,Packaged,9.979647928259151,Supermarket Type1,Low Fat,2012,Tier 1,0.9998001367656167
+Whole Milk,Dairy Products,0.97,3.39,328.74,2025-01-11 08:54:46.037386,5,Medium,Packaged,9.716416551576863,Supermarket Type1,Full Fat,2010,Tier 1,1.0
+Brown Rice,Grains and Cereals,1.02,3.12,122.87,2025-01-11 08:54:46.037764,171,Low,Packaged,7.9624241469255415,Supermarket Type1,Regular,2012,Tier 1,0.792116440584775
+Spinach,Fruits and Vegetables,0.3,1.7200000000000002,128.9,2025-01-11 08:54:46.038081,6,Medium,Loose,6.095602435429006,Supermarket Type1,Regular,2010,Tier 1,0.828219860256149
+Apple,Fruits and Vegetables,0.17,2.31,120.83,2025-01-11 08:54:46.038383,5,High,Loose,7.257017885138094,Supermarket Type1,Regular,2010,Tier 1,0.7810257439611763
+Low-Fat Milk,Dairy Products,0.99,3.4800000000000004,562.6099999999999,2025-01-11 08:54:46.038741,16,Medium,Packaged,7.639509655942961,Supermarket Type2,Low Fat,2015,Tier 2,0.7918841650758439
+Cheese,Dairy Products,0.22999999999999998,5.4,247.03,2025-01-11 08:54:46.039063,68,Low,Packaged,8.288291743539796,Supermarket Type1,Full Fat,2010,Tier 1,0.8365689689030628
+Whole Milk,Dairy Products,1.06,3.2,260.22,2025-01-11 08:54:46.039363,14,Medium,Packaged,8.901736141007994,Supermarket Type1,Full Fat,2010,Tier 1,0.9887225317179914
+Butter,Dairy Products,0.16999999999999998,4.12,149.54,2025-01-11 08:54:46.039692,35,Medium,Packaged,6.24030192833175,Supermarket Type3,Full Fat,2018,Tier 3,0.8917385534398541
+Kiwi,Fruits and Vegetables,0.08,3.09,165.62,2025-01-11 08:54:46.040065,19,Low,Packaged,4.843724324535867,Supermarket Type3,Regular,2018,Tier 3,0.6674257402350311
+Oats,Grains and Cereals,0.45,3.85,207.96,2025-01-11 08:54:46.040445,176,High,Packaged,7.309666791395459,Supermarket Type3,Regular,2018,Tier 3,0.8169845521732587
+Apple,Fruits and Vegetables,0.14,2.01,122.01,2025-01-11 08:54:46.040848,13,High,Loose,7.54205241271601,Supermarket Type1,Regular,2010,Tier 1,0.8095577178183355
+Orange,Fruits and Vegetables,0.18,2.09,160.25,2025-01-11 08:54:46.041203,17,High,Loose,6.192429516885268,Supermarket Type1,Regular,2012,Tier 1,0.8325809172141178
+Energy Bars,Packaged Snacks,0.10999999999999999,2.27,246.91,2025-01-11 08:54:46.041513,150,High,Packaged,8.167816149979085,Supermarket Type1,Regular,2010,Tier 1,0.9157986608333597
+Yogurt,Dairy Products,0.45,2.23,173.09,2025-01-11 08:54:46.041813,13,High,Packaged,9.666617751731007,Supermarket Type1,Low Fat,2012,Tier 1,0.821321543815156
+Low-Fat Milk,Dairy Products,1.02,2.79,200.51,2025-01-11 08:54:46.042193,23,Medium,Packaged,8.056304658788644,Supermarket Type2,Low Fat,2015,Tier 2,0.8849304534389736
+Butter,Dairy Products,0.2,4.62,176.51,2025-01-11 08:54:46.042505,21,Medium,Packaged,7.614701802363831,Supermarket Type3,Full Fat,2018,Tier 3,0.761338608642759
+White Rice,Grains and Cereals,0.9,2.17,613.6199999999999,2025-01-11 08:54:46.042807,364,Low,Packaged,6.5632943071741385,Supermarket Type1,Regular,2010,Tier 1,0.9393256070221015
+Banana,Fruits and Vegetables,0.13,2.21,580.75,2025-01-11 08:54:46.043150,1,Medium,Loose,6.0319150240615125,Supermarket Type2,Regular,2015,Tier 2,0.8502444133426541
+Banana,Fruits and Vegetables,0.16,1.71,172.93,2025-01-11 08:54:46.043499,3,Medium,Loose,6.004582210762661,Supermarket Type2,Regular,2015,Tier 2,0.8634653026918908
+Banana,Fruits and Vegetables,0.09,1.46,191.42,2025-01-11 08:54:46.043819,5,Medium,Loose,6.046992799484238,Supermarket Type2,Regular,2015,Tier 2,1.0
+Chocolate Cookies,Packaged Snacks,0.35,2.54,267.65,2025-01-11 08:54:46.044202,113,High,Packaged,9.703555392267434,Supermarket Type1,Regular,2012,Tier 1,0.8952900966550753
+Mixed Nuts,Packaged Snacks,0.16999999999999998,4.67,213.63,2025-01-11 08:54:46.044577,178,Medium,Packaged,7.69998927705269,Supermarket Type3,Regular,2018,Tier 3,0.8325715190286485
+White Rice,Grains and Cereals,1.07,2.35,194.14,2025-01-11 08:54:46.044914,372,Low,Packaged,6.912036777453617,Supermarket Type2,Regular,2015,Tier 2,0.694707361689797
+Chocolate Cookies,Packaged Snacks,0.33999999999999997,3.41,232.41,2025-01-11 08:54:46.045273,112,High,Packaged,9.392500455817263,Supermarket Type1,Regular,2012,Tier 1,0.9688894763498296
+Quinoa,Grains and Cereals,0.59,5.77,111.02,2025-01-11 08:54:46.045602,365,Medium,Packaged,8.497234976313214,Supermarket Type1,Regular,2010,Tier 1,0.7891017843784982
+Banana,Fruits and Vegetables,0.18,2.19,170.82999999999998,2025-01-11 08:54:46.045926,15,Medium,Loose,6.8447682724943615,Supermarket Type2,Regular,2015,Tier 2,0.9426066519549897
+Butter,Dairy Products,0.25,4.16,153.68,2025-01-11 08:54:46.046236,26,Medium,Packaged,7.99398936799138,Supermarket Type3,Full Fat,2018,Tier 3,0.8974538939788098
+White Rice,Grains and Cereals,1.09,2.24,569.8499999999999,2025-01-11 08:54:46.046609,368,Low,Packaged,5.597837431432481,Supermarket Type1,Regular,2010,Tier 1,0.7869941159384304
+Quinoa,Grains and Cereals,0.51,6.3,74.41,2025-01-11 08:54:46.046926,370,Medium,Packaged,8.023541148851569,Supermarket Type1,Regular,2010,Tier 1,0.8345312118428687
+Apple,Fruits and Vegetables,0.19,2.42,160.77,2025-01-11 08:54:46.047346,12,High,Loose,7.664802455755073,Supermarket Type1,Regular,2010,Tier 1,0.8100776085181186
+Potato Chips,Packaged Snacks,0.29000000000000004,1.96,238.9,2025-01-11 08:54:46.047746,80,High,Packaged,7.934347139373757,Supermarket Type2,Regular,2015,Tier 2,0.858762192507091
+Broccoli,Fruits and Vegetables,0.5,3.14,131.22,2025-01-11 08:54:46.048097,14,Low,Loose,6.426989414221586,Supermarket Type2,Regular,2015,Tier 2,0.667354336804112
+Butter,Dairy Products,0.29,4.43,173.99,2025-01-11 08:54:46.048449,38,Medium,Packaged,7.187353274020508,Supermarket Type3,Full Fat,2018,Tier 3,0.8921336947553123
+Low-Fat Milk,Dairy Products,0.98,3.7,295.0,2025-01-11 08:54:46.048801,7,Medium,Packaged,7.438437611669718,Supermarket Type2,Low Fat,2015,Tier 2,0.980379194220819
+Whole Milk,Dairy Products,0.98,3.69,315.29,2025-01-11 08:54:46.049109,19,Medium,Packaged,8.082722224047611,Supermarket Type1,Full Fat,2010,Tier 1,0.9117126691728749
+Quinoa,Grains and Cereals,0.45,5.59,86.49000000000001,2025-01-11 08:54:46.049409,364,Medium,Packaged,8.33190592981709,Supermarket Type1,Regular,2010,Tier 1,0.9090278900410049
+Apple,Fruits and Vegetables,0.26,2.41,163.59,2025-01-11 08:54:46.049753,14,High,Loose,7.358333934759851,Supermarket Type1,Regular,2010,Tier 1,0.9280439593190113
+Broccoli,Fruits and Vegetables,0.33,3.1,156.85,2025-01-11 08:54:46.050077,1,Low,Loose,5.399555928312839,Supermarket Type2,Regular,2015,Tier 2,0.6839498724460435
+Whole Milk,Dairy Products,1.09,3.44,303.75,2025-01-11 08:54:46.050409,8,Medium,Packaged,9.846646185617667,Supermarket Type1,Full Fat,2010,Tier 1,1.0
+Banana,Fruits and Vegetables,0.13,2.16,592.27,2025-01-11 08:54:46.050774,11,Medium,Loose,6.861092078374724,Supermarket Type2,Regular,2015,Tier 2,0.9113164405853055
+Energy Bars,Packaged Snacks,0.07999999999999999,2.41,218.32,2025-01-11 08:54:46.051111,153,High,Packaged,8.392716308858773,Supermarket Type1,Regular,2010,Tier 1,0.8823526857038608
+Chocolate Cookies,Packaged Snacks,0.39,2.55,208.88,2025-01-11 08:54:46.051422,116,High,Packaged,8.0650543002453,Supermarket Type1,Regular,2012,Tier 1,0.9680601413774089
+Orange,Fruits and Vegetables,0.15,1.55,159.82,2025-01-11 08:54:46.051738,20,High,Loose,5.729708272276371,Supermarket Type1,Regular,2012,Tier 1,0.841626157421005
+Spinach,Fruits and Vegetables,0.21,2.23,85.48,2025-01-11 08:54:46.052110,1,Medium,Loose,7.430031822416095,Supermarket Type1,Regular,2010,Tier 1,0.9732573696287763
+Banana,Fruits and Vegetables,0.2,1.9100000000000001,201.15,2025-01-11 08:54:46.052489,8,Medium,Loose,7.30541683580041,Supermarket Type2,Regular,2015,Tier 2,0.9773941475496521
+Orange,Fruits and Vegetables,0.09999999999999999,1.63,189.78,2025-01-11 08:54:46.052851,25,High,Loose,5.326051863132439,Supermarket Type1,Regular,2012,Tier 1,0.7315384265147429
+Banana,Fruits and Vegetables,0.12,1.3,155.26,2025-01-11 08:54:46.053353,3,Medium,Loose,6.54561560063921,Supermarket Type2,Regular,2015,Tier 2,0.8731235729586843
+Banana,Fruits and Vegetables,0.13999999999999999,1.9100000000000001,595.42,2025-01-11 08:54:46.053734,11,Medium,Loose,6.611712947780946,Supermarket Type2,Regular,2015,Tier 2,0.8878273287365571
+Butter,Dairy Products,0.29,4.96,119.28999999999999,2025-01-11 08:54:46.054113,36,Medium,Packaged,6.305928853966267,Supermarket Type3,Full Fat,2018,Tier 3,0.7342472225303854
+White Rice,Grains and Cereals,0.98,2.07,146.22,2025-01-11 08:54:46.054436,364,Low,Packaged,5.935566515451205,Supermarket Type2,Regular,2015,Tier 2,0.7169395719769546
+Banana,Fruits and Vegetables,0.21,1.6800000000000002,190.02,2025-01-11 08:54:46.054761,12,Medium,Loose,6.972609311462084,Supermarket Type2,Regular,2015,Tier 2,1.0
+Orange,Fruits and Vegetables,0.25,1.6099999999999999,202.47,2025-01-11 08:54:46.055158,27,High,Loose,5.002147959710973,Supermarket Type1,Regular,2012,Tier 1,0.7577882868974302
+Spinach,Fruits and Vegetables,0.22999999999999998,2.52,98.85,2025-01-11 08:54:46.055533,1,Medium,Loose,7.55004287044571,Supermarket Type1,Regular,2010,Tier 1,0.8814669366541614
+Butter,Dairy Products,0.28,4.45,152.46,2025-01-11 08:54:46.055886,25,Medium,Packaged,6.047021301705412,Supermarket Type3,Full Fat,2018,Tier 3,0.753661022736314
+Apple,Fruits and Vegetables,0.13,2.14,144.22,2025-01-11 08:54:46.056246,21,High,Loose,7.715265067244793,Supermarket Type1,Regular,2010,Tier 1,0.9046589175335449
+Chocolate Cookies,Packaged Snacks,0.31,2.88,226.62,2025-01-11 08:54:46.056648,113,High,Packaged,8.940954136865667,Supermarket Type1,Regular,2012,Tier 1,0.8982111279802659
+Cheese,Dairy Products,0.4,4.72,228.69,2025-01-11 08:54:46.056991,50,Low,Packaged,7.115517194034716,Supermarket Type1,Full Fat,2010,Tier 1,0.892852198069465
+Oats,Grains and Cereals,0.47,3.44,117.07,2025-01-11 08:54:46.057364,189,High,Packaged,8.811066894378744,Supermarket Type3,Regular,2018,Tier 3,0.9155576004843187
+Chocolate Cookies,Packaged Snacks,0.35,2.87,245.32999999999998,2025-01-11 08:54:46.057749,115,High,Packaged,8.59275692665258,Supermarket Type1,Regular,2012,Tier 1,1.0
+Broccoli,Fruits and Vegetables,0.34,3.57,89.86,2025-01-11 08:54:46.058128,14,Low,Loose,5.356225849616189,Supermarket Type2,Regular,2015,Tier 2,0.7151476234775025
+Broccoli,Fruits and Vegetables,0.38,3.74,79.45,2025-01-11 08:54:46.058488,14,Low,Loose,6.488112500764313,Supermarket Type2,Regular,2015,Tier 2,0.6335557343815192
+Butter,Dairy Products,0.32,4.07,101.96000000000001,2025-01-11 08:54:46.058845,29,Medium,Packaged,6.5098835361228,Supermarket Type3,Full Fat,2018,Tier 3,0.7716523894351587
+Potato Chips,Packaged Snacks,0.19,1.63,288.78,2025-01-11 08:54:46.059169,91,High,Packaged,8.824319366491883,Supermarket Type2,Regular,2015,Tier 2,0.8489840509926765
+Apple,Fruits and Vegetables,0.26,2.29,112.53,2025-01-11 08:54:46.059504,11,High,Loose,7.708405521670171,Supermarket Type1,Regular,2010,Tier 1,0.8606182163478122
+Butter,Dairy Products,0.19,4.39,156.39,2025-01-11 08:54:46.059869,28,Medium,Packaged,6.126842118263855,Supermarket Type3,Full Fat,2018,Tier 3,0.8549569702620807
+Quinoa,Grains and Cereals,0.54,6.03,154.87,2025-01-11 08:54:46.060208,371,Medium,Packaged,9.04696487221479,Supermarket Type1,Regular,2010,Tier 1,0.9213088484327603
+Oats,Grains and Cereals,0.56,3.43,145.52,2025-01-11 08:54:46.060635,173,High,Packaged,7.086110055374649,Supermarket Type3,Regular,2018,Tier 3,0.841382932327704
+Low-Fat Milk,Dairy Products,0.9,3.21,209.03,2025-01-11 08:54:46.061048,13,Medium,Packaged,8.054255867297691,Supermarket Type2,Low Fat,2015,Tier 2,0.8778103688673775
+Energy Bars,Packaged Snacks,0.04999999999999999,2.08,240.02,2025-01-11 08:54:46.061382,144,High,Packaged,9.820514227027678,Supermarket Type1,Regular,2010,Tier 1,0.9609164171623332
+Potato Chips,Packaged Snacks,0.22,1.94,290.29,2025-01-11 08:54:46.061764,86,High,Packaged,7.75597355684557,Supermarket Type2,Regular,2015,Tier 2,1.0
+Quinoa,Grains and Cereals,0.46,6.0,95.2,2025-01-11 08:54:46.062129,365,Medium,Packaged,8.05192838498649,Supermarket Type1,Regular,2010,Tier 1,0.7925273161177055
+Butter,Dairy Products,0.16,4.38,127.45,2025-01-11 08:54:46.062450,24,Medium,Packaged,6.763514082856991,Supermarket Type3,Full Fat,2018,Tier 3,0.9125178019337887
+Potato Chips,Packaged Snacks,0.1,2.26,281.11,2025-01-11 08:54:46.062814,95,High,Packaged,8.543407174560725,Supermarket Type2,Regular,2015,Tier 2,0.977974779067239
+Low-Fat Milk,Dairy Products,1.09,2.98,572.2199999999999,2025-01-11 08:54:46.063177,19,Medium,Packaged,7.912053382576829,Supermarket Type2,Low Fat,2015,Tier 2,0.8800178468711586
+White Rice,Grains and Cereals,0.99,2.59,519.27,2025-01-11 08:54:46.063516,372,Low,Packaged,6.469356784165532,Supermarket Type1,Regular,2010,Tier 1,0.7858568260986926
+Mixed Nuts,Packaged Snacks,0.21,5.46,160.29,2025-01-11 08:54:46.063871,182,Medium,Packaged,6.745615423741668,Supermarket Type3,Regular,2018,Tier 3,0.848940275750373
+White Rice,Grains and Cereals,1.06,2.18,593.65,2025-01-11 08:54:46.064247,360,Low,Packaged,5.570280873948951,Supermarket Type1,Regular,2010,Tier 1,0.9378363356117773
+Potato Chips,Packaged Snacks,0.30000000000000004,1.59,288.82,2025-01-11 08:54:46.064607,91,High,Packaged,8.54776688112286,Supermarket Type2,Regular,2015,Tier 2,0.9230293460898835
+Energy Bars,Packaged Snacks,0.16999999999999998,2.5,180.55,2025-01-11 08:54:46.064971,140,High,Packaged,9.042455750606473,Supermarket Type1,Regular,2010,Tier 1,0.930265230533931
+White Rice,Grains and Cereals,1.07,2.4,158.84,2025-01-11 08:54:46.065370,369,Low,Packaged,5.894406219457927,Supermarket Type2,Regular,2015,Tier 2,0.719968612710211
+Low-Fat Milk,Dairy Products,0.95,3.6300000000000003,608.91,2025-01-11 08:54:46.065704,7,Medium,Packaged,7.00972570424736,Supermarket Type2,Low Fat,2015,Tier 2,0.9006929983194629
+White Rice,Grains and Cereals,1.06,2.13,202.95,2025-01-11 08:54:46.066057,363,Low,Packaged,6.479804448735184,Supermarket Type2,Regular,2015,Tier 2,0.7446994585458289
+Low-Fat Milk,Dairy Products,0.9,3.1500000000000004,612.9799999999999,2025-01-11 08:54:46.066425,19,Medium,Packaged,7.825700406865536,Supermarket Type2,Low Fat,2015,Tier 2,0.9225331799452339
+Cheese,Dairy Products,0.21,4.94,157.06,2025-01-11 08:54:46.066748,57,Low,Packaged,8.110664896082046,Supermarket Type1,Full Fat,2010,Tier 1,0.8678633101441341
+White Rice,Grains and Cereals,1.05,2.19,210.67000000000002,2025-01-11 08:54:46.067095,366,Low,Packaged,6.376211161245291,Supermarket Type2,Regular,2015,Tier 2,0.7459279126016489
+Whole Milk,Dairy Products,1.0,3.13,300.28,2025-01-11 08:54:46.067472,13,Medium,Packaged,8.51996908704441,Supermarket Type1,Full Fat,2010,Tier 1,0.8854974224670482
+Butter,Dairy Products,0.16,4.14,178.68,2025-01-11 08:54:46.067833,28,Medium,Packaged,7.084750161479684,Supermarket Type3,Full Fat,2018,Tier 3,0.8926193395733945
+Mixed Nuts,Packaged Snacks,0.23,4.76,196.95,2025-01-11 08:54:46.068205,176,Medium,Packaged,7.298163064838258,Supermarket Type3,Regular,2018,Tier 3,0.8007260490461046
+Low-Fat Milk,Dairy Products,1.06,2.98,579.9699999999999,2025-01-11 08:54:46.068659,5,Medium,Packaged,8.116887690989254,Supermarket Type2,Low Fat,2015,Tier 2,0.9646591137640393
+Spinach,Fruits and Vegetables,0.31,2.67,56.66,2025-01-11 08:54:46.068992,5,Medium,Loose,7.526308117538724,Supermarket Type1,Regular,2010,Tier 1,0.7982457580494421
+Brown Rice,Grains and Cereals,1.05,3.4,143.9,2025-01-11 08:54:46.069332,186,Low,Packaged,7.887506740890295,Supermarket Type1,Regular,2012,Tier 1,0.7255669482165273
+Low-Fat Milk,Dairy Products,1.03,3.22,549.17,2025-01-11 08:54:46.069712,14,Medium,Packaged,8.167857869123543,Supermarket Type2,Low Fat,2015,Tier 2,0.9534407458777199
+Spinach,Fruits and Vegetables,0.31,1.7100000000000002,136.47,2025-01-11 08:54:46.070041,5,Medium,Loose,6.301023244163886,Supermarket Type1,Regular,2010,Tier 1,0.8078155764503673
+Banana,Fruits and Vegetables,0.13,2.13,551.93,2025-01-11 08:54:46.070392,6,Medium,Loose,7.657195960405725,Supermarket Type2,Regular,2015,Tier 2,0.9705280470152869
+Kiwi,Fruits and Vegetables,0.010000000000000009,2.98,139.85,2025-01-11 08:54:46.070761,15,Low,Packaged,5.685136816264951,Supermarket Type3,Regular,2018,Tier 3,0.7414959218342592
+Potato Chips,Packaged Snacks,0.14,2.22,238.21,2025-01-11 08:54:46.071095,81,High,Packaged,7.707360950984546,Supermarket Type2,Regular,2015,Tier 2,0.957150049130068
+Butter,Dairy Products,0.18,4.44,137.24,2025-01-11 08:54:46.071413,27,Medium,Packaged,6.530591072366579,Supermarket Type3,Full Fat,2018,Tier 3,0.8453797837183457
+Banana,Fruits and Vegetables,0.09,1.59,529.4599999999999,2025-01-11 08:54:46.071810,1,Medium,Loose,6.512051944094252,Supermarket Type2,Regular,2015,Tier 2,0.9945099425775825
+Yogurt,Dairy Products,0.51,1.54,198.23,2025-01-11 08:54:46.072144,12,High,Packaged,8.35603120275904,Supermarket Type1,Low Fat,2012,Tier 1,0.9852862732449396
+Low-Fat Milk,Dairy Products,0.9299999999999999,3.3600000000000003,267.48,2025-01-11 08:54:46.072600,7,Medium,Packaged,8.290912381832978,Supermarket Type2,Low Fat,2015,Tier 2,0.967338271662406
+Whole Milk,Dairy Products,1.03,3.82,264.68,2025-01-11 08:54:46.072972,14,Medium,Packaged,9.340554031372045,Supermarket Type1,Full Fat,2010,Tier 1,0.9281522963181852
+Potato Chips,Packaged Snacks,0.11000000000000001,2.5,294.81,2025-01-11 08:54:46.073297,97,High,Packaged,8.30650976025542,Supermarket Type2,Regular,2015,Tier 2,0.9455259242399197
+Brown Rice,Grains and Cereals,1.06,2.68,115.36,2025-01-11 08:54:46.073642,179,Low,Packaged,7.831410088034682,Supermarket Type1,Regular,2012,Tier 1,0.8256604315410823
+Whole Milk,Dairy Products,0.99,3.11,322.04,2025-01-11 08:54:46.074005,9,Medium,Packaged,9.987337650798287,Supermarket Type1,Full Fat,2010,Tier 1,0.8756531126509914
+Energy Bars,Packaged Snacks,0.22,2.36,156.73,2025-01-11 08:54:46.074337,142,High,Packaged,9.011119866273024,Supermarket Type1,Regular,2010,Tier 1,0.9370132882678189
+Potato Chips,Packaged Snacks,0.19,2.07,254.18,2025-01-11 08:54:46.074644,98,High,Packaged,7.391720244440373,Supermarket Type2,Regular,2015,Tier 2,0.9711813783344824
+Yogurt,Dairy Products,0.58,1.83,181.36,2025-01-11 08:54:46.075040,16,High,Packaged,8.554019659534287,Supermarket Type1,Low Fat,2012,Tier 1,0.872972139169247
+White Rice,Grains and Cereals,1.01,2.96,528.02,2025-01-11 08:54:46.075444,371,Low,Packaged,5.717535028790017,Supermarket Type1,Regular,2010,Tier 1,0.8208358865751741
+Potato Chips,Packaged Snacks,0.29000000000000004,1.95,269.43,2025-01-11 08:54:46.075795,93,High,Packaged,8.724830439151601,Supermarket Type2,Regular,2015,Tier 2,0.914343605549624
+Broccoli,Fruits and Vegetables,0.41000000000000003,3.25,152.87,2025-01-11 08:54:46.076180,11,Low,Loose,5.052863551501231,Supermarket Type2,Regular,2015,Tier 2,0.6399405189459793
+Chocolate Cookies,Packaged Snacks,0.3,3.2,196.65,2025-01-11 08:54:46.076584,112,High,Packaged,8.135625656411305,Supermarket Type1,Regular,2012,Tier 1,0.9446290573513421
+Orange,Fruits and Vegetables,0.25,2.01,170.53,2025-01-11 08:54:46.076967,25,High,Loose,6.174269605138193,Supermarket Type1,Regular,2012,Tier 1,0.8631102338746228
+Yogurt,Dairy Products,0.54,2.3,153.73,2025-01-11 08:54:46.077343,23,High,Packaged,8.657296048735208,Supermarket Type1,Low Fat,2012,Tier 1,0.8420492046025277
+Brown Rice,Grains and Cereals,0.92,2.86,171.65,2025-01-11 08:54:46.077671,176,Low,Packaged,7.08347765467596,Supermarket Type1,Regular,2012,Tier 1,0.7972601470669627
+Cheese,Dairy Products,0.25,4.84,237.65,2025-01-11 08:54:46.078040,68,Low,Packaged,7.328508202831319,Supermarket Type1,Full Fat,2010,Tier 1,0.7934659254821107
+Quinoa,Grains and Cereals,0.56,6.24,93.88,2025-01-11 08:54:46.078421,362,Medium,Packaged,8.787190548119062,Supermarket Type1,Regular,2010,Tier 1,0.9274077020624312
+Energy Bars,Packaged Snacks,0.10999999999999999,2.39,234.17000000000002,2025-01-11 08:54:46.078761,151,High,Packaged,8.615468119723811,Supermarket Type1,Regular,2010,Tier 1,0.9507056011729852
+White Rice,Grains and Cereals,1.02,2.14,614.91,2025-01-11 08:54:46.079095,372,Low,Packaged,6.950936794351971,Supermarket Type1,Regular,2010,Tier 1,0.9044136221760962
+Kiwi,Fruits and Vegetables,0.2,3.29,94.71000000000001,2025-01-11 08:54:46.079457,4,Low,Packaged,5.660728439902068,Supermarket Type3,Regular,2018,Tier 3,0.6953932774304117
+Quinoa,Grains and Cereals,0.54,6.03,150.47,2025-01-11 08:54:46.079785,369,Medium,Packaged,9.20237927768444,Supermarket Type1,Regular,2010,Tier 1,0.9181076571076547
+Banana,Fruits and Vegetables,0.16,2.23,572.31,2025-01-11 08:54:46.080107,1,Medium,Loose,6.523590484548207,Supermarket Type2,Regular,2015,Tier 2,0.870457198930761
+Brown Rice,Grains and Cereals,0.97,2.57,145.81,2025-01-11 08:54:46.080531,172,Low,Packaged,6.059382555334872,Supermarket Type1,Regular,2012,Tier 1,0.8212020607187874
+Brown Rice,Grains and Cereals,0.9,2.57,174.52,2025-01-11 08:54:46.080873,187,Low,Packaged,7.861406264348748,Supermarket Type1,Regular,2012,Tier 1,0.8238002465050998
+Kiwi,Fruits and Vegetables,0.16,3.02,164.0,2025-01-11 08:54:46.081224,8,Low,Packaged,5.271940352912987,Supermarket Type3,Regular,2018,Tier 3,0.7204401938972753
+Cheese,Dairy Products,0.39,4.52,193.21,2025-01-11 08:54:46.081604,57,Low,Packaged,7.84581664147464,Supermarket Type1,Full Fat,2010,Tier 1,0.9288848694561731
+Butter,Dairy Products,0.28,4.26,133.02,2025-01-11 08:54:46.081940,26,Medium,Packaged,6.837006625893636,Supermarket Type3,Full Fat,2018,Tier 3,0.7826754912838748
+Banana,Fruits and Vegetables,0.21,1.54,180.76,2025-01-11 08:54:46.082245,1,Medium,Loose,7.865607398715364,Supermarket Type2,Regular,2015,Tier 2,0.8636665572015096
+Banana,Fruits and Vegetables,0.18,1.34,246.44,2025-01-11 08:54:46.082590,11,Medium,Loose,7.914245745590398,Supermarket Type2,Regular,2015,Tier 2,0.9669634703564507
+White Rice,Grains and Cereals,1.03,2.85,527.99,2025-01-11 08:54:46.082948,356,Low,Packaged,5.241154896099027,Supermarket Type1,Regular,2010,Tier 1,0.8422846844235561
+Spinach,Fruits and Vegetables,0.35,2.21,44.1,2025-01-11 08:54:46.083277,10,Medium,Loose,6.132215703693802,Supermarket Type1,Regular,2010,Tier 1,0.8808675078177653
+Spinach,Fruits and Vegetables,0.33999999999999997,1.7300000000000002,58.82,2025-01-11 08:54:46.083647,9,Medium,Loose,6.3371203107609535,Supermarket Type1,Regular,2010,Tier 1,0.9110480136556027
+Oats,Grains and Cereals,0.55,3.7,143.77,2025-01-11 08:54:46.084013,188,High,Packaged,7.293759443852281,Supermarket Type3,Regular,2018,Tier 3,0.827212907162585
+Orange,Fruits and Vegetables,0.13999999999999999,1.97,163.6,2025-01-11 08:54:46.084361,28,High,Loose,6.018711082373482,Supermarket Type1,Regular,2012,Tier 1,0.6878966835498803
+White Rice,Grains and Cereals,0.9299999999999999,2.86,223.15,2025-01-11 08:54:46.084758,365,Low,Packaged,5.673570070251504,Supermarket Type2,Regular,2015,Tier 2,0.6598940935601041
+Orange,Fruits and Vegetables,0.10999999999999999,1.57,138.31,2025-01-11 08:54:46.085140,30,High,Loose,5.2748635972019535,Supermarket Type1,Regular,2012,Tier 1,0.7311028624567615
+Whole Milk,Dairy Products,0.94,3.27,301.77,2025-01-11 08:54:46.085515,5,Medium,Packaged,8.5073908429006,Supermarket Type1,Full Fat,2010,Tier 1,0.9513369309621998
+Brown Rice,Grains and Cereals,1.05,2.57,158.09,2025-01-11 08:54:46.085894,182,Low,Packaged,6.304486345076171,Supermarket Type1,Regular,2012,Tier 1,0.7964955551915319
+Chocolate Cookies,Packaged Snacks,0.21999999999999997,3.25,269.56,2025-01-11 08:54:46.086254,123,High,Packaged,9.859351074926867,Supermarket Type1,Regular,2012,Tier 1,0.8635703756231616
+Broccoli,Fruits and Vegetables,0.5,3.66,90.83,2025-01-11 08:54:46.086581,11,Low,Loose,5.750289770569967,Supermarket Type2,Regular,2015,Tier 2,0.736642319236085
+Yogurt,Dairy Products,0.5700000000000001,1.73,221.79,2025-01-11 08:54:46.086935,16,High,Packaged,9.977350085687052,Supermarket Type1,Low Fat,2012,Tier 1,0.9659120666409743
+White Rice,Grains and Cereals,1.09,2.24,211.18,2025-01-11 08:54:46.087295,362,Low,Packaged,6.334954763957882,Supermarket Type2,Regular,2015,Tier 2,0.6748920891959911
+Mixed Nuts,Packaged Snacks,0.24,5.17,227.25,2025-01-11 08:54:46.087616,183,Medium,Packaged,7.877757355495709,Supermarket Type3,Regular,2018,Tier 3,0.865537576062679
+Banana,Fruits and Vegetables,0.13999999999999999,2.11,236.22,2025-01-11 08:54:46.087961,2,Medium,Loose,6.092848043378722,Supermarket Type2,Regular,2015,Tier 2,0.9545406584754603
+Whole Milk,Dairy Products,1.02,3.83,273.22,2025-01-11 08:54:46.088360,4,Medium,Packaged,9.567128562245244,Supermarket Type1,Full Fat,2010,Tier 1,1.0
+Banana,Fruits and Vegetables,0.13,1.33,521.9599999999999,2025-01-11 08:54:46.088722,1,Medium,Loose,6.846290488980197,Supermarket Type2,Regular,2015,Tier 2,0.9371822374817521
+Oats,Grains and Cereals,0.54,3.08,132.93,2025-01-11 08:54:46.089091,177,High,Packaged,8.673698081886958,Supermarket Type3,Regular,2018,Tier 3,0.9075226858524398
