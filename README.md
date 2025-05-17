@@ -1,4 +1,4 @@
-# Inventory Forecasting System
+# Inventory Forecasting Systemm
 
 This is a web-based inventory forecasting system that uses machine learning to predict sales based on various features.
 
